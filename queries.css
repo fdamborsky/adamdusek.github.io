@@ -1,17 +1,3 @@
-@media only screen and (max-width: 1800px) {
-    body::before {
-        position: absolute;
-        top: 0;
-        left: 0;
-        height: 100vh;
-        width: 30%;
-        content: "";
-        background-color: #171717;
-        z-index: 1;
-    }
-}
-
-
 @media only screen and (max-width: 1600px) {
     .formBox h1 {
         font-size: 2.75rem;
@@ -80,16 +66,6 @@
         top: 15%;
         width: 175px;
     }
-    body::before {
-        position: absolute;
-        top: 0;
-        left: 0;
-        height: 100vh;
-        width: 26%;
-        content: "";
-        background-color: #171717;
-        z-index: 1;
-    }
 }
 
 @media only screen and (max-width: 1200px) {
@@ -136,28 +112,8 @@
         width: 200px;
         font-size: 1.25rem;
     }
-    body::before {
-        position: absolute;
-        top: 0;
-        left: 0;
-        height: 100vh;
-        width: 23%;
-        content: "";
-        background-color: #171717;
-        z-index: 1;
-    }
 }
 @media only screen and (max-width: 1000px) {
-    body::before {
-        position: absolute;
-        top: 0;
-        left: 0;
-        height: 100vh;
-        width: 28%;
-        content: "";
-        background-color: #171717;
-        z-index: 1;
-    }
     .formBox h1 {
         font-size: 1.75rem;
         padding-bottom: 10px;
@@ -208,17 +164,6 @@
     .arrow {
     top: 25%;
     width: 100px;
-}
-
-body::before {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100vh;
-    width: 25%;
-    content: "";
-    background-color: #171717;
-    z-index: 1;
 }
 }
 
