@@ -107,7 +107,7 @@ body::before {
 .formBox .underline::before {
     content: "";
     position: absolute;
-    bottom: -5%;
+    bottom: -20%;
     right: -5px;
     width: 210px;
     height: 3px;

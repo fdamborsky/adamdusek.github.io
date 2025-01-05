@@ -56,7 +56,7 @@
         font-size: 1rem;
     }
     .formBox .underline::before {
-        bottom: -10%;
+        bottom: -20%;
         right: -5px;
         width: 210px;
         height: 3px;
@@ -97,7 +97,7 @@
         font-size: 1rem;
     }
     .formBox .underline::before {
-        bottom: -10%;
+        bottom: -20%;
         right: -5px;
         width: 210px;
         height: 3px;
@@ -327,7 +327,7 @@
         width: 100%;
     }
     .formBox .underline::before {
-        bottom: -10%;
+        bottom: -20%;
         right: -5px;
         width: 210px;
         height: 2px;
@@ -396,7 +396,7 @@
         width: 100%;
     }
     .formBox .underline::before {
-        bottom: -10%;
+        bottom: -20%;
         right: -5px;
         width: 160px;
         height: 2px;
@@ -484,7 +484,7 @@
         width: 100%;
     }
     .formBox .underline::before {
-        bottom: -10%;
+        bottom: -20%;
         right: -5px;
         width: 160px;
         height: 2px;
@@ -554,7 +554,7 @@
         width: 100%;
     }
     .formBox .underline::before {
-        top: 35%;
+        bottom: -20%;
         right: -5px;
         width: 160px;
         height: 2px;
