@@ -24,7 +24,7 @@ body::before {
     top: 0;
     left: 0;
     height: 100vh;
-    width: 25vw;
+    width: 24vw;
     content: "";
     background-color: #171717;
     z-index: 1;
@@ -54,7 +54,7 @@ body::before {
 .phoneImg {
     position: relative;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     height: 750px;
     width: 35%;
@@ -63,12 +63,12 @@ body::before {
 .arrow {
     position: absolute;
     top: 10%;
-    right: -5%;
+    right: 0%;
     width: 175px;
 }
 
 .iphone {
-    width: 100%;
+    width: 90%;
 }
 
 .formBox{
@@ -79,24 +79,25 @@ body::before {
     width: 55%;
     height: 750px;
     font-family: medium;
-    padding-left: 5%;
+    padding-left: 1%;
 }
 
 .formBox h1 {
-    font-size: 4rem;
-    padding-bottom: 30px;
+    font-size: 3rem;
+    padding-bottom: 20px;
 }
 .formBox h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-family: light;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 
 .formBox .subtitle {
     position: relative;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-family: light;
     text-align: center;
+    width: 100%;
 }
 
 .formBox .underline{
@@ -106,16 +107,15 @@ body::before {
 .formBox .underline::before {
     content: "";
     position: absolute;
-    top: 50%;
+    bottom: -5%;
     right: -5px;
-    width: 310px;
-    height: 4px;
+    width: 210px;
+    height: 3px;
     border-radius: 50px;
     background-color: red;
 }
 .formBox .subtitle span {
     font-family: regular;
-    padding-bottom: 30px;
 }
 
 .formBox h2 span{
@@ -123,7 +123,7 @@ body::before {
 }
 
 .formBox img {
-    height: 4rem;
+    height: 3rem;
 }
 
 .formBox form{
@@ -131,34 +131,42 @@ body::before {
     flex-direction: column;
     align-items: flex-start;
     font-family: medium;
-    margin-bottom: 20px;
 }
 
 form p {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     padding-bottom: .5rem;
 }
 
 form input {
     margin-bottom: 30px;
     padding: 5px 20px;
-    height: 60px;
-    width: 700px;
+    height: 50px;
+    width: 600px;
     border-radius: 50px;
     border: 3px #000000 solid;
     outline: 0;
-    font-family: regular;
+    font-family: light;
     font-size: 1.5rem;
-    background-color: transparent;
+    
+    background-color:  #f4f1ec;
 }
 
 form input[type="submit"]{
-    width: 300px;
+    width: 230px;
+    height: 60px;
     margin: auto;
     border: 0;
     background-color: #0096ff;
     color: #ffffff;
     font-family: medium;
-    font-size: 1.75rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all .25s linear;
+    margin-bottom: 20px;
+}
+
+form input[type="submit"]:hover{
+    background-color: #171717;
 }
 
