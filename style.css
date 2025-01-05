@@ -24,7 +24,7 @@ body::before {
     top: 0;
     left: 0;
     height: 100vh;
-    width: 35%;
+    width: 33%;
     content: "";
     background-color: #171717;
     z-index: 1;
@@ -57,7 +57,7 @@ body::before {
     justify-content: flex-end;
     align-items: center;
     height: 750px;
-    width: 35%;
+    width: 31%;
 }
 
 .arrow {
@@ -68,7 +68,7 @@ body::before {
 }
 
 .iphone {
-    width: 90%;
+    width: 100%;
 }
 
 .formBox{
