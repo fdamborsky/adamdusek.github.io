@@ -78,7 +78,7 @@ body::before {
 
 .phone .icons {
     display: flex;  
-    justify-content: center;
+    justify-content: left;
     gap: 20px;
 }
 
@@ -110,6 +110,7 @@ body::before {
     font-size: 1.25rem;
     text-align: center;
     margin-top: 10px;
+    left: -20%;
 }
 
 /* TITLE */
@@ -200,6 +201,7 @@ body::before {
 .subtitle h1 img {
     height: 3rem;
     margin-left: 10px;
+    vertical-align: top;
 }
 
 .subtitle p{
@@ -214,7 +216,8 @@ body::before {
 .subtitle p img {
     position: relative;
     bottom: 0px;
-    height: 1.5rem;
+    height: 1.25rem;
+    vertical-align: top;
 }
 
 /* GMAIL */

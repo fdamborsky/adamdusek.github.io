@@ -5,7 +5,7 @@
     .title h1 span::before {
         width: 50px;
         height: 50px;
-        right: 40px;
+        right: 41px;
         top: -10px;
         transform: rotate(20deg);
     }
@@ -50,6 +50,8 @@
     }
     .phone p {
         font-size: 1.25rem;
+        position: relative;
+        left: -25%;
     }
     .circle {
         height: 70px;
