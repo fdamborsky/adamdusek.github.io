@@ -65,14 +65,15 @@ body::before {
 .phone {
     position: absolute;
     right: -15%;
-    top: 20%;
+    top: 15%;
     display: flex;
     flex-direction: column;
     z-index: 9;
 }
 
 .phone-image {
-    height: 650px;
+    height: 625px;
+    aspect-ratio: 258/325;
 }
 
 .phone .icons {
@@ -233,8 +234,7 @@ body::before {
 .mail h2{
     position: relative;
     color: #000000;
-    font-family: regular;
-    font-weight: 800;
+    font-family: medium;
     font-size: 1.5rem;
     width: 80%;
     display: flex;
@@ -272,7 +272,7 @@ body::before {
 .mail li{
     color: #000000;
     font-family: regular;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     width: fit-content;   
     margin-bottom: 20px; 
     counter-increment: foo;
@@ -280,7 +280,7 @@ body::before {
 }
 
 .mail li span {
-    font-weight: 600;
+    font-family: medium;
 }
 
 .mail li::before {
@@ -318,10 +318,11 @@ body::before {
 
 .footer h2 {
     color: #000000;
-    font-family: regular;
+    font-family: medium;
     font-size: 1.5rem;
     width: fit-content;
     padding-bottom: 20px;
+    line-height: normal;
 }
 
 

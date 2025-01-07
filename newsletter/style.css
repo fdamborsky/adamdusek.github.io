@@ -90,6 +90,7 @@ body::before {
     font-size: 1.5rem;
     font-family: light;
     padding-bottom: 20px;
+    line-height: normal;
 }
 
 .formBox .subtitle {
@@ -98,6 +99,7 @@ body::before {
     font-family: light;
     text-align: center;
     width: 100%;
+    line-height: normal;
 }
 
 .formBox .underline{

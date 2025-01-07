@@ -1,0 +1,235 @@
+@media only screen and (max-width: 2000px){
+    .title h1 {
+        font-size: 4rem;
+    }
+    .title h1 span::before {
+        width: 50px;
+        height: 50px;
+        right: 40px;
+        top: -10px;
+        transform: rotate(20deg);
+    }
+    .title h1 img {
+        height: 4rem;
+    }
+    .title h2{ 
+        font-size: 1.25rem;
+    }
+    .title h2 img {
+        height: 2rem;
+    }
+    .subtitle h1 {
+        font-size: 2.5rem;
+    }
+    .subtitle h1 img {
+        height: 2.5rem;
+    }
+    .subtitle p {
+        font-size: 1.25rem;
+    }
+    .mail h2 {
+        font-size: 1.25rem;
+    }
+    .mail h2 img {
+        height: 1.25rem;
+    }
+    .mail p {
+        font-size: 1.25rem;
+    }
+    .mail li {
+        font-size: 1.25rem;
+    }
+    .footer h1 {
+        font-size: 2.5rem;
+    }
+    .footer h2 {
+        font-size: 1.25rem;
+    }
+    .footer p {
+        font-size: 1.25rem;
+    }
+    .phone p {
+        font-size: 1.25rem;
+    }
+    .circle {
+        height: 70px;
+        width: 70px;
+    }
+    .phone .icons img{
+        width: 40px;
+    }
+    .subtitle, .mail, .footer{
+        width: 80%;
+    }
+    .arrow {
+        left: -6%;
+        top: 29%;
+    }
+    .phone-image {
+        height: 600px;
+    }
+    .phone{
+        top: 15%;
+    }
+}
+@media only screen and (max-width: 1800px){
+    .title h1 {
+        font-size: 3.5rem;
+    }
+    .title h1 span::before {
+        width: 45px;
+        right: 35px;
+        top: -10px;
+        transform: rotate(20deg);
+    }
+    .title h1 img {
+        height: 3.5rem;
+    }
+    .title h2{ 
+        font-size: 1.15rem;
+    }
+    .title h2 img {
+        height: 1.5rem;
+    }
+    .subtitle h1 {
+        font-size: 2.25rem;
+    }
+    .subtitle h1 img {
+        height: 2.25rem;
+    }
+    .subtitle p {
+        font-size: 1.15rem;
+    }
+    .mail h2 {
+        font-size: 1.15rem;
+    }
+    .mail h2 img {
+        height: 1.15rem;
+    }
+    .mail p {
+        font-size: 1.15rem;
+    }
+    .mail li {
+        font-size: 1.15rem;
+    }
+    .footer h1 {
+        font-size: 2.25rem;
+    }
+    .footer h2 {
+        font-size: 1.15rem;
+    }
+    .footer p {
+        font-size: 1.15rem;
+    }
+    .phone p {
+        font-size: 1.15rem;
+    }
+    .circle {
+        height: 60px;
+        width: 60px;
+    }
+    .phone .icons img{
+        width: 40px;
+    }
+    .subtitle, .mail, .footer{
+        width: 80%;
+    }
+    .arrow {
+        left: -5%;
+        top: 29%;
+    }
+    .arrow img {
+        height: 40px;
+    }
+
+    .phone-image {
+        height: 500px;
+    }
+    .phone{
+        top: 15%;
+    }
+    .seznam {
+        height: 2rem !important;
+    }
+}
+
+@media only screen and (max-width: 1600px){
+    .title h1 {
+        font-size: 3.25rem;
+    }
+    .title h1 span::before {
+        width: 45px;
+        right: 32px;
+        top: -12px;
+        transform: rotate(20deg);
+    }
+    .title h1 img {
+        height: 3.25rem;
+    }
+    .title h2{ 
+        font-size: 1.05rem;
+    }
+    .title h2 img {
+        height: 1.25rem;
+    }
+    .subtitle h1 {
+        font-size: 2rem;
+    }
+    .subtitle h1 img {
+        height: 2rem;
+    }
+    .subtitle p {
+        font-size: 1.05rem;
+    }
+    .mail h2 {
+        font-size: 1.05rem;
+    }
+    .mail h2 img {
+        height: 1.05rem;
+    }
+    .mail p {
+        font-size: 1.05rem;
+    }
+    .mail li {
+        font-size: 1.05rem;
+    }
+    .footer h1 {
+        font-size: 2rem;
+    }
+    .footer h2 {
+        font-size: 1.05rem;
+    }
+    .footer p {
+        font-size: 1.05rem;
+    }
+    .phone p {
+        font-size: 1.05rem;
+    }
+    .circle {
+        height: 60px;
+        width: 60px;
+    }
+    .phone .icons img{
+        width: 40px;
+    }
+    .subtitle, .mail, .footer{
+        width: 80%;
+    }
+    .arrow {
+        left: -5%;
+        top: 30%;
+    }
+    .arrow img {
+        height: 35px;
+    }
+
+    .phone-image {
+        height: 500px;
+    }
+    .phone{
+        top: 15%;
+    }
+    .seznam {
+        height: 2rem !important;
+    }
+}
