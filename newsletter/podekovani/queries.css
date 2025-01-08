@@ -235,3 +235,1024 @@
         height: 2rem !important;
     }
 }
+
+
+@media only screen and (max-width: 1400px){
+    .title h1 {
+        font-size: 2.75rem;
+    }
+    .title h1 span::before {
+        width: 33px;
+        right: 31px;
+        top: -8px;
+        transform: rotate(20deg);
+    }
+    .title h1 img {
+        height: 3rem;
+    }
+    .title h2{ 
+        font-size: 1rem;
+    }
+    .title h2 img {
+        height: 1.15rem;
+    }
+    .subtitle h1 {
+        font-size: 1.75rem;
+    }
+    .subtitle h1 img {
+        height: 1.75rem;
+    }
+    .subtitle p {
+        font-size: 1rem;
+    }
+    .mail h2 {
+        font-size: 1rem;
+    }
+    .mail h2 img {
+        height: 1.0rem;
+    }
+    .mail p {
+        font-size: 1.0rem;
+    }
+    .mail li {
+        font-size: 1.0rem;
+    }
+    .footer h1 {
+        font-size: 1.75rem;
+    }
+    .footer h2 {
+        font-size: 1rem;
+    }
+    .footer p {
+        font-size: 1rem;
+    }
+    .phone p {
+        font-size: 1rem;
+        left: -10%;
+    }
+    .circle {
+        height: 50px;
+        width: 50px;
+    }
+    .phone .icons img{
+        width: 30px;
+    }
+    .subtitle, .mail, .footer{
+        width: 80%;
+    }
+    .arrow {
+        left: -5%;
+        top: 30%;
+    }
+    .arrow img {
+        height: 30px;
+    }
+
+    .phone-image {
+        height: 400px;
+    }
+    .phone{
+        top: 15%;
+    }
+    .seznam {
+        height: 2rem !important;
+    }
+}
+
+@media only screen and (max-width: 1200px){
+    body {
+        padding: 0% 15%;
+    }
+    .title h1 {
+        font-size: 2.5rem;
+    }
+    .title h1 span::before {
+        width: 33px;
+        right: 28px;
+        top: -10px;
+        transform: rotate(20deg);
+    }
+    .title h1 img {
+        height: 2.5rem;
+    }
+    .title h2{ 
+        font-size: 1rem;
+    }
+    .title h2 img {
+        height: 1.15rem;
+    }
+    .subtitle h1 {
+        font-size: 1.75rem;
+    }
+    .subtitle h1 img {
+        height: 1.75rem;
+    }
+    .subtitle p {
+        font-size: 1rem;
+    }
+    .mail h2 {
+        font-size: 1rem;
+    }
+    .mail h2 img {
+        height: 1.0rem;
+    }
+    .mail p {
+        font-size: 1.0rem;
+    }
+    .mail li {
+        font-size: 1.0rem;
+    }
+    .footer h1 {
+        font-size: 1.75rem;
+    }
+    .footer h2 {
+        font-size: 1rem;
+    }
+    .footer p {
+        font-size: 1rem;
+    }
+    .phone p {
+        font-size: 1rem;
+        left: -15%;
+    }
+    .circle {
+        height: 50px;
+        width: 50px;
+    }
+    .phone .icons img{
+        width: 30px;
+    }
+    .subtitle, .mail, .footer{
+        width: 80%;
+    }
+    .arrow {
+        left: -5%;
+        top: 30%;
+    }
+    .arrow img {
+        height: 30px;
+    }
+
+    .phone-image {
+        height: 350px;
+    }
+    .phone{
+        top: 15%;
+    }
+    .seznam {
+        height: 2rem !important;
+    }
+}
+@media only screen and (max-width: 1000px){
+    body {
+        padding: 0% 10%;
+    }
+    .title h1 {
+        font-size: 2.5rem;
+    }
+    .title h1 span::before {
+        width: 33px;
+        right: 28px;
+        top: -10px;
+        transform: rotate(20deg);
+    }
+    .title h1 img {
+        height: 2.5rem;
+    }
+    .title h2{ 
+        font-size: 1rem;
+    }
+    .title h2 img {
+        height: 1.15rem;
+    }
+    .subtitle h1 {
+        font-size: 1.5rem;
+    }
+    .subtitle h1 img {
+        height: 1.5rem;
+    }
+    .subtitle p {
+        font-size: .90rem;
+    }
+    .mail h2 {
+        font-size: .90rem;
+    }
+    .mail h2 img {
+        height: .90rem;
+    }
+    .mail p {
+        font-size: .90rem;
+    }
+    .mail li {
+        font-size: .90rem;
+    }
+    .footer h1 {
+        font-size: 1.75rem;
+    }
+    .footer h2 {
+        font-size: .90rem;
+    }
+    .footer p {
+        font-size: .90rem;
+    }
+    .phone p {
+        font-size: .90rem;
+        left: -15%;
+    }
+    .circle {
+        height: 50px;
+        width: 50px;
+    }
+    .phone .icons img{
+        width: 30px;
+    }
+    .subtitle, .mail, .footer{
+        width: 80%;
+    }
+    .arrow {
+        left: -5%;
+        top: 30%;
+    }
+    .arrow img {
+        height: 30px;
+    }
+
+    .phone-image {
+        height: 300px;
+    }
+    .phone{
+        top: 15%;
+    }
+    .seznam {
+        height: 1.5rem !important;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    body {
+        padding: 0% 10%;
+    }
+    .title h1 {
+        font-size: 2rem;
+    }
+    .title h1 span::before {
+        width: 25px;
+        right: 25px;
+        top: -7px;
+        transform: rotate(20deg);
+    }
+    .title h1 img {
+        height: 2rem;
+    }
+    .title h2{ 
+        font-size: 1rem;
+    }
+    .title h2 img {
+        height: 1.15rem;
+    }
+    .subtitle h1 {
+        font-size: 1.5rem;
+        text-align: left;
+    }
+    .subtitle h1 img {
+        height: 1.5rem;
+    }
+    .subtitle p {
+        font-size: .90rem;
+        width: 100%;
+    }
+    .mail h2 {
+        font-size: .90rem;
+    }
+    .mail h2 img {
+        height: .90rem;
+    }
+    .mail p {
+        font-size: .90rem;
+    }
+    .mail ul {
+        width: 100%;
+    }
+    .mail li {
+        font-size: .90rem;
+        width: 100%;
+    }
+    .footer h1 {
+        font-size: 1.75rem;
+    }
+    .footer h2 {
+        font-size: .90rem;
+    }
+    .footer p {
+        font-size: .90rem;
+        width: 100%;
+    }
+    .phone p {
+        font-size: .90rem;
+        left: -15%;
+    }
+    .lastP {
+        width: fit-content !important;
+    }
+    .circle {
+        height: 50px;
+        width: 50px;
+    }
+    .phone .icons img{
+        width: 30px;
+    }
+    .subtitle, .mail, .footer{
+        width: fit-content;
+    }
+    .footer {
+        width: 100% !important;
+    }
+
+    .arrow {
+        left: -5%;
+        top: 30%;
+        opacity: 0;
+    }
+    .arrow img {
+        height: 30px;
+    }
+
+    .phone-image {
+        height: 300px;
+    }
+    .phone{
+        top: 15%;
+        display: none;
+    }
+    .seznam {
+        height: 1.5rem !important;
+    }
+
+    .footer-icons, .footer-p {
+        display: flex;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    body {
+        padding: 0% 10%;
+    }
+    .title h1 {
+        font-size: 1.50rem;
+    }
+    .title h1 span::before {
+        width: 25px;
+        right: 20px;
+        top: -7px;
+        transform: rotate(20deg);
+    }
+    .title h1 img {
+        height: 1.5rem;
+    }
+    .title h2{ 
+        font-size: 1rem;
+    }
+    .title h2 img {
+        height: 1.5rem;
+    }
+    .subtitle h1 {
+        font-size: 1.25rem;
+        text-align: left;
+    }
+    .subtitle h1 img {
+        height: 1.25rem;
+    }
+    .subtitle p {
+        font-size: .80rem;
+        width: 100%;
+    }
+    .mail h2 {
+        font-size: .80rem;
+    }
+    .mail h2 img {
+        height: .80rem;
+    }
+    .mail p {
+        font-size: .80rem;
+    }
+    .mail ul {
+        width: 100%;
+    }
+    .mail li {
+        font-size: .80rem;
+        width: 100%;
+    }
+    .footer h1 {
+        font-size: 1.25rem;
+    }
+    .footer h2 {
+        font-size: .80rem;
+    }
+    .footer p {
+        font-size: .80rem;
+        width: 100%;
+    }
+    .phone p {
+        font-size: .80rem;
+        left: -15%;
+    }
+    .lastP {
+        width: fit-content !important;
+    }
+    .lastP::before{
+        height: 2px;
+    }
+    
+    .circle {
+        height: 50px;
+        width: 50px;
+    }
+    .phone .icons img{
+        width: 30px;
+    }
+    .subtitle, .mail, .footer{
+        width: fit-content;
+    }
+    .footer {
+        width: 100% !important;
+    }
+
+    .arrow {
+        left: -5%;
+        top: 30%;
+        opacity: 0;
+    }
+    .arrow img {
+        height: 30px;
+    }
+
+    .phone-image {
+        height: 300px;
+    }
+    .phone{
+        top: 15%;
+        display: none;
+    }
+    .seznam {
+        height: 1.5rem !important;
+    }
+}
+@media only screen and (max-width: 500px){
+    body {
+        padding: 0% 5%;
+    }
+    body::before, .title{
+        height: 32vh;
+    }
+    .title {
+        gap: 10px;
+    }
+    .title h1 {
+        font-size: 2.75rem;
+        display: block;
+        line-height: normal;
+        text-align: center;
+    }
+    .title h1 span::before {
+        width: 35px;
+        right: 30px;
+        top: -6px;
+        transform: rotate(20deg);
+    }
+    .yes2 {
+        display: block;
+        height: 4em;
+    }
+    .title h1 img {
+        display: none;
+        height: 2.5rem;
+    }
+    .title h2{ 
+        font-size: 1.25rem;
+        border-radius: 10px;
+        padding: 10px 10px;
+    }
+
+    .title h2 {
+        display: block;
+    }
+    
+    .title h2 img {
+        height: 1.5rem;
+        display: none;
+    }
+    .book2 {
+        display: inline-block !important;
+        height: 1em !important;
+        margin-left: 10px;
+    }
+    .subtitle h1 {
+        font-size: 2rem;
+        text-align: left;
+        width: 60%;
+    }
+    .subtitle h1 img {
+        height: 1.5rem;
+    }
+    .subtitle p {
+        font-size: .80rem;
+        width: 100%;
+    }
+    .mail h2 {
+        font-size: .80rem;
+    }
+    .mail h2 img {
+        height: .80rem;
+    }
+    .mail p {
+        font-size: .80rem;
+    }
+    .mail ul {
+        width: 100%;
+    }
+    .mail li {
+        font-size: .80rem;
+        width: 100%;
+    }
+    .footer h1 {
+        font-size: 1.25rem;
+    }
+    .footer h2 {
+        font-size: .80rem;
+    }
+    .footer p {
+        font-size: .80rem;
+        width: 100%;
+    }
+    .phone p {
+        font-size: .80rem;
+        left: -15%;
+    }
+    .lastP {
+        width: fit-content !important;
+    }
+    .lastP::before{
+        height: 2px;
+    }
+    
+    .circle {
+        height: 50px;
+        width: 50px;
+    }
+    .phone .icons img{
+        width: 30px;
+    }
+    .subtitle, .mail, .footer{
+        width: fit-content;
+    }
+    .footer {
+        width: 100% !important;
+    }
+
+    .arrow {
+        position: absolute;
+        top: 36vh;
+        left: 65%;
+        opacity: 100%;
+        transform: rotate(200deg);
+    }
+    .arrow img {
+        height: 25px;
+    }
+
+    .phone-image {
+        height: 300px;
+    }
+    .phone{
+        top: 15%;
+        display: none;
+    }
+    .seznam {
+        height: 1.5rem !important;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    body {
+        padding: 0% 5%;
+    }
+    body::before, .title{
+        height: 35vh;
+    }
+    .title {
+        gap: 10px;
+    }
+    .title h1 {
+        font-size: 2.5rem;
+        display: block;
+        line-height: normal;
+        text-align: center;
+    }
+    .title h1 span::before {
+        width: 35px;
+        right: 27px;
+        top: -6px;
+        transform: rotate(20deg);
+    }
+    .yes2 {
+        display: block;
+        height: 3em;
+    }
+    .title h1 img {
+        display: none;
+        height: 2.5rem;
+    }
+    .title h2{ 
+        font-size: 1.25rem;
+        border-radius: 10px;
+        padding: 10px 10px;
+    }
+
+    .title h2 {
+        display: block;
+    }
+    
+    .title h2 img {
+        height: 1.5rem;
+        display: none;
+    }
+    .book2 {
+        display: inline-block !important;
+        height: 1em !important;
+        margin-left: 10px;
+    }
+    .subtitle h1 {
+        font-size: 1.75rem;
+        text-align: left;
+        width: 60%;
+    }
+    .subtitle h1 img {
+        height: 1.75rem;
+    }
+    .subtitle p {
+        font-size: 1.25rem;
+        width: 100%;
+    }
+    .mail h2 {
+        font-size: 1.25rem;
+    }
+    .mail h2 img {
+        height: 1.25rem;
+    }
+    .mail p {
+        font-size: 1.25rem;
+    }
+    .mail ul {
+        width: 100%;
+    }
+    .mail li {
+        font-size: 1.25rem;
+        width: 100%;
+    }
+    .footer h1 {
+        font-size: 1.25rem;
+    }
+    .footer h2 {
+        font-size: 1.25rem;
+    }
+    .footer p {
+        font-size: 1.25rem;
+        width: 100%;
+    }
+    .phone p {
+        font-size: 1.25rem;
+        left: -15%;
+    }
+    .lastP {
+        width: fit-content !important;
+        
+    }
+    .lastP::before{
+        height: 2px;
+        width: 90%;
+        background-color: #000000;
+    }
+    
+    .circle {
+        height: 50px;
+        width: 50px;
+    }
+    .phone .icons img{
+        width: 30px;
+    }
+    .subtitle, .mail, .footer{
+        width: fit-content;
+    }
+    .footer {
+        width: 100% !important;
+    }
+
+    .arrow {
+        position: absolute;
+        top: 40vh;
+        left: 65%;
+        opacity: 100%;
+        transform: rotate(200deg);
+    }
+    .arrow img {
+        height: 25px;
+    }
+
+    .phone-image {
+        height: 300px;
+    }
+    .phone{
+        top: 15%;
+        display: none;
+    }
+    .seznam {
+        height: 1.5rem !important;
+    }
+    .footer-p {
+        font-size: 1.5rem;
+    }
+    .footer-icons img {
+        height: 5px;
+        height: fit-content;
+        cursor: pointer;  
+    }
+    
+}
+
+@media only screen and (max-width: 400px){
+    body {
+        padding: 0% 5%;
+    }
+    body::before, .title{
+        height: 45vh;
+    }
+    .title {
+        gap: 10px;
+    }
+    .title h1 {
+        font-size: 2.5rem;
+        display: block;
+        line-height: normal;
+        text-align: center;
+    }
+    .title h1 span::before {
+        width: 35px;
+        right: 27px;
+        top: -6px;
+        transform: rotate(20deg);
+    }
+    .yes2 {
+        display: block;
+        height: 3em;
+    }
+    .title h1 img {
+        display: none;
+        height: 2.5rem;
+    }
+    .title h2{ 
+        font-size: 1.25rem;
+        border-radius: 10px;
+        padding: 10px 10px;
+    }
+
+    .title h2 {
+        display: block;
+    }
+    
+    .title h2 img {
+        height: 1.5rem;
+        display: none;
+    }
+    .book2 {
+        display: inline-block !important;
+        height: 1em !important;
+        margin-left: 10px;
+    }
+    .subtitle h1 {
+        font-size: 1.6rem;
+        text-align: left;
+        width: 60%;
+    }
+    .subtitle h1 img {
+        height: 1.75rem;
+    }
+    .subtitle p {
+        font-size: 1.25rem;
+        width: 100%;
+    }
+    .mail h2 {
+        font-size: 1.25rem;
+    }
+    .mail h2 img {
+        height: 1.25rem;
+    }
+    .mail p {
+        font-size: 1.25rem;
+    }
+    .mail ul {
+        width: 100%;
+    }
+    .mail li {
+        font-size: 1.25rem;
+        width: 100%;
+    }
+    .footer h1 {
+        font-size: 1.25rem;
+    }
+    .footer h2 {
+        font-size: 1.25rem;
+    }
+    .footer p {
+        font-size: 1.25rem;
+        width: 100%;
+    }
+    .phone p {
+        font-size: 1.25rem;
+        left: -15%;
+    }
+    .lastP {
+        width: fit-content !important;
+        
+    }
+    .lastP::before{
+        height: 2px;
+        width: 90%;
+        background-color: #000000;
+    }
+    
+    .circle {
+        height: 50px;
+        width: 50px;
+    }
+    .phone .icons img{
+        width: 30px;
+    }
+    .subtitle, .mail, .footer{
+        width: fit-content;
+    }
+    .footer {
+        width: 100% !important;
+    }
+
+    .arrow {
+        position: absolute;
+        top: 50vh;
+        left: 65%;
+        opacity: 100%;
+        transform: rotate(200deg);
+    }
+    .arrow img {
+        height: 25px;
+    }
+
+    .phone-image {
+        height: 300px;
+    }
+    .phone{
+        top: 15%;
+        display: none;
+    }
+    .seznam {
+        height: 1.5rem !important;
+    }
+}
+
+@media only screen and (max-width: 350px){
+    body {
+        padding: 0% 5%;
+    }
+    body::before, .title{
+        height: 45vh;
+    }
+    .title {
+        gap: 10px;
+    }
+    .title h1 {
+        font-size: 2.5rem;
+        display: block;
+        line-height: normal;
+        text-align: center;
+    }
+    .title h1 span::before {
+        width: 35px;
+        right: 27px;
+        top: -6px;
+        transform: rotate(20deg);
+    }
+    .yes2 {
+        display: block;
+        height: 3em;
+    }
+    .title h1 img {
+        display: none;
+        height: 2.5rem;
+    }
+    .title h2{ 
+        font-size: 1.25rem;
+        border-radius: 10px;
+        padding: 10px 10px;
+    }
+
+    .title h2 {
+        display: block;
+    }
+    
+    .title h2 img {
+        height: 1.5rem;
+        display: none;
+    }
+    .book2 {
+        display: inline-block !important;
+        height: 1em !important;
+        margin-left: 10px;
+    }
+    .subtitle h1 {
+        font-size: 1.3rem;
+        text-align: left;
+        width: 60%;
+    }
+    .subtitle h1 img {
+        height: 1.75rem;
+    }
+    .subtitle p {
+        font-size: 1.25rem;
+        width: 100%;
+    }
+    .mail h2 {
+        font-size: 1.25rem;
+    }
+    .mail h2 img {
+        height: 1.25rem;
+    }
+    .mail p {
+        font-size: 1.25rem;
+    }
+    .mail ul {
+        width: 100%;
+    }
+    .mail li {
+        font-size: 1.25rem;
+        width: 100%;
+    }
+    .footer h1 {
+        font-size: 1.25rem;
+    }
+    .footer h2 {
+        font-size: 1.25rem;
+    }
+    .footer p {
+        font-size: 1.25rem;
+        width: 100%;
+    }
+    .phone p {
+        font-size: 1.25rem;
+        left: -15%;
+    }
+    .lastP {
+        width: fit-content !important;
+        
+    }
+    .lastP::before{
+        height: 2px;
+        width: 90%;
+        background-color: #000000;
+    }
+    
+    .circle {
+        height: 50px;
+        width: 50px;
+    }
+    .phone .icons img{
+        width: 30px;
+    }
+    .subtitle, .mail, .footer{
+        width: fit-content;
+    }
+    .footer {
+        width: 100% !important;
+    }
+
+    .arrow {
+        position: absolute;
+        top: 50vh;
+        left: 65%;
+        opacity: 100%;
+        transform: rotate(200deg);
+    }
+    .arrow img {
+        height: 25px;
+    }
+
+    .phone-image {
+        height: 300px;
+    }
+    .phone{
+        top: 15%;
+        display: none;
+    }
+    .seznam {
+        height: 1.5rem !important;
+    }
+}
+
+
