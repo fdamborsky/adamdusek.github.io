@@ -996,23 +996,27 @@
         text-align: center;
     }
     .title h1 span::before {
-        width: 35px;
-        right: 27px;
-        top: -6px;
+        width: 30px;
+        right: 30px;
+        top: -2px;
         transform: rotate(20deg);
     }
     .yes2 {
         display: block;
-        height: 3em;
+        height: 4em;
     }
     .title h1 img {
         display: none;
         height: 2.5rem;
     }
     .title h2{ 
-        font-size: 1.25rem;
+        font-size: 1rem;
         border-radius: 10px;
         padding: 10px 10px;
+    }
+
+    .break3{
+        display: block;
     }
 
     .title h2 {
@@ -1035,6 +1039,7 @@
     }
     .subtitle h1 img {
         height: 1.75rem;
+        margin-left: 0px;
     }
     .subtitle p {
         font-size: 1.25rem;
@@ -1048,7 +1053,12 @@
     }
     .mail p {
         font-size: 1.25rem;
+        text-decoration: underline;
     }
+    .mail p::before{
+        display: none;
+    }
+
     .mail ul {
         width: 100%;
     }
@@ -1057,7 +1067,7 @@
         width: 100%;
     }
     .footer h1 {
-        font-size: 1.25rem;
+        font-size: 1.6rem;
     }
     .footer h2 {
         font-size: 1.25rem;
