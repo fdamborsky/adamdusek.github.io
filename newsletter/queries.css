@@ -421,6 +421,12 @@
     .container {
         flex-direction: column;
     }
+    .break {
+        display: block;
+    }
+    .break2 {
+        display: none;
+    }
 
     .arrow {
         transform: rotate(100deg);
@@ -435,22 +441,23 @@
     }
 
     body::before {
-        height: 25vh;
+        height: 26vh;
     }
   
     .formBox h1 {
-        font-size: 1.25rem;
+        font-size: 1.5rem;
         padding-bottom: 10px;
     }
     .formBox img {
         height: 1.5rem;
     }
     .formBox h2 {
-        font-size: .85rem;
+        text-align: center;
+        font-size: 1.15rem;
         padding-bottom: 20px;
     }
     .phoneImg{
-        height: 250px;
+        height: 300px;
     }
     .iphone {
         width: auto;
@@ -458,7 +465,11 @@
     }
 
     .topTitle {
-        font-size: 1.35rem;
+        font-size: 2rem;
+    }
+
+    .topTitle img {
+        height: 2rem;
     }
 
     .formBox form{
@@ -519,9 +530,7 @@
         font-size: .85rem;
         padding-bottom: 20px;
     }
-    .phoneImg{
-        height: 250px;
-    }
+    
     .iphone {
         width: auto;
         height: 100%;

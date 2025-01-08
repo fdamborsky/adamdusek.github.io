@@ -19,6 +19,10 @@ body {
     background-color: #eae2d7;
 }
 
+.break {
+    display: none;
+}
+
 body::before {
     position: absolute;
     top: 0;
