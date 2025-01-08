@@ -429,7 +429,7 @@
     }
 
     .arrow {
-        transform: rotate(100deg);
+        transform: rotate(120deg);
         right: -70%;
     }
 
@@ -458,6 +458,7 @@
     }
     .phoneImg{
         height: 300px;
+        margin-bottom: 5vh;
     }
     .iphone {
         width: auto;
@@ -470,6 +471,7 @@
 
     .topTitle img {
         height: 2rem;
+        vertical-align: top;
     }
 
     .formBox form{
@@ -479,7 +481,7 @@
 
     form p {
         font-size: 1rem;
-        padding-bottom: .5rem;
+        padding-bottom: 5vh;
     }
 
     form input {
