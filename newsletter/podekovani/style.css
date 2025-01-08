@@ -382,8 +382,8 @@ body::before {
 }
 
 .circle2 {
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     background-color: #141414;
     display: flex;
     border-radius: 50%;
@@ -394,8 +394,8 @@ body::before {
 
 .footer-icons img {
     display: block;
-    width: 20px;
-    height: fit-content;
+    width: 40px;
+    height: auto !important;
     cursor: pointer;  
 }
 
@@ -405,5 +405,5 @@ body::before {
     font-size: 1rem;
     text-align: center;
     margin-top: 10px;
-    margin-bottom: 2vh;
+    margin-bottom: 5vh;
 }
