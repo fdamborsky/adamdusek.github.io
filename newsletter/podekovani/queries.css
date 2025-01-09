@@ -492,6 +492,9 @@
     body {
         padding: 0% 10%;
     }
+    .footer-icons {
+        display: none;
+    }
     .title h1 {
         font-size: 2rem;
     }
@@ -1026,11 +1029,13 @@
     .title h2 img {
         height: 1.5rem;
         display: none;
+
     }
     .book2 {
         display: inline-block !important;
         height: 1em !important;
         margin-left: 10px;
+        vertical-align: bottom;
     }
     .subtitle h1 {
         font-size: 1.6rem;
@@ -1082,12 +1087,16 @@
     }
     .lastP {
         width: fit-content !important;
-        
+        margin-bottom: 5vh;
     }
     .lastP::before{
+        display: none;
         height: 2px;
         width: 90%;
         background-color: #000000;
+    }
+    .footer-p {
+        margin-bottom: 10vh;
     }
     
     .circle {

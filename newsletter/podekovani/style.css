@@ -376,7 +376,7 @@ body::before {
 
 
 .footer-icons {
-    display: flex;  
+    display: none;  
     justify-content: left;
     gap: 20px;
 }
