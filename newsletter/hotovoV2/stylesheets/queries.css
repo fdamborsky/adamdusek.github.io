@@ -1,0 +1,68 @@
+@media only screen  and (max-width: 1800px){
+    .arrow-text{
+        right: 4vw;
+    }
+    .arrow-text h3{
+        font-size: 2rem;
+    }
+    .arrow-text2{
+        left: 15vw;
+    }
+    .arrow-text2 h3{
+        font-size: 2rem;
+    }
+    
+}
+
+@media only screen  and (max-width: 1500px){
+    .title h1 {
+        font-size: 3.25rem;
+    }
+    .title h1 span::before {
+        width: 45px;
+        right: 32px;
+        top: -12px;
+        transform: rotate(20deg);
+    }
+    .title h1 img {
+        height: 3.25rem;
+    }
+    .title h2{ 
+        font-size: 1.05rem;
+    }
+    .title h2 img {
+        height: 1.25rem;
+    }
+
+    .title2 h1 {
+        font-size: 3.25rem !important;
+    }
+    .title2 h2{ 
+        font-size: 1.05rem;
+    }
+
+    .arrow-text{
+        right: 4vw;
+    }
+    .arrow-text h3{
+        font-size: 1.75rem;
+    }
+    .arrow-text2{
+        left: 15vw;
+    }
+    .arrow-text2 h3{
+        font-size: 1.75rem;
+    }
+    .arrow-text img, .arrow-text2 img {
+        width: 125px;
+    }
+    footer p {
+        font-size: 1.25rem;
+    }
+    footer a img{
+        width: 40px;
+    }
+    .GDPR {
+        font-size: .75rem !important;
+    }
+}
