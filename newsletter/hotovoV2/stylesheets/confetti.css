@@ -1,0 +1,28 @@
+.firework-container {
+    position: fixed;
+    width: 100vw;
+    height: 80vh;
+    padding: 0 10vw;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: 9999;
+}
+.confetti {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background: red;
+    opacity: 0;
+    animation: explode 1s ease-out forwards; /* ZKRÁCENO z 5s na 1s */
+}
+@keyframes explode {
+    0% {
+        transform: translate(0, 0) scale(1) rotate(0deg);
+        opacity: 1;
+    }
+    100% {
+        transform: translate(var(--x), var(--y)) scale(0.5) rotate(720deg);
+        opacity: 0;
+    }
+}
