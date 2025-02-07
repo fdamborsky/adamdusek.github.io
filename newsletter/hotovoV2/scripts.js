@@ -97,8 +97,3 @@ function startFireworks() {
     });
 }
 
-// Spustí ohňostroj
-startFireworks();
-
-
-

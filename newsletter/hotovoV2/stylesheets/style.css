@@ -129,8 +129,8 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 200%;
-    height: 120%;
+    width: 190%;
+    height: 110%;
     background: radial-gradient(circle, rgba(13, 164, 252, 0.6) 0%, rgba(0, 162, 255, 0) 70%);
     transform: translate(-50%, -50%);
     border-radius: 50%;
@@ -312,7 +312,7 @@ footer p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 20px;
 }
 
 .arrow-text2 h3{

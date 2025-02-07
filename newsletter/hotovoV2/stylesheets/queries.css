@@ -115,6 +115,9 @@
     .yes {
         display: none;
     }
+    .title{
+        margin-bottom: 0;
+    }
     .title h1{
         display: block;
         line-height: 5rem;
@@ -141,23 +144,29 @@
         display: none;
     }
     .title .mobile-text{
-        display: block !important;
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
         position: relative;
         color: #4ae476;
         font-family: "Asap";
-        font-size: 2.5rem;
+        font-size: 2rem;
         text-align: center;
         font-weight: 700;
         background-color: transparent;
-        margin-bottom: 5vh;
+        margin-bottom: 30px;
     }
-    .title .Arrow {
+    .mobile-text .Arrow {
         position: relative;
-        transform: rotate(90deg);
-        height: 70px;
+        height: 60px;
     }
     .title .second{
         transform: rotate(-90deg) scaleX(-1);
+    }
+
+    .title .first {
+        transform: rotate(90deg);
     }
     .video {
         width: 90vw;
@@ -167,11 +176,13 @@
         padding: 10vh 0;
     }
     .title2 h1{
-        font-size: 3.5rem !important;
+        font-size: 3rem !important;
+        margin: 0 10% 10px 10%;
         text-align: center;
     }
     .title2 h2{
         font-size: 1.75rem !important;
+        margin: 0 15% 30px 15%;
         text-align: center;
     }
     .mobile-text2{
@@ -299,6 +310,9 @@
     #landing-page {
         padding: 5vh 0;
     }
+    .title {
+        margin-bottom: 30px;
+    }
     .title h1 {
         font-size: 2.5rem;
         line-height: 4rem;
@@ -318,7 +332,7 @@
         margin-bottom: 1vh;
     }
     .title2 .first-line::before {
-        bottom: -15px;
+        bottom: -10px;
         right: -20px;
     }
     .title .Arrow {
@@ -327,16 +341,19 @@
     }
 
     .title2{
-        gap: 10px !important;
+        gap: 0px !important;
     }
     .title2 h1{
-        font-size: 2rem !important;
+        font-size: 2.25rem !important;
         text-align: center;
+        line-height: 3rem;
+        margin: 0 10% 10px 10%;
     }
     .title2 h2{
-        font-size: 1rem !important;
+        font-size: 1.25rem !important;
         text-align: center;
-        padding: 0 10vw;
+        padding: 0 0vw;
+        margin: 0 5%;
     }
     .mobile-text2{
         font-size: 2rem;
@@ -374,5 +391,200 @@
         text-align: center;
         right: 0;
         bottom: 50px;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    #landing-page {
+        padding: 5vh 0;
+    }
+    .title {
+        margin-bottom: 20px;
+    }
+    .title h1 {
+        font-size: 2.75rem;
+        line-height: 3rem;
+    }
+    .title h1 span::before {
+        width: 32px;
+        right: 32px;
+        top: -2px;
+        transform: rotate(20deg);
+    }
+    .title-span{
+        font-size: 3rem;
+        color: #fff;
+    }
+    .title .mobile-text{
+        font-size: 1.25rem;
+        margin-bottom: 1vh;
+    }
+    .title2 .first-line::before {
+        bottom: -15px;
+        right: -20px;
+    }
+    .title .Arrow {
+        position: relative;
+        height: 35px;
+    }
+    .title .first {
+        transform: rotate(90deg) translateY(-20px);
+    }
+    .title .second {
+        transform:  translateX(-10px) rotate(-90deg) scaleX(-1);
+    }
+
+    .title2{
+        gap: 0px !important;
+    }
+    .title2 h1{
+        font-size: 2rem !important;
+        text-align: center;
+        line-height: 2rem;
+        margin: 0 5% 10px 5%;
+    }
+    .title2 h2{
+        font-size: 1rem !important;
+        text-align: center;
+        padding: 0 0vw;
+        margin: 20px 0 0 0;
+    }
+    .mobile-text2{
+        font-size: 2rem;
+    }
+    .mobile-text2 .Arrow {
+        height: 40px;
+    }
+    .mobile-text2 .second{
+        transform: rotate(-90deg) scaleX(-1);
+    }
+    .notebook{
+        display: none;
+    }
+    .mobiles{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10vh;
+    }
+    .mobiles img {
+        width: 80vw;
+    }
+    footer a img{
+        width: 50px;
+    }
+    footer p{
+        font-size: 1rem;
+    }
+    .GPDR{
+        position: relative;
+        width: 100%;
+        display: block;
+        text-align: center;
+        right: 0;
+        bottom: 50px;
+        font-size: .5rem;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    #landing-page {
+        padding: 5vh 0;
+    }
+    .title {
+        margin-bottom: 20px;
+    }
+    .title h1 {
+        font-size: 2.75rem;
+        line-height: 3rem;
+    }
+    .title h1 span::before {
+        width: 32px;
+        right: 32px;
+        top: -2px;
+        transform: rotate(20deg);
+    }
+    .title-span{
+        font-size: 3rem;
+        color: #fff;
+    }
+    .title .mobile-text{
+        font-size: 1.1rem !important;
+        margin-bottom: 1vh;
+        padding: 10px 0;
+    }
+    .title2 .first-line{
+        margin: 0 !important;
+    }
+    .title2 .first-line::before {
+        bottom: -7px;
+        right: -10px;
+        width: 65%;
+    }
+    .title .Arrow {
+        position: relative;
+        height: 30px;
+    }
+    .title .first {
+        transform: rotate(90deg) translateY(-20px);
+    }
+    .title .second {
+        transform:  translateX(-10px) rotate(-90deg) scaleX(-1);
+    }
+
+    .title2{
+        gap: 0px !important;
+    }
+    .title2 h1{
+        font-size: 1.75rem !important;
+        text-align: center;
+        line-height: 2rem;
+        margin: 0 5% 10px 5%;
+    }
+    .title2 h2{
+        font-size: 1rem !important;
+        text-align: center;
+        padding: 0 0vw;
+        margin: 10px 7% 0 7%;
+    }
+    .mobile-text2{
+        font-size: 1.5rem;
+    }
+    .mobile-text2 .Arrow {
+        height: 30px;
+    }
+    .mobile-text2 .second{
+        transform: rotate(-90deg) scaleX(-1);
+    }
+    .notebook{
+        display: none;
+    }
+    .mobiles{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10vh;
+    }
+    .mobiles img {
+        width: 80vw;
+    }
+    footer a img{
+        width: 50px;
+    }
+    footer p{
+        font-size: 1rem;
+    }
+    .GPDR{
+        position: relative;
+        width: 100%;
+        display: block;
+        text-align: center;
+        right: 0;
+        bottom: 50px;
+        font-size: .5rem;
     }
 }
