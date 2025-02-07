@@ -160,8 +160,12 @@ body {
     font-weight: 700;
 }
 
+.arrow-text h3 span {
+    color: #ffde00;
+}
+
 .arrow-text img {
-    transform: scaleX(-1);
+    transform: scaleX(-1) translateX(10%);
     width: 125px;
 }
 
@@ -323,5 +327,6 @@ footer p {
     position: relative;
     width: 125px;
     right: -50px;
+    transform: translateX(10%);
 }
 
