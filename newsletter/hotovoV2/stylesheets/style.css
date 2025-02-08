@@ -23,7 +23,6 @@ body {
     position: relative;
     overflow-x: hidden;
     background-color: #171717;
-    user-select: none;
 }
 
 /* LANDING PAGE */
@@ -34,8 +33,9 @@ body {
     align-items: center;
     justify-content: center;
     width: 100vw;
-    height: 90vh;
+    height: auto;
     overflow-x: hidden;
+    padding: 125px 0;
 }
 
 /* TITLE */
@@ -121,7 +121,7 @@ body {
 /* VIDEO */
 .video {
     position: relative;
-    width: 45vw;
+    width: 58rem;
 }
 
 .video::before{
@@ -145,11 +145,12 @@ body {
 /* ARROW TEXT */
 .arrow-text{
     position: absolute;
-    right: 15vw;
-    top: 25%;
+    right: 0px;
+    top: 0%;
     display: flex;
     flex-direction: column;
     gap: 30px;
+    transform: translateX(120%) translateY(-20%);
 }
 
 .arrow-text h3{
@@ -236,7 +237,8 @@ body {
 
 /* NOTEBOOK */
 .notebook{
-    width: 45vw;
+    position: relative;
+    width: 58rem;
     margin-bottom: 5vh;
 }
 
@@ -306,8 +308,9 @@ footer p {
 
 .arrow-text2{
     position: absolute;
-    left: 22.5vw;
-    top: 30%;
+    left: 0%;
+    top: 0%;
+    transform: translateX(-50%);
     display: flex;
     flex-direction: column;
     justify-content: center;
