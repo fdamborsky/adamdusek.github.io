@@ -7,7 +7,7 @@ console.log(title2h2.innerHTML);
 
 if(window.innerWidth < 800){
     iframe.innerHTML = `<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1052596842?h=029c7c426a&amp;title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Vítám tě mezi námi! (Phone)"></iframe></div>`
-    title2h2.innerHTML = `Jednoduše stačí e-mail otevřít, přesunout ho do&nbsp;doručené pošty a nová lekce ti nikdy neuteče!`
+    title2h2.innerHTML = `Jednoduše stačí e-mail otevřít, přesunout&nbsp;ho do&nbsp;doručené pošty a nová lekce ti nikdy neuteče!`
 }
 
 const loader = document.querySelector(".loader");
