@@ -1,12 +1,12 @@
 @media only screen  and (max-width: 1800px){
     .arrow-text{
-        right: 4vw;
+        right: 10vw;
     }
     .arrow-text h3{
-        font-size: 2rem;
+        font-size: 1.75rem;
     }
     .arrow-text2{
-        left: 15vw;
+        left: 20vw;
     }
     .arrow-text2 h3{
         font-size: 2rem;
