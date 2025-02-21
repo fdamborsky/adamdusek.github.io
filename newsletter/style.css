@@ -208,7 +208,7 @@ form input[type="submit"]:hover{
 
 
 .ThreePoints {
-    height: 60vh;
+    height: 50vh;
     width: 100%;
     gap: 50px;
     display: flex;
@@ -220,6 +220,12 @@ form input[type="submit"]:hover{
 .point {
     text-align: center;
     width: 400px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 
 .point img{
@@ -229,7 +235,6 @@ form input[type="submit"]:hover{
 .point h1 {
     font-family: Medium;
     font-size: 40px;
-    padding: 10px 0px;
 }
 
 .point h2{
