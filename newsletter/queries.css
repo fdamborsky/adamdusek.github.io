@@ -1,3 +1,107 @@
+@media only screen and (max-width: 1720px) {
+    
+
+    .feedbacks {
+        width: 100%;
+    }
+
+    .OneFeedback {
+        width: 400px;         /* Zmenšená šířka */
+        height: 160px;        /* Zmenšená výška */
+        background-color: #101010;
+        padding: 12px;        /* Méně paddingu */
+        color: #ffffff;
+        border-radius: 20px;  /* Menší zaoblení */
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 6px;
+        box-sizing: border-box;
+    }
+    
+    .OneFeedback .name {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .OneFeedback .name section {
+        display: flex;
+        flex-direction: row;
+        gap: 3px;
+    }
+    
+    .OneFeedback .name section h1 {
+        font-size: 18px;  /* Menší velikost písma */
+        font-family: Medium;
+        color: #ffffff;
+    }
+    
+    .OneFeedback .name p {
+        font-size: 13px;  /* Menší velikost písma */
+        font-family: Regular;
+        color: #a1a1a1;
+    }
+    
+    .OneFeedback .name section .yes {
+        height: 14px;     /* Zmenšená ikona */
+        width: 14px;
+    }
+    
+    .OneFeedback .stars {
+        display: block;
+        width: 100px;     /* Zmenšené hvězdy */
+    }
+    
+    .OneFeedback h1 {
+        font-size: 18px;  /* Menší velikost písma pro hlavní nadpis */
+        font-family: Medium;
+        color: #ffffff;
+    }
+    
+    .OneFeedback p {
+        font-size: 14px;  /* Menší velikost písma pro text */
+        font-family: Regular;
+        color: #a1a1a1;
+        line-height: 1.2;
+    }
+    
+    .ThreePoints {
+        width: 100%;
+        height: 70vh;
+        gap: 30px;              /* Menší mezery mezi body */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .point {
+        text-align: center;
+        width: 350px;           /* Zmenšení šířky */
+    }
+    
+    .point img {
+        height: 70px;           /* Zmenšení velikosti obrázků */
+        width: 70px;
+    }
+    
+    .point h1 {
+        font-family: Medium;
+        font-size: 32px;        /* Snížení velikosti nadpisu */
+        padding: 8px 0px;
+    }
+    
+    .point h2 {
+        font-family: Regular;
+        font-size: 18px;        /* Snížení velikosti popisku */
+        line-height: 1.25;
+    }
+    
+}
+
+
 @media only screen and (max-width: 1600px) {
     .formBox h1 {
         font-size: 2.75rem;
@@ -168,6 +272,20 @@
 }
 
 @media only screen and (max-width: 800px) {
+    .GPDR {
+        font-size: .75rem;
+        display: block;
+        position:relative;
+        width: 100%;
+        text-align: center;
+        left: 0;
+        bottom: 0;
+        padding-top: 30px;
+        padding-bottom: 25px;
+    }
+    body {
+        height: auto;
+    }
     .phoneImg{
         justify-content: center;
     }

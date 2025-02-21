@@ -13,10 +13,20 @@
 
 body {
     position: relative;
-    height: 100vh;
     width: 100vw;
     overflow-x: hidden;
     background-color: #eae2d7;
+}
+
+.GPDR {
+    display: block;
+    text-align: right;
+    padding: 5vh 50px;
+    font-family: "Light";
+    color: #777777;
+    text-decoration: none;
+    font-size: .75rem;
+    z-index: 999;
 }
 
 .break {
@@ -31,6 +41,7 @@ body::before {
     width: 26%;
     content: "";
     background-color: #171717;
+    border-radius: 0px 0px 75px;
     z-index: 1;
 }
 
@@ -52,7 +63,7 @@ body::before {
     justify-content: center;
 
     width: 100%;
-    height: 100%;
+    height: 100vh;
 }
 
 .phoneImg {
@@ -172,7 +183,163 @@ form input[type="submit"]{
     margin-bottom: 20px;
 }
 
+
+
 form input[type="submit"]:hover{
     background-color: #171717;
 }
 
+
+
+
+
+
+
+
+
+
+
+.ThreePoints {
+    height: 50vh;
+    width: 100%;
+    gap: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.point {
+    text-align: center;
+    width: 400px;
+}
+
+.point img{
+    height: 85px;
+    width: 85px;
+}
+
+.point h1 {
+    font-family: Medium;
+    font-size: 40px;
+    padding: 10px 0px;
+}
+
+.point h2{
+    font-family: Regular;
+    font-size: 20px;
+    line-height: 1.25;
+}
+
+
+
+.feedbacks {
+    width: 100%;
+}
+
+.OneFeedback {
+    width: 450px;
+    height: 180px;
+    background-color: #101010;
+    padding: 15px;
+    color: #ffffff;
+    border-radius: 25px;
+
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 6px;
+    box-sizing: border-box;
+}
+
+.OneFeedback .name {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.OneFeedback .name section {
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+}
+
+.OneFeedback .name section h1 {
+    font-size: 20px;
+    font-family: Medium;
+    color: #ffffff;
+}
+
+.OneFeedback .name p {
+    font-size: 14px;
+    font-family: Regular;
+    color: #a1a1a1;
+}
+
+.OneFeedback .name section .yes {
+    height: 16px;
+    width: 16px;
+}
+
+.OneFeedback .stars {
+    display: block;
+    width: 120px;
+}
+
+.OneFeedback h1 {
+    font-size: 20px;
+    font-family: Medium;
+    color: #ffffff;
+}
+
+.OneFeedback p {
+    font-size: 16px;
+    font-family: Regular;
+    color: #a1a1a1;
+    line-height: 1.2;
+}
+
+
+
+
+
+.carousel-container {
+    width: 100vw;
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel {
+    display: flex;
+    gap: 50px;
+    width: max-content;
+    animation-duration: 45s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    margin: 20px 0px;
+}
+
+.row-1 {
+    animation-name: scroll-left;
+}
+
+.row-2 {
+    animation-name: scroll-right;
+}
+
+.row-3 {
+    animation-name: scroll-left;
+    position: relative;
+    left: -100px;
+}
+
+@keyframes scroll-left {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+}
+
+@keyframes scroll-right {
+    from { transform: translateX(-50%); }
+    to { transform: translateX(0); }
+}
