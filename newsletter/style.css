@@ -18,6 +18,14 @@ body {
     background-color: #eae2d7;
 }
 
+.crown {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    height: 20px;
+    z-index: 999;
+}
+
 .GPDR {
     display: block;
     text-align: right;
@@ -37,10 +45,10 @@ body::before {
     position: absolute;
     top: 0;
     left: 0;
-    height: 100vh;
+    height: 90vh;
     width: 26%;
     content: "";
-    background-color: #171717;
+    background-color: #101010;
     border-radius: 0px 0px 75px;
     z-index: 1;
 }
@@ -63,7 +71,7 @@ body::before {
     justify-content: center;
 
     width: 100%;
-    height: 100vh;
+    height: 90vh;
 }
 
 .phoneImg {
@@ -200,7 +208,7 @@ form input[type="submit"]:hover{
 
 
 .ThreePoints {
-    height: 50vh;
+    height: 30vh;
     width: 100%;
     gap: 50px;
     display: flex;
@@ -215,7 +223,6 @@ form input[type="submit"]:hover{
 }
 
 .point img{
-    height: 85px;
     width: 85px;
 }
 
