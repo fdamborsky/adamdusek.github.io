@@ -279,6 +279,8 @@ form input[type="submit"]:hover{
 .OneFeedback .name section {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
     gap: 3px;
 }
 
@@ -290,7 +292,7 @@ form input[type="submit"]:hover{
 }
 
 .OneFeedback .name p {
-    font-size: 20px;
+    font-size: 15px;
     font-family: Light;
     color: #a1a1a1;
     font-weight: 600;
@@ -336,7 +338,7 @@ form input[type="submit"]:hover{
     gap: 25px;
     width: max-content;
     /* Použijeme společnou animaci včetně duplikovaného obsahu */
-    animation: scroll-left 90s linear infinite;
+    animation: scroll-left 120s linear infinite;
     margin: 20px 0;
 }
 
