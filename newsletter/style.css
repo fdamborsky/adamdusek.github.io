@@ -250,8 +250,8 @@ form input[type="submit"]:hover{
 }
 
 .OneFeedback {
-    width: 450px;
-    height: 180px;
+    width: 540px;
+    height: 215px;
     background-color: #101010;
     padding: 15px;
     color: #ffffff;
@@ -284,7 +284,7 @@ form input[type="submit"]:hover{
 }
 
 .OneFeedback .name p {
-    font-size: 14px;
+    font-size: 20px;
     font-family: Regular;
     color: #a1a1a1;
 }
@@ -306,7 +306,7 @@ form input[type="submit"]:hover{
 }
 
 .OneFeedback p {
-    font-size: 16px;
+    font-size: 20px;
     font-family: Regular;
     color: #a1a1a1;
     line-height: 1.2;
@@ -326,7 +326,7 @@ form input[type="submit"]:hover{
     display: flex;
     gap: 50px;
     width: max-content;
-    animation-duration: 45s;
+    animation-duration: 60s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     margin: 20px 0px;
