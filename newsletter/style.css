@@ -250,7 +250,7 @@ form input[type="submit"]:hover{
 }
 
 .OneFeedback {
-    width: 540px;
+    width: 500px;
     height: 215px;
     background-color: #101010;
     padding: 15px;
@@ -262,6 +262,11 @@ form input[type="submit"]:hover{
     justify-content: flex-start;
     gap: 6px;
     box-sizing: border-box;
+}
+
+.feedbacks-group{
+    display: flex;
+    gap: 25px;
 }
 
 .OneFeedback .name {
@@ -279,8 +284,9 @@ form input[type="submit"]:hover{
 
 .OneFeedback .name section h1 {
     font-size: 20px;
-    font-family: Medium;
+    font-family: Regular;
     color: #ffffff;
+    font-weight: 500;
 }
 
 .OneFeedback .name p {
@@ -301,8 +307,9 @@ form input[type="submit"]:hover{
 
 .OneFeedback h1 {
     font-size: 20px;
-    font-family: Medium;
+    font-family: Regular;
     color: #ffffff;
+    font-weight: 500;
 }
 
 .OneFeedback p {
@@ -324,34 +331,42 @@ form input[type="submit"]:hover{
 
 .carousel {
     display: flex;
-    gap: 50px;
+    gap: 25px;
     width: max-content;
-    animation-duration: 60s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    margin: 20px 0px;
+    /* Použijeme společnou animaci včetně duplikovaného obsahu */
+    animation: scroll-left 60s linear infinite;
+    margin: 20px 0;
 }
 
-.row-1 {
+
+.row-1, .row-3 {
     animation-name: scroll-left;
+}
+
+.row-3{
+    position: relative;
+    left: -100px;
 }
 
 .row-2 {
     animation-name: scroll-right;
 }
 
-.row-3 {
-    animation-name: scroll-left;
-    position: relative;
-    left: -100px;
-}
-
+/* Animace posunu o 50 % (předpokládáme, že obsah je duplikován) */
 @keyframes scroll-left {
-    from { transform: translateX(0); }
-    to { transform: translateX(-50%); }
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
 }
 
 @keyframes scroll-right {
-    from { transform: translateX(-50%); }
-    to { transform: translateX(0); }
+    0% {
+        transform: translateX(-50%);
+    }
+    100% {
+        transform: translateX(0);
+    }
 }
