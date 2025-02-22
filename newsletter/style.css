@@ -334,7 +334,7 @@ form input[type="submit"]:hover{
     gap: 25px;
     width: max-content;
     /* Použijeme společnou animaci včetně duplikovaného obsahu */
-    animation: scroll-left 60s linear infinite;
+    animation: scroll-left 90s linear infinite;
     margin: 20px 0;
 }
 
