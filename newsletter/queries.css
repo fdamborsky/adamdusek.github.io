@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1720px) {
+@media only screen and (max-width: 1500px) {
     
 
     .feedbacks {
@@ -214,6 +214,26 @@
     }
 }
 @media only screen and (max-width: 1000px) {
+    body::before{
+        height: 100vh;
+        border-radius: 0px;
+    }
+    .crown {
+        display: none;
+    }
+    .ThreePoints{
+        display: none;
+    }
+    .feedbacks{
+        display: none;
+    }
+    .GPDR{
+        display: block;
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        padding: 0;
+    }
     .formBox h1 {
         font-size: 1.75rem;
         padding-bottom: 10px;
