@@ -291,8 +291,9 @@ form input[type="submit"]:hover{
 
 .OneFeedback .name p {
     font-size: 20px;
-    font-family: Regular;
+    font-family: Light;
     color: #a1a1a1;
+    font-weight: 600;
 }
 
 .OneFeedback .name section .yes {
@@ -314,9 +315,10 @@ form input[type="submit"]:hover{
 
 .OneFeedback p {
     font-size: 20px;
-    font-family: Regular;
+    font-family: Light;
     color: #a1a1a1;
     line-height: 1.2;
+    font-weight: 600;
 }
 
 
