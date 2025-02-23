@@ -7,7 +7,7 @@ const dataList = [
     },
     {
       name: "Ondřej N.",
-      title: "Sleduji veškerou Adamovu tvorbu",
+      title: "Sleduju veškerou Adamovu tvorbu",
       date: "13.01.2025",
       text: "Newsletter, komunita i akademie jsou super.<br>A to všechno zadarmo – Naprosto šílený. Díky,<br> že pro nás tohle všechno děláš, Adame."
     },
@@ -73,7 +73,7 @@ const dataList = [
     },
     {
       name: "Tadeáš L.",
-      title: "Děkuji ti, Adame!",
+      title: "Děkuju ti, Adame!",
       date: "13.01.2025",
       text: "Svou disciplínu a zodpovědnost jsem si<br>vybudoval díky tobě. Proto ti patří velké díky<br>za to, co pro nás děláš!"
     },
@@ -90,7 +90,7 @@ const dataList = [
       text: "Už jsem podpořil spoustu influencerů. A to co<br>jsem u tebe dostal zadarmo, jsem často nenašel<br>ani v placených skupinách. Díky!"
     },
     {
-      name: "Pavel S.",
+      name: "Pavel Š.",
       title: "Newsletter 10/10 – TOP",
       date: "13.01.2025",
       text: "Při cestě do školy se ve vlaku vždycky<br>naučím něco nového – Perfektní!"
@@ -115,41 +115,50 @@ const dataList = [
     container.innerHTML = "";
     
     const rows = [
-      dataList.slice(0, 6),
-      [...dataList.slice(6, 12)].reverse(),
-      dataList.slice(12, 18)
+        dataList.slice(0, 6),
+        [...dataList.slice(6, 12)].reverse(),
+        dataList.slice(12, 18)
     ];
     
     rows.forEach((feedbacks, index) => {
-      const row = document.createElement("div");
-      row.classList.add(`carousel`, `row-${index + 1}`);
-      
-      for (let i = 0; i < 2; i++) {
-        const group = document.createElement("div");
-        group.classList.add("feedbacks-group");
+        const row = document.createElement("div");
+        row.classList.add(`carousel`, `row-${index + 1}`);
         
-        feedbacks.forEach(({ name, title, date, text }) => {
-          const feedback = document.createElement("div");
-          feedback.classList.add("OneFeedback");
-          feedback.innerHTML = `
-            <div class="name">
-              <section>
-                <h1>${name}</h1>
-                <img class="yes" src="resources/imgs/yes.png" alt="">
-              </section>
-              <p>${date}</p>
-            </div>
-            <img class="stars" src="resources/imgs/stars.webp" alt="">
-            <h1>${title}</h1>
-            <p>${text}</p>
-          `;
-          group.appendChild(feedback);
-        });
-        row.appendChild(group);
-      }
-      container.appendChild(row);
-    });    
-  };
+        for (let i = 0; i < 2; i++) {
+            const group = document.createElement("div");
+            group.classList.add("feedbacks-group");
+            
+            feedbacks.forEach(({ name, title, date, text }) => {
+                const feedback = document.createElement("div");
+                feedback.classList.add("OneFeedback");
+                feedback.innerHTML = `
+                    <div class="name">
+                        <section>
+                            <h1>${name}</h1>
+                            <img class="yes" src="resources/imgs/yes.png" alt="">
+                        </section>
+                        <p>${date}</p>
+                    </div>
+                    <img class="stars" src="resources/imgs/stars.webp" alt="">
+                    <h1>${title}</h1>
+                    <p>${text}</p>
+                `;
+                group.appendChild(feedback);
+            });
+            row.appendChild(group);
+        }
+        container.appendChild(row);
+    });
+
+    // ✅ Jakmile je carousel připraven, zobraz ho
+    setTimeout(() => {
+        container.style.opacity = "1";
+        container.style.visibility = "visible";
+    }, 100);  
+};
+
+renderFeedbacks();
+
+
   
-  renderFeedbacks();
   
