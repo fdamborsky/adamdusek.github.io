@@ -78,12 +78,6 @@ const dataList = [
       text: "Svou disciplínu a zodpovědnost jsem si<br>vybudoval díky tobě. Proto ti patří velké díky<br>za to, co pro nás děláš!"
     },
     {
-      name: "Adam J.",
-      title: "Neuvěřitelná hodnota zadarmo",
-      date: "13.01.2025",
-      text: "Knížky sice nečtu, ale tohle je fakt bomba.<br>Fakt se mi líbí jak to máš všechno promyšlený."
-    },
-    {
       name: "Josef H.",
       title: "Lepší než většina placených skupin",
       date: "13.01.2025",
@@ -94,6 +88,12 @@ const dataList = [
       title: "Newsletter 10/10 – TOP",
       date: "13.01.2025",
       text: "Při cestě do školy se ve vlaku vždycky<br>naučím něco nového – Perfektní!"
+    },
+    {
+      name: "Adam J.",
+      title: "Knížky nečtu, ale tohle je super!",
+      date: "13.01.2025",
+      text: "Knížky sice nečtu, ale tohle je fakt bomba.<br>Fakt se mi líbí jak to máš všechno promyšlený."
     },
     {
       name: "Andrea K.",
