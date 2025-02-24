@@ -296,6 +296,7 @@ form input[type="submit"]:hover{
     font-family: Light;
     color: #a1a1a1;
     font-weight: 600;
+    letter-spacing: 1px;
 }
 
 .OneFeedback .name section .yes {
