@@ -1,7 +1,7 @@
 const getFormattedDate = (daysAgo) => {
   const date = new Date();
   date.setDate(date.getDate() - daysAgo);
-  return date.toLocaleDateString("cs-CZ", { day: "2-digit", month: "2-digit", year: "numeric" }).replace(/\s/g, "").replace(/\//g, ".");
+  return date.toLocaleDateString("cs-CZ", { day: "2-digit", month: "2-digit", year: "numeric" }).replace(/\//g, ".");
 };
 
 const dataList = [
@@ -44,13 +44,13 @@ const dataList = [
     {
       name: "Karel A.",
       title: "Skvělá služba zadarmo",
-      date: "03.01.2025",
+      date: "03. 01. 2025",
       text: "Narazil jsem na tebe náhodou na YouTube<br>a jsem za to moc rád. Jsi jeden z mála lidí,<br>kteří v Česku tvoří smysluplný obsah."
     },
     {
       name: "Simča K.",
       title: "Díky za celý tento projekt!",
-      date: "15.02.2025",
+      date: "15. 02. 2025",
       text: "Adame, veškerá tvoje tvorba a emaily mi dávají<br>opravdu hodně. Předáváš lidem obrovskou hodnotu. Děkuji ti za to, co děláš!"
     },
     {
@@ -62,7 +62,7 @@ const dataList = [
     {
       name: "Ondřej Z.",
       title: "Otevřel jsi mi oči",
-      date: "07.02.2025",
+      date: "07. 02. 2025",
       text: "Adame, rozhodně pokračuj dál s tím co děláš.<br>Tvá práce má opravdu smysl a v mnohém mi<br>otevřela oči. Jsem rád, že jsem tě našel."
     },
     {
@@ -74,19 +74,19 @@ const dataList = [
     {
       name: "Eva D.",
       title: "Influencerům nevěřím, ale Adam nezklamal",
-      date: "27.01.2025",
+      date: "27. 01. 2025",
       text: "Influencerům všeobecně moc nevěřím, ale tady<br>jsem rozhodně chybu neudělala. Je super<br>se každý den naučit něco nového!"
     },
     {
       name: "Tadeáš L.",
       title: "Děkuju ti, Adame!",
-      date: "23.01.2025",
+      date: "23. 01. 2025",
       text: "Svou disciplínu a zodpovědnost jsem si<br>vybudoval díky tobě. Proto ti patří velké díky<br>za to, co pro nás děláš!"
     },
     {
       name: "Josef H.",
       title: "Lepší než většina placených skupin",
-      date: "13.02.2025",
+      date: "13. 02. 2025",
       text: "Už jsem podpořil spoustu influencerů. A to co<br>jsem u tebe dostal zadarmo, jsem často nenašel<br>ani v placených skupinách. Díky!"
     },
     {
@@ -104,13 +104,13 @@ const dataList = [
     {
       name: "Andrea K.",
       title: "Jsem velmi mile překvapená",
-      date: "09.02.2025",
+      date: "09. 02. 2025",
       text: "Nemám ti co vytknout. Ať to každý zkusí a uvidí,<br>že lidem předáváš skvělé znalosti zadarmo.<br>PS: Ty memes na konci mailů jsou super!"
     },
     {
       name: "Jan Z.",
       title: "Adam doručil přesně to co slíbil",
-      date: "21.02.2025",
+      date: "21. 02. 2025",
       text: "Každý den se naučím něco nového a cítím se<br>pak nádherně. Zajímavé a zároveň motivující.<br>Vždycky mě to nakopne jít něco dělat."
     }
   ];
