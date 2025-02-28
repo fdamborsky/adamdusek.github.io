@@ -1,0 +1,33 @@
+@media only screen  and (max-width: 1800px){
+
+    .arrow-text h3{
+        font-size: 1.75rem;
+    }
+
+    .arrow-text2 h3{
+        font-size: 2rem;
+    }
+    
+}
+@media only screen  and (max-width: 1700px){
+    .arrow-text h3{
+        font-size: 1.75rem;
+    }
+
+    .arrow-text2 h3{
+        font-size: 2rem;
+    }
+    
+    
+}
+@media only screen  and (max-width: 1600px){
+
+    .arrow-text h3{
+        font-size: 1.75rem;
+    }
+
+    .arrow-text2 h3{
+        font-size: 2rem;
+    }
+    
+}
