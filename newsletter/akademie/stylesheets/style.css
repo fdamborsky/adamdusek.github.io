@@ -131,7 +131,7 @@ body {
     top: 0%;
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 15px;
     transform: translateX(120%) translateY(-20%);
 }
 
@@ -210,6 +210,7 @@ body {
     font-family: Medium;
     font-size: 1.75rem;
     padding: 20px;
+    margin-top: 10px;
     border-radius: 40px;
     transition: all 0.25s linear;
 
