@@ -1,0 +1,58 @@
+<svg viewBox="219.68 147.04000000000002 160.8 81.6" version="1.1" xmlns="http://www.w3.org/2000/svg" style="max-height: 500px" width="160.8" height="81.6">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        fill: #64192d;
+      }
+
+      .cls-2, .cls-3 {
+        display: none;
+      }
+
+      .cls-4 {
+        fill: #fff;
+        font-family: Orlean-Regular, 'Orlean Regular';
+        font-size: 12.55px;
+        letter-spacing: .32em;
+      }
+
+      .cls-3 {
+        fill: #080808;
+      }
+
+      .cls-5 {
+        fill: #d7a54c;
+      }
+    </style>
+  </defs>
+  
+  <g>
+    <g id="Layer_1">
+      <rect height="400" width="600" class="cls-2"/>
+      <rect height="400" width="600" y="1" class="cls-2"/>
+      <rect height="400" width="600" y=".16" class="cls-3"/>
+      <g>
+        <g>
+          <path d="M323.82,199.5l-2.23-1.05c-.08-.04-9.25-4.18-21.12.08l-.75.27-.75-.27c-11.97-4.3-21.03-.13-21.12-.08l-2.23,1.05-9.82-27.67,2.66-.41c.26-.04,6.46-.97,13.57,1.35,5.94,1.93,13.52,6.51,17.7,17.33,4.18-10.81,11.77-15.39,17.7-17.33,7.11-2.32,13.31-1.39,13.57-1.35l2.66.41-9.82,27.67ZM271.87,175.64l6.36,17.92c3.27-1.02,9.75-2.36,17.81-.52-5.35-15.74-18.41-17.44-24.17-17.39ZM311.41,192.12c4.29,0,7.69.78,9.78,1.44l6.36-17.92c-5.75-.06-18.82,1.65-24.17,17.39,2.9-.66,5.61-.91,8.02-.91Z" class="cls-5"/>
+          <path d="M310.34,174.23s-5.52,3.15-10.63-6.67c-5.11,9.82-10.63,6.67-10.63,6.67l10.63-14.24,10.63,14.24Z" class="cls-5"/>
+          <circle r="3.64" cy="154.04" cx="299.86" class="cls-5"/>
+          <circle r="3.64" cy="166.23" cx="267.46" class="cls-5"/>
+          <circle r="3.64" cy="166.23" cx="332.54" class="cls-5"/>
+        </g>
+        <g>
+          <text transform="translate(257.97 219.02)" class="cls-4"><tspan y="0" x="0">AKADEMIE</tspan></text>
+          <g>
+            <line y2="214.59" x2="236.35" y1="214.59" x1="251.99" class="cls-1"/>
+            <line y2="214.59" x2="355.64" y1="214.59" x1="371.28" class="cls-1"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
