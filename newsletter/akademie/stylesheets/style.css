@@ -238,14 +238,14 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 5px;
+    gap: 2.5px;
     color: #5b5b5b;
     font-size: .85rem;
     font-family: Regular;
 }
 
 .landingpageSubtext p img{
-    height: 1.25rem;
+    height: 1.1rem;
 }
 
 
@@ -262,12 +262,12 @@ body {
 }
 
 #HeroHeroUsers .stars{
-    width: 250px;
+    width: 210px;
 }
 
 #HeroHeroUsers .title {
     font-family: Medium;
-    font-size: 3.5rem;
+    font-size: 3rem;
     color: #fff;
     margin: 0;
 }
@@ -282,11 +282,11 @@ body {
 }
 
 .HeroHeroVideo{
-    width: 250px;
+    width: 220px;
 }
 
 #HeroHeroUsers .feedbacks{
-    width: 1100px;
+    width: 950px;
     padding-bottom: 50px;
 }
 
@@ -304,14 +304,14 @@ body {
 }
 
 .PerksImg{
-    width: 90%;
+    width: 75%;
 }
 
 .PerksTitle{
     position: absolute;
     top: 75px;
     font-family: Medium;
-    font-size: 4.5rem;
+    font-size: 3rem;
     color: #fff;
     margin: 0;
 }
@@ -326,8 +326,8 @@ body {
 }
 
 .perks .perk {
-    width: 700px;
-    height: 60px;
+    width: 630px;
+    height: 55px;
     background-color: #2a2a2a;
     display: flex;
     flex-direction: row;
@@ -336,9 +336,9 @@ body {
     gap: 25px;
     border-radius: 15px;
     padding: 0px 25px;
-    -webkit-box-shadow: 5px 10px 5px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 5px 10px 5px 0px rgba(0,0,0,0.75);
-    box-shadow: 5px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 2.5px 5px 2.5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2.5px 5px 2.5px 0px rgba(0,0,0,0.75);
+    box-shadow: 2.5px 5px 2.5px 0px rgba(0,0,0,0.75);
     transition: all .25s linear;
     cursor: default;
 }
@@ -348,7 +348,7 @@ body {
 }
 
 .perks .perk img{
-    height: 40px;
+    width: 40px;
 }
 .perks .perk p{
     display: flex;
@@ -357,7 +357,7 @@ body {
     align-items: center;
     gap: 10px;
     color: #ffffff;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-family: Regular;
     text-decoration: none;
     transition: all 0.25s linear;
@@ -395,14 +395,14 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 5px;
+    gap: px;
     color: #5b5b5b;
     font-size: .85rem;
     font-family: Regular;
 }
 
 .PerksP img{
-    height: 1.25rem;
+    height: 1.1rem;
 }
 
 
