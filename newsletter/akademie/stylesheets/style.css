@@ -257,7 +257,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 25px 0px;
+    padding: 25px 0px 0px 0px;
     gap: 25px;
 }
 
@@ -308,12 +308,12 @@ body {
 }
 
 .PerksImg{
-    width: 75%;
+    width: 80%;
 }
 
 .PerksTitle{
     position: absolute;
-    top: 75px;
+    top: 50px;
     font-family: Medium;
     font-size: 3rem;
     color: #fff;
@@ -362,7 +362,8 @@ body {
     gap: 10px;
     color: #ffffff;
     font-size: 1.25rem;
-    font-family: Regular;
+    font-family: Light;
+    font-weight: 600;
     text-decoration: none;
     transition: all 0.25s linear;
 }
@@ -399,7 +400,6 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: px;
     color: #5b5b5b;
     font-size: .85rem;
     font-family: Regular;
