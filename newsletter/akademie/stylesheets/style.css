@@ -271,7 +271,7 @@ body {
     color: #fff;
     margin: 0;
     position: relative;
-    top: -10px;
+    top: -5px;
 }
 
 #HeroHeroVideos{
@@ -363,7 +363,7 @@ body {
     color: #ffffff;
     font-size: 1.25rem;
     font-family: Light;
-    font-weight: 600;
+    font-weight: 500;
     text-decoration: none;
     transition: all 0.25s linear;
 }
