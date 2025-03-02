@@ -45,6 +45,11 @@ body {
     top: 40px;
     left: 40px;
     height: 45px;
+    transition: all 0.25s linear;
+}
+
+#logo:hover{
+    scale: 1.05;
 }
 
 #logo img {
@@ -242,4 +247,163 @@ body {
 .landingpageSubtext p img{
     height: 1.25rem;
 }
+
+
+/* HERO HERO USERS */
+
+#HeroHeroUsers{
+    height: auto;
+    background-color: #242a42;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 0px;
+    gap: 25px;
+}
+
+#HeroHeroUsers .stars{
+    width: 250px;
+}
+
+#HeroHeroUsers .title {
+    font-family: Medium;
+    font-size: 3.5rem;
+    color: #fff;
+    margin: 0;
+}
+
+#HeroHeroVideos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0px;
+    gap: 100px;
+}
+
+.HeroHeroVideo{
+    width: 250px;
+}
+
+#HeroHeroUsers .feedbacks{
+    width: 1100px;
+    padding-bottom: 50px;
+}
+
+
+/* Community Perks */
+
+#CommunityPerks{
+    height: auto;
+    background-color: #101010;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    position: relative;
+}
+
+.PerksImg{
+    width: 90%;
+}
+
+.PerksTitle{
+    position: absolute;
+    top: 75px;
+    font-family: Medium;
+    font-size: 4.5rem;
+    color: #fff;
+    margin: 0;
+}
+
+.perks {
+    position: relative;
+    top: -100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.perks .perk {
+    width: 700px;
+    height: 60px;
+    background-color: #2a2a2a;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 25px;
+    border-radius: 15px;
+    padding: 0px 25px;
+    -webkit-box-shadow: 5px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 5px 10px 5px 0px rgba(0,0,0,0.75);
+    transition: all .25s linear;
+    cursor: default;
+}
+
+.perks .perk:hover {
+    scale: 1.01;
+}
+
+.perks .perk img{
+    height: 40px;
+}
+.perks .perk p{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-family: Regular;
+    text-decoration: none;
+    transition: all 0.25s linear;
+}
+
+.PerksButton{
+    width: 250px;
+    background-color: #008aff;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    font-family: Medium;
+    font-size: 1.75rem;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 40px;
+    transition: all 0.25s linear;
+
+    -webkit-box-shadow:0px 0px 60px 5px rgba(0,136,255,0.69);
+    -moz-box-shadow: 0px 0px 60px 5px rgba(0,136,255,0.69);
+    box-shadow: 0px 0px 60px 5px rgba(0,136,255,0.69);
+}
+
+.PerksButton:hover{
+    scale: 1.01;
+    -webkit-box-shadow:0px 0px 81px 5px rgba(0,136,255,0.69);
+    -moz-box-shadow: 0px 0px 81px 5px rgba(0,136,255,0.69);
+    box-shadow: 0px 0px 81px 5px rgba(0,136,255,0.69);
+}
+
+.PerksP{
+    position: relative;
+    top: -10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    color: #5b5b5b;
+    font-size: .85rem;
+    font-family: Regular;
+}
+
+.PerksP img{
+    height: 1.25rem;
+}
+
+
 
