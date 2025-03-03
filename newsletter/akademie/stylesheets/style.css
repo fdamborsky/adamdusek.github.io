@@ -452,7 +452,7 @@ body {
 }
 
 #warranty h2 span::after{
-    background-image: url("/resources/imgs/underlineGreen.png");
+    background-image: url("../resources/imgs/underlineGreen.png");
     width: 95%;
     height: 48px;
     right: 10px;
