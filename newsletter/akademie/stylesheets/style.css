@@ -425,7 +425,7 @@ body {
     align-items: center;
     gap: 40px;
     text-align: center;
-    padding: 100px 0px;
+    padding: 50px 0px;
 }
 
 #warranty h1{
@@ -482,7 +482,7 @@ body {
     align-items: center;
     gap: 50px;
     text-align: center;
-    padding: 100px 0px;
+    padding: 50px 0px;
 }
 
 #savemoney h1{
@@ -501,20 +501,11 @@ body {
     font-size: 1.75rem;
     position: relative;
     z-index: 1;
+    background-color: #1a591c;
+    padding: 10px;
 }
 
-#savemoney h2::before{
-    background-image: url("/resources/imgs/highlight.png");
-    width: 110%;
-    height: 70px;
-    left: -5%;
-    bottom: -25px;
-    position: absolute;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    content: "";
-    z-index: -1;
-}
+
 
 #savemoney img {
     width: 800px;
@@ -529,9 +520,53 @@ body {
 #savemoney p{
     font-size: 1.5rem;
     text-align: left;
-    font-family: Regular;
-    font-weight: 400;
-    line-height: 1.1;
+    font-family: Light;
+    font-weight: 800;
+    line-height: 1.25;
+    width: 750px;
+}
+
+#savemoney .blue{
+    background-color: #22549f;
+    position: relative;
+    left: -5px;
+    padding: 0px 5px;
+}
+
+#savemoney .greenBG{
+    background-color: #229f25;
+    position: relative;
+    left: -5px;
+    padding: 0px 5px;
+}
+
+#savemoney .redBG{
+    background-color: #9f2222;
+    position: relative;
+    left: -5px;
+    padding: 0px 5px;
+}
+
+#savemoney .yellowBG{
+    background-color: #9f7a22;
+    position: relative;
+    left: -5px;
+    padding: 0px 5px;
+}
+
+
+#savemoney .blue2{
+    background-color: #22549f;
+    padding: 0px 5px;
+    position: relative;
+}
+
+#savemoney .yellow{
+    color: #ffde00;
+}
+
+#savemoney .green{
+    color: #50f347;
 }
 
 #savemoney .PSred{
@@ -556,5 +591,51 @@ body {
     width: 300px;
     background-color: #7a6939; /* Adjust to match the color */
     margin: 0 20px;
+}
+
+#savemoney .reference {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+#savemoney .reference img{
+    width: 550px;
+}
+
+#savemoney .stats {
+    width: 500px;
+}
+
+#savemoney .EmailSchool{
+    width: 300px !important;
+}
+
+#savemoney .growth {
+    width: 600px !important;
+}
+
+#savemoney .quote {
+    width: 600px !important;
+}
+
+#savemoney p .pDots{
+    position: relative;
+    left: 25px;
+    line-height: 1.75;
+}
+
+#savemoney p .pDots::before{
+    position: absolute;
+    content: "";
+    top: 50%;
+    transform: translateY(-50%);
+    left: -25px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #dc1c1ced;
 }
 
