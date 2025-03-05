@@ -448,9 +448,6 @@ body {
     font-size: 1.5rem;
 }
 
-#warranty .bold{
-    font-weight: 800;
-}
 
 #warranty h2{
     font-family: Regular;
@@ -525,13 +522,14 @@ body {
     font-family: Medium;
     font-size: 5rem;
     color: #ffba00;
+    position: relative;
+    top: 25px;
 }
 
 #savemoney p{
     font-size: 1.5rem;
     text-align: left;
     font-family: Light;
-    font-weight: 800;
     line-height: 1.25;
     width: 750px;
 }
