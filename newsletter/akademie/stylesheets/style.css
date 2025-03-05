@@ -330,8 +330,8 @@ body {
 
 .perks {
     position: relative;
-    top: -100px;
     display: flex;
+    padding-bottom: 50px;
     flex-direction: column;
     align-items: center;
     gap: 25px;
@@ -444,14 +444,12 @@ body {
 
 #warranty p{
     font-family: Light;
-    font-weight: 800;
+    font-weight: 500;
     font-size: 1.5rem;
 }
 
 #warranty .bold{
-    font-family: Regular;
-    font-weight: 500;
-    font-size: 1.5rem;
+    font-weight: 800;
 }
 
 #warranty h2{
@@ -492,10 +490,12 @@ body {
     align-items: center;
     gap: 50px;
     text-align: center;
-    padding: 50px 0px;
+    padding: 25px 0px 50px 0px;
 }
 
 #savemoney h1{
+    position: relative;
+    top: 25px;
     font-family: Medium;
     font-size: 3rem;
     line-height: 1.1;
