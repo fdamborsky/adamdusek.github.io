@@ -28,6 +28,8 @@ body {
 .button {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     gap: 10px;
 }
 
@@ -38,7 +40,8 @@ body {
     text-align: center;
     font-family: Medium;
     font-size: 1.75rem;
-    padding: 20px;
+    width: fit-content;
+    padding: 20px 30px;
     margin-top: 20px;
     border-radius: 40px;
     transition: all 0.25s linear;
@@ -90,6 +93,7 @@ body {
     top: 40px;
     left: 40px;
     height: 45px;
+    width: 82px;
     transition: all 0.25s linear;
 }
 
@@ -439,14 +443,20 @@ body {
 }
 
 #warranty p{
+    font-family: Light;
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+#warranty .bold{
     font-family: Regular;
-    font-weight: 100;
+    font-weight: 500;
     font-size: 1.5rem;
 }
 
 #warranty h2{
     font-family: Regular;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 1.75rem;
 }
 
