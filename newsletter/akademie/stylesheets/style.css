@@ -17,6 +17,18 @@
     src: url("../resources/fonts/asap.ttf");
 }
 
+@font-face {
+    font-family: Roboto;
+    src: url("../resources/fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: RobotoItalic;
+    src: url("../resources/fonts/Roboto-MediumItalic.ttf");
+}
+
+
+
 /* BODY */
 
 body {
@@ -534,6 +546,58 @@ body {
     width: 750px;
 }
 
+.warren {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.warren img {
+    width: 125px !important;
+}
+
+.warren h1 {
+    position: relative;
+    font-family: RobotoItalic !important;
+    font-size: 1.75rem !important;
+    padding-bottom: 40px;
+}
+
+.warren h1::before {
+    content: "";
+    position: absolute;
+    top: -30px;
+    left: -50px;
+    width: 45px;
+    height: 45px; 
+    background-image: url("../resources/imgs/Uvozovky.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.warren h1::after {
+    content: "";
+    position: absolute;
+    right: -30px;
+    top: 40px;
+    width: 45px;
+    height: 45px; 
+    transform: scaleX(-1) scaleY(-1);
+    background-image: url("../resources/imgs/Uvozovky.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+.warren h3 {
+    font-family: Roboto !important;
+    font-size: 1.1rem !important;
+    background-color: none;
+    font-weight: 100;
+    color: #4d4d4d;
+}
+
 #savemoney .blue{
     background-color: #22549f;
     position: relative;
@@ -579,6 +643,11 @@ body {
 
 #savemoney .PSred{
     background-color: #9f2222;
+}
+
+#savemoney .blueUnderline{
+    border-bottom: 3px solid #24549c;
+
 }
 
 .number-container {
@@ -637,7 +706,28 @@ body {
     position: relative;
     left: 25px;
     line-height: 1.75;
+    white-space: nowrap;
 }
+
+#savemoney p .pDotsBlue{
+    position: relative;
+    left: 25px;
+    line-height: 1.75;
+    white-space: nowrap;
+}
+
+#savemoney p .pDotsBlue::before{
+    position: absolute;
+    content: "";
+    top: 50%;
+    transform: translateY(-50%);
+    left: -25px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #008aff;
+}
+
 
 #savemoney p .pDots::before{
     position: absolute;
@@ -651,3 +741,48 @@ body {
     background-color: #dc1c1ced;
 }
 
+.firstbook{
+    position: relative;
+}
+
+.firstbook .arrow{
+    width: 300px;
+}
+
+.firstbook .arrow .circle{
+    width: 125px !important;
+    position: absolute;
+    right: -25px;
+    top:-30%;
+}
+
+.firstbook .arrow .arrow2{
+    position: absolute;
+    right: -110px;
+    top:-20%;
+    transform: scaleX(-1) rotate(5deg);
+    width: 75px !important;
+}
+
+.firstbook .arrow p{
+    font-family: Asap !important;
+    font-size: 1rem !important;
+    color: #ffba00;
+    position: absolute;
+    right: -180px;
+    top: -40px;
+    transform: rotate(10deg);
+    width: auto !important;
+}
+
+.arrow3 {
+    position: absolute;
+    bottom: 150px;
+    right: 35%;
+    width: 100px !important;
+    transform: rotate(-70deg) scaleX(-1);
+}
+
+.arrow3 img {
+    width: 100% !important;
+}
