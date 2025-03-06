@@ -24,7 +24,7 @@
 
 @font-face {
     font-family: RobotoItalic;
-    src: url("../resources/fonts/Roboto-MediumItalic.ttf");
+    src: url("../resources/fonts/Roboto-LightItalic.ttf");
 }
 
 
@@ -490,6 +490,7 @@ body {
 
 /* savemoney */
 #savemoney{
+    position: relative;
     height: auto;
     background-color: #101010;
     color: #fff;
@@ -554,13 +555,13 @@ body {
 }
 
 .warren img {
-    width: 125px !important;
+    width: 110px !important;
 }
 
 .warren h1 {
     position: relative;
     font-family: RobotoItalic !important;
-    font-size: 1.75rem !important;
+    font-size: 1.5rem !important;
     padding-bottom: 40px;
 }
 
@@ -569,8 +570,8 @@ body {
     position: absolute;
     top: -30px;
     left: -50px;
-    width: 45px;
-    height: 45px; 
+    width: 40px;
+    height: 40px; 
     background-image: url("../resources/imgs/Uvozovky.png");
     background-size: contain;
     background-repeat: no-repeat;
@@ -581,8 +582,8 @@ body {
     position: absolute;
     right: -30px;
     top: 40px;
-    width: 45px;
-    height: 45px; 
+    width: 40px;
+    height: 40px; 
     transform: scaleX(-1) scaleY(-1);
     background-image: url("../resources/imgs/Uvozovky.png");
     background-size: contain;
@@ -709,6 +710,10 @@ body {
     white-space: nowrap;
 }
 
+#savemoney p .lighter{
+    font-weight: 100;
+}
+
 #savemoney p .pDotsBlue{
     position: relative;
     left: 25px;
@@ -778,11 +783,28 @@ body {
 .arrow3 {
     position: absolute;
     bottom: 150px;
-    right: 35%;
+    left: 0px;
     width: 100px !important;
     transform: rotate(-70deg) scaleX(-1);
 }
 
 .arrow3 img {
     width: 100% !important;
+}
+
+.button5{
+    position: relative;
+}
+
+.button5::after{
+    content: "";
+    position: absolute;
+    top: -150px;
+    right: 70px;
+    width: 140px;
+    height: 140px; 
+    transform: scaleX(-1) rotate(80deg);
+    background-image: url("../resources/imgs/arrow2.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
 }
