@@ -552,6 +552,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    scale: 0.85;
 }
 
 .warren img {
