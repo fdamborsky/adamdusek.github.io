@@ -580,7 +580,7 @@ body {
 .warren h1::after {
     content: "";
     position: absolute;
-    right: -30px;
+    right: -40px;
     top: 40px;
     width: 40px;
     height: 40px; 
