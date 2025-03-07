@@ -809,3 +809,128 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
 }
+
+#FAQ{
+    position: relative;
+    height: auto;
+    background-color: #101010;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 50px;
+    text-align: center;
+    padding: 30px 0px 50px 0px;
+}
+
+#FAQ::after{
+    content: "";
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 1000px;
+    height: 3px;
+    background-color: #2a2a2a;
+}
+
+.FAQtitle h5{
+    font-size: 4rem;
+    color: #fff;
+    font-family: Medium;
+}
+.FAQtitle h6{
+    padding-top: 15px;
+    font-size: 1.5rem;
+    color: #70b3ec;
+    font-family: Regular;
+}
+
+.FAQQuestions{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.faq-item {
+    background: #2a2a2a;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    -webkit-box-shadow: 2.5px 5px 2.5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2.5px 5px 2.5px 0px rgba(0,0,0,0.75);
+    box-shadow: 2.5px 5px 2.5px 0px rgba(0,0,0,0.75);
+    overflow: hidden;
+    width: 650px;
+    font-family: Regular;
+    color: #fff;
+    font-size: 1.25rem;
+}
+.faq-question {
+    background: #2a2a2a;
+    padding: 10px 15px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    transition: background 0.3s;
+    letter-spacing: .5px;
+}
+
+.faq-answer {
+    font-family: Light;
+    line-height: 1.1;
+    max-height: 0;
+    overflow: hidden;
+    padding: 0 15px;
+    opacity: 0;
+    transition: max-height 0.5s ease-out, opacity 0.3s ease-out, padding 0.3s ease-out;
+    text-align: left;
+}
+.faq-item.active .faq-answer {
+    opacity: 1;
+    padding: 0px 15px 15px 15px;
+}
+.faq-question span {
+    color: #008aff;
+    font-family: Light;
+    display: inline-block;
+    font-size: 3rem;
+    transition: transform 0.25s;
+}
+.faq-item.active .faq-question span {
+    transform: rotate(45deg);
+}
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0 ;
+}
+
+footer img {
+    width: 125px;
+    transition: all .5s linear;
+}
+
+footer img:hover{
+    scale: 1.03;
+}
+
+footer p{
+    padding: 25px 0;
+    font-family: Light;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.GPDR {
+    font-family: "Light";
+    color: #777777;
+    text-decoration: none;
+    font-size: .75rem;
+    z-index: 999;
+}

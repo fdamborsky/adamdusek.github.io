@@ -29,3 +29,19 @@ setTimeout(() => {
         }, 500); // Add a small delay to cover transition
     }
 }, 3000);
+
+document.querySelectorAll('.faq-question').forEach(item => {
+    item.addEventListener('click', () => {
+        const parent = item.parentNode;
+        const answer = parent.querySelector('.faq-answer');
+        const symbol = item.querySelector('span');
+        
+        if (parent.classList.contains('active')) {
+            answer.style.maxHeight = null;
+            parent.classList.remove('active');
+        } else {
+            answer.style.maxHeight = answer.scrollHeight + 'px';
+            parent.classList.add('active');
+        }
+    });
+});
