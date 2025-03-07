@@ -552,7 +552,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    scale: 0.85;
 }
 
 .warren img {
@@ -594,7 +593,7 @@ body {
 
 .warren h3 {
     font-family: Roboto !important;
-    font-size: 1.1rem !important;
+    font-size: 1rem !important;
     background-color: none;
     font-weight: 100;
     color: #4d4d4d;
@@ -872,14 +871,14 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-weight: bold;
     transition: background 0.3s;
     letter-spacing: .5px;
+    height: 45px;
 }
 
 .faq-answer {
     font-family: Light;
-    line-height: 1.1;
+    line-height: 1.25;
     max-height: 0;
     overflow: hidden;
     padding: 0 15px;
@@ -889,13 +888,14 @@ body {
 }
 .faq-item.active .faq-answer {
     opacity: 1;
-    padding: 0px 15px 15px 15px;
+    padding: 0px 15px 25px 15px;
 }
 .faq-question span {
     color: #008aff;
-    font-family: Light;
+    font-family: Roboto;
+    font-weight: 100;
     display: inline-block;
-    font-size: 3rem;
+    font-size: 2rem;
     transition: transform 0.25s;
 }
 .faq-item.active .faq-question span {
