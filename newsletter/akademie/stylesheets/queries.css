@@ -31,3 +31,127 @@
     }
     
 }
+
+@media only screen and (max-width: 1500px){
+    .video {
+        width: 50rem;
+    }
+
+    .title h1 {
+        font-size: 3rem;
+    }
+
+    .title h2 {
+        font-size: 1.1rem;
+        padding: 8px 16px;
+    }
+
+    .bluebutton {
+        font-size: 1.5rem;
+        padding: 18px 28px;
+    }
+
+    .arrow-text {
+        right: -30px;
+        transform: translateX(100%) translateY(-10%);
+    }
+
+    .arrow-text h3 {
+        font-size: 1.3rem;
+    }
+
+    .arrow-text img {
+        width: 100px;
+    }
+
+    .landingpageSubtext h1 {
+        font-size: 1.5rem;
+    }
+
+    .landingpageSubtext .link {
+        font-size: 1.3rem;
+    }
+
+    .landingpageSubtext .link img,
+    .landingpageSubtext h1 img {
+        height: 1.8rem;
+    }
+    #HeroHeroUsers .title {
+        font-size: 2.5rem;
+    }
+
+    #HeroHeroUsers .stars {
+        width: 180px;
+    }
+
+    #HeroHeroVideos {
+        gap: 50px;
+    }
+
+    .HeroHeroVideo {
+        width: 200px;
+    }
+
+    #HeroHeroUsers .feedbacks {
+        width: 900px;
+    }
+
+    .PerksImg {
+        width: 1300px;
+    }
+
+    .PerksTitle {
+        font-size: 2.5rem;
+        top: 50px;
+    }
+
+    .perks .perk {
+        width: 550px;
+        height: 50px;
+        gap: 20px;
+        padding: 0 20px;
+    }
+
+    .perks .perk img {
+        width: 35px;
+    }
+
+    .perks .perk p {
+        font-size: 1.1rem;
+    }
+
+    .PerksButton {
+        font-size: 1.5rem;
+        width: 220px;
+        padding: 18px;
+    }
+
+    .PerksP {
+        font-size: 0.8rem;
+    }
+
+    .PerksP img {
+        height: 1rem;
+    }
+    #warranty h1 {
+        font-size: 2.5rem;
+    }
+
+    #warranty p {
+        font-size: 1.3rem;
+    }
+
+    #warranty h2 {
+        font-size: 1.5rem;
+    }
+
+    #warranty h2 span::after {
+        height: 15px;
+        bottom: -10px;
+    }
+
+    #warranty img {
+        width: 450px;
+    }
+    
+}
