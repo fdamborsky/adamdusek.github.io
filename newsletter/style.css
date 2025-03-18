@@ -109,6 +109,10 @@ body::before {
     font-size: 3rem;
     padding-bottom: 20px;
 }
+
+.formBox h1 span{
+    font-family: Light;
+}
 .formBox h2 {
     font-size: 1.5rem;
     font-family: light;
@@ -148,6 +152,8 @@ body::before {
 }
 
 .formBox img {
+    position: relative;
+    top: .25rem;
     height: 3rem;
 }
 
