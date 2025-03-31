@@ -75,7 +75,7 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    color: #5b5b5b;
+    color: #5b5b5b !important;
     font-size: .85rem !important;
     font-family: Regular;
 }
@@ -128,7 +128,7 @@ body {
     align-items: center;
     width: fit-content;
     gap: 20px;
-    margin-bottom: 5vh;
+    margin-bottom: 2.5vh;
 }
 
 
@@ -139,7 +139,7 @@ body {
 .title h1 {
     color: #ffffff;
     font-family: Medium;
-    font-size: 3.5rem;
+    font-size: 3.15rem;
     text-align: center;
     line-height: 1.1;
 }
@@ -167,8 +167,9 @@ body {
 
 .title h2 {
     color: #ffffff;
-    font-family: regular;
-    font-size: 1.75rem;
+    font-family: Light;
+    font-weight: 500;
+    font-size: 1.5rem;
     text-align: center;
     width: fit-content;
     padding: 30px 20px 10px 20px;
@@ -227,13 +228,13 @@ body {
     align-items: center;
     gap: 10px;
     color: #ffffff;
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     font-family: Medium;
     margin-bottom: 10px;
 }
 
 .landingpageSubtext h1 img{
-    height: 2rem;
+    height: 1.75rem;
 }
 
 .landingpageSubtext .link{
@@ -243,7 +244,7 @@ body {
     align-items: center;
     gap: 10px;
     color: #ffffff;
-    font-size: 1.5rem;
+    font-size: 1.35rem;
     font-family: Regular;
     text-decoration: none;
     transition: all 0.25s linear;
@@ -254,7 +255,7 @@ body {
 }
 
 .landingpageSubtext .link img{
-    height: 2rem;
+    height: 1.75rem;
 }
 
 .quoteBoxMatous {
@@ -266,16 +267,24 @@ body {
     padding-bottom: 20px;
 }
 
+.quoteBoxMatous section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
 .quoteBoxMatous .MatousStars {
-    width: 150px;
+    width: 140px;
 }
 .quoteBoxMatous .Matous {
-    width: 70px;
+    width: 65px;
 }
 
 .quoteBoxMatous p {
     color: #ffffff;
-    font-size: 1.25rem;
+    font-size: 1.20rem;
     font-family: Light;
     text-align: center;
     font-style: italic;
