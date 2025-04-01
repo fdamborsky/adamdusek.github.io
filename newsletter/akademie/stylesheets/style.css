@@ -318,15 +318,15 @@ body {
     align-items: center;
     justify-content: center;
     gap: 20px;
-    padding: 50px;
+    padding: 80px;
     background-color: #242a42;
 }
 
 .Isthisyou h1 {
     gap: 10px;
     color: #ffffff;
-    font-size: 3rem;
     font-family: Medium;
+    font-size: 3.15rem;
     margin-bottom: 10px;
     text-align: center;
 }
@@ -346,14 +346,15 @@ body {
     align-items: center;
     gap: 10px;
     color: #ffffff;
-    font-size: 1.25rem;
-    font-family: Regular;
+    font-size: 1.35rem;
+    font-family: Light;
+    font-weight: 500;
     text-decoration: none;
     transition: all 0.25s linear;
 }
 
 .Isthisyou p img {
-    height: 1.5rem;
+    height: 1.6rem;
 }
 
 .Isthisyou .lastP {
@@ -383,7 +384,7 @@ body {
     justify-content: center;
     align-items: center;
     font-family: Medium;
-    font-size: 3rem;
+    font-size: 3.15rem;
     color: #fff;
     margin: 0;
     position: relative;
@@ -446,7 +447,7 @@ body {
     text-align: center;
     top: 70px;
     font-family: Medium;
-    font-size: 3rem;
+    font-size: 3.15rem;
     color: #fff;
     margin: 0;
 }
@@ -458,8 +459,9 @@ body {
 #CommunityPerks p {
     gap: 10px;
     color: #ffffff;
-    font-size: 1.5rem;
-    font-family: Regular;
+    font-family: Light;
+    font-weight: 500;
+    font-size: 1.6rem;
     text-decoration: none;
     transition: all 0.25s linear;
     text-align: center;
@@ -595,7 +597,7 @@ body {
 
 #warranty h1{
     font-family: Medium;
-    font-size: 3rem;
+    font-size: 3.15rem;
     line-height: 1.1;
 }
 
@@ -683,7 +685,7 @@ body {
     position: relative;
     top: 25px;
     font-family: Medium;
-    font-size: 3rem;
+    font-size: 3.15rem;
     line-height: 1.1;
 }
 
@@ -699,9 +701,9 @@ body {
 }
 
 #savemoney h2{
-    font-family: Regular;
+    font-family: Light;
     font-weight: 500;
-    font-size: 1.75rem;
+    font-size: 1.6rem;
     position: relative;
     z-index: 1;
     padding: 10px;
