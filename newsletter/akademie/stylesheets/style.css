@@ -295,7 +295,7 @@ body {
 
 .MatousName {
     position: relative;
-    top: -10px;
+    top: -15px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -654,10 +654,14 @@ body {
     padding: 25px 0px 50px 0px;
 }
 
+.image {
+    position: relative;
+}
+
 #arrow-text{
     position: absolute;
-    top: 300px;
-    right: 24%;
+    top: 100px;
+    right: -100px;
     color: #FFA500;
     font-weight: bold;
     text-align: center;
@@ -669,13 +673,13 @@ body {
     font-weight: 200;
     width: auto !important; 
     text-align: center !important;
-    font-size: 1.25rem !important;
+    font-size: 1rem !important;
 }
 
 #arrow-text img {
     position: relative;
     margin-top: 10px;
-    width: 60px !important;
+    width: 50px !important;
     left: -20px;
     transform: scaleX(-1) rotate(15deg);
 }
