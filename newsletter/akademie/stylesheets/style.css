@@ -735,19 +735,19 @@ body {
 
 
 #savemoney img {
-    width: 800px;
+    width: 680px;
 }
 
 .PS{
     font-family: Medium;
-    font-size: 5rem;
+    font-size: 4.25rem;
     color: #ffba00;
     position: relative;
     top: 25px;
 }
 
 #savemoney p{
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     text-align: left;
     font-family: Light;
     line-height: 1.25;
@@ -762,13 +762,13 @@ body {
 }
 
 .warren img {
-    width: 110px !important;
+    width: 90px !important;
 }
 
 .warren h1 {
     position: relative;
     font-family: RobotoItalic !important;
-    font-size: 1.5rem !important;
+    font-size: 1.25rem !important;
     padding-bottom: 40px;
 }
 
@@ -777,8 +777,8 @@ body {
     position: absolute;
     top: -30px;
     left: -50px;
-    width: 40px;
-    height: 40px; 
+    width: 35px;
+    height: 35px; 
     background-image: url("../resources/imgs/Uvozovky.png");
     background-size: contain;
     background-repeat: no-repeat;
@@ -789,8 +789,8 @@ body {
     position: absolute;
     right: -40px;
     top: 40px;
-    width: 40px;
-    height: 40px; 
+    width: 35px;
+    height: 35px; 
     transform: scaleX(-1) scaleY(-1);
     background-image: url("../resources/imgs/Uvozovky.png");
     background-size: contain;
@@ -800,7 +800,7 @@ body {
 
 .warren h3 {
     font-family: Roboto !important;
-    font-size: 1rem !important;
+    font-size: .8rem !important;
     background-color: none;
     font-weight: 100;
     color: #4d4d4d;
@@ -862,7 +862,7 @@ body {
     display: flex;
     align-items: center;
     color: #7a6939; /* Adjust to match the color */
-    font-size: 5rem;
+    font-size: 4.25rem;
     font-weight: bold;
     position: relative;
     font-family: Regular;
@@ -887,23 +887,23 @@ body {
 }
 
 #savemoney .reference img{
-    width: 550px;
+    width: 475px;
 }
 
 #savemoney .stats {
-    width: 500px;
+    width: 475px;
 }
 
 #savemoney .EmailSchool{
-    width: 300px !important;
+    width: 250px !important;
 }
 
 #savemoney .AntoninReference{
-    width: 650px !important;
+    width: 500px !important;
 }
 
 #savemoney .growth {
-    width: 600px !important;
+    width: 550px !important;
 }
 
 #savemoney .quote {
@@ -962,7 +962,7 @@ body {
 }
 
 .firstbook .arrow .circle{
-    width: 125px !important;
+    width: 100px !important;
     position: absolute;
     right: -25px;
     top:-30%;
@@ -998,6 +998,15 @@ body {
 .arrow3 img {
     width: 100% !important;
 }
+
+.center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #9f7a22;
+    padding: 0px 5px;
+}
+
 
 .button5{
     position: relative;
