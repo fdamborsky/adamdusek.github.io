@@ -690,7 +690,6 @@ body {
 
 #savemoney h1{
     position: relative;
-    top: 25px;
     font-family: Medium;
     font-size: 3.15rem;
     line-height: 1.1;
@@ -769,14 +768,15 @@ body {
     position: relative;
     font-family: RobotoItalic !important;
     font-size: 1.25rem !important;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
+    top: 15px;
 }
 
 .warren h1::before {
     content: "";
     position: absolute;
     top: -30px;
-    left: -50px;
+    left: -40px;
     width: 35px;
     height: 35px; 
     background-image: url("../resources/imgs/Uvozovky.png");
@@ -971,9 +971,9 @@ body {
 .firstbook .arrow .arrow2{
     position: absolute;
     right: -110px;
-    top:-20%;
+    top:-25%;
     transform: scaleX(-1) rotate(5deg);
-    width: 75px !important;
+    width: 65px !important;
 }
 
 .firstbook .arrow p{
@@ -982,7 +982,7 @@ body {
     color: #ffba00;
     position: absolute;
     right: -180px;
-    top: -40px;
+    top: -45px;
     transform: rotate(10deg);
     width: auto !important;
 }
@@ -1036,7 +1036,7 @@ body {
     align-items: center;
     gap: 50px;
     text-align: center;
-    padding: 30px 0px 50px 0px;
+    padding: 60px 0px 50px 0px;
 }
 
 #FAQ::after{
@@ -1050,15 +1050,16 @@ body {
 }
 
 .FAQtitle h5{
-    font-size: 4rem;
+    font-size: 3.5rem;
     color: #fff;
     font-family: Medium;
 }
 .FAQtitle h6{
     padding-top: 15px;
+    font-family: Light;
+    font-weight: 500;
     font-size: 1.5rem;
     color: #70b3ec;
-    font-family: Regular;
 }
 
 .FAQQuestions{
@@ -1075,10 +1076,10 @@ body {
     -moz-box-shadow: 2.5px 5px 2.5px 0px rgba(0,0,0,0.75);
     box-shadow: 2.5px 5px 2.5px 0px rgba(0,0,0,0.75);
     overflow: hidden;
-    width: 650px;
+    width: 580px;
     font-family: Regular;
     color: #fff;
-    font-size: 1.25rem;
+    font-size: 1.1rem;
 }
 .faq-question {
     background: #2a2a2a;
@@ -1089,7 +1090,7 @@ body {
     align-items: center;
     transition: background 0.3s;
     letter-spacing: .5px;
-    height: 45px;
+    height: 40px;
 }
 
 .faq-answer {
