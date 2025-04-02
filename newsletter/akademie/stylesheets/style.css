@@ -1108,11 +1108,13 @@ body {
     padding: 0px 15px 25px 15px;
 }
 .faq-question span {
+    position: relative;
+    top: -2px;
     color: #008aff;
-    font-family: Roboto;
-    font-weight: 100;
-    display: inline-block;
+    font-family: Light;
+    font-weight: 500;
     font-size: 2rem;
+    display: inline-block;
     transition: transform 0.25s;
 }
 .faq-item.active .faq-question span {
