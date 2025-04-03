@@ -942,6 +942,15 @@
     .landingpageSubtext .link img, .landingpageSubtext h1 img {
         height: 1.4rem;
     }
+    .Isthisyou{
+        padding: 60px 30px;
+    }
+    .Isthisyou h1 {
+        font-size: 32px;
+    }
+    .Isthisyou p{
+        font-size: 18px;
+    }
 }
 
 
