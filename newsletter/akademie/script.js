@@ -53,7 +53,7 @@ if (window.innerWidth <= 800){
     <h1>Přestaň zabíjet<br><span class="TitleRed">každou konverzaci</span>!<br>
     Udělej tyto drobné<br>změny a proměň<br>
     nudné rozhovory<br>v <span class="TitleUnderline">silné vztahy</span></h1>
-    <h2>Sleduj 2 speciální lekce ZDARMA<br>a ihned zlepšitvoji komunikaci<br>a vztahy jednou provždy</h2>`
+    <h2>Sleduj 2 speciální lekce ZDARMA<br>a ihned zlepši tvoji komunikaci<br>a vztahy jednou provždy</h2>`
 
     const matous_quote = document.querySelector(".quoteBoxMatous .quote")
     matous_quote.innerHTML= `

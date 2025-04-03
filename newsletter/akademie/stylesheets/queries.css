@@ -841,9 +841,33 @@
 @media only screen and (max-width: 500px){
     #logo {
         top: 20px;
-        left: 20px;
-        height: 28px;
+        left:50%;
+        transform: translateX(-50%);
+        height: 30px;
         width: 52px;
+    }
+    .button {
+        gap: 5px;
+    }
+    .bluebutton{
+        font-size: 1rem;
+        width: fit-content;
+        padding: 12px 22px;
+        margin-top: 20px;
+        border-radius: 40px
+    }
+    .bluebutton:hover{
+        scale: 1.01;
+    }
+    
+    .bluebuttonP{
+        font-size: .75rem !important;
+    }
+    .bluebuttonP img{
+        position: relative;
+        top: -1px;
+        height: .75rem !important;
+        margin-right: 2.5px;
     }
     .quoteBoxMatous p {
         font-size: 0.75rem;
@@ -868,13 +892,22 @@
     .video {
         width: 95%;
     }
+    .landingpageSubtext h1 {
+        font-size: 1.6rem;
+    }
+    .landingpageSubtext .link img, .landingpageSubtext h1 img {
+        height: 1.75rem;
+    }
+    .landingpageSubtext .link {
+        font-size: 1rem;
+    }
 }
+
 
 
 @media only screen and (max-width: 420px){
     #logo {
         top: 20px;
-        left: 20px;
         height: 28px;
         width: 52px;
     }
@@ -900,6 +933,12 @@
     }
     .video {
         width: 95%;
+    }
+    .landingpageSubtext h1 {
+        font-size: 1.4rem;
+    }
+    .landingpageSubtext .link img, .landingpageSubtext h1 img {
+        height: 1.4rem;
     }
 }
 
