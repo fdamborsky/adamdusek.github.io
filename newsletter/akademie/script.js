@@ -62,4 +62,11 @@ if (window.innerWidth <= 800){
     Definitivně se jedná o mé nejlépe investované peníze.”</p>
     `
 
+    const matous_quote_p = document.querySelector(".quote")
+    matous_quote_p.innerHTML = `
+    “Adamův&nbsp;systém lekcí je naprosto&nbsp;úžasný. Dává si neuvěřitelně&nbsp;záležet.
+    Díky němu jsem jednou&nbsp;provždy změnil svůj přístup ke komunikaci a ostatním lidem.
+    Definitivně&nbsp;se jedná o mé nejlépe&nbsp;investované peníze.”
+    `
+
 }
