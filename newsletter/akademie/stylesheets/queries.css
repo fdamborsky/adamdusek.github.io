@@ -859,6 +859,48 @@
     .quoteBoxMatous {
         gap: 10px;
     }
+    .title h1 {
+        font-size: 38px;
+    }
+    .title h2 {
+        font-size: 26px;
+    }
+    .video {
+        width: 95%;
+    }
+}
+
+
+@media only screen and (max-width: 420px){
+    #logo {
+        top: 20px;
+        left: 20px;
+        height: 28px;
+        width: 52px;
+    }
+    .quoteBoxMatous p {
+        font-size: 0.75rem;
+    }
+    .MatousName {
+        top: -5px;
+        font-size: .75rem !important;
+    }
+    .MatousName img {
+        height: .9rem !important;
+        margin-right: 5px;
+    }
+    .quoteBoxMatous {
+        gap: 10px;
+    }
+    .title h1 {
+        font-size: 38px;
+    }
+    .title h2 {
+        font-size: 22px;
+    }
+    .video {
+        width: 95%;
+    }
 }
 
 
