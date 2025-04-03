@@ -951,6 +951,9 @@
     .Isthisyou p{
         font-size: 18px;
     }
+    .Isthisyou p img {
+        height:21px;
+    }
 }
 
 
