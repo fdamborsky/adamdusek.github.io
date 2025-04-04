@@ -937,14 +937,14 @@
     #HeroHeroUsers {
         padding: 25px 0px;
     }
-    #savemoney img {
+    #savemoney .image {
         display: none;
     }
     #arrow-text, .buttonSaveMoney, .buttonWarranty {
        display: none;
     }
     #savemoney h1 {
-        font-size: 38px;
+        font-size: 36px;
     }
     #savemoney h2 {
         font-size: 21px;
@@ -972,6 +972,13 @@
     #warranty {
         gap: 20px;
     }
+    .Isthisyou .lastP {
+        margin-top: 0px;
+    }
+    #HeroHeroUsers .title{
+        display: block;
+        text-align: center;
+    }
 }
 
 
@@ -995,9 +1002,6 @@
     }
     .quoteBoxMatous {
         gap: 10px;
-    }
-    .title h1 {
-        font-size: 38px;
     }
     .title h2 {
         font-size: 22px;
@@ -1032,6 +1036,9 @@
     }
     #savemoney h2, #warranty h2, #warranty p  {
         font-size: 18px;
+    }
+    #savemoney h1{
+        font-size: 31px !important;
     }
 }
 

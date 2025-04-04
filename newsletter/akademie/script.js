@@ -71,7 +71,7 @@ if (window.innerWidth <= 800){
 
     const is_this_you = document.querySelector(".lastP")
     is_this_you.innerHTML = `
-    <p class="lastP"><img src="resources/imgs/Finger.png" alt="">Pokud ano - Tohle je<br>přesně pro tebe...</p>
+    <img src="resources/imgs/Finger.png" alt="">Pokud ano - Tohle je přesně<br>pro tebe...
     `
     const perks_title = document.querySelector(".CommunityTitle")
     perks_title.innerHTML = `
@@ -85,26 +85,26 @@ if (window.innerWidth <= 800){
 
     const herohero_title = document.querySelector("#HeroHeroUsers .title")
     herohero_title.innerHTML = `
-    <h1>Přidej se ke studentům,<br>kteří už rostou! <img class="titleIMG" src="resources/imgs/Brain.png" alt=""></h1>
+    Přidej se ke studentům<br>kteří už rostou! <img class="titleIMG" src="resources/imgs/Brain.png" alt="">
     `
 
     const savemoney_h1 = document.querySelector("#savemoney h1")
     const savemoney_h2 = document.querySelector("#savemoney h2")
     savemoney_h1.innerHTML = `
-    <h1>Začni se učit<br><span>10x rychleji</span><br>s mým systémem <img src="resources/imgs/Gear.png" alt=""></h1>
+    Začni se učit <span>10x rychleji</span><br>s mým systémem <img src="resources/imgs/Gear.png" alt="">
     `
     savemoney_h2.innerHTML = `
-    <h2>Převeď lekce jednoduše do tvého života<br>díky prověřeným postupům a dosáhni<br>svých <span>vytoužených výsledků!</span></h2>
+    Převeď lekce jednoduše do tvého života<br>díky prověřeným postupům a dosáhni<br>svých <span>vytoužených výsledků!</span>
     `
 
 
     const warranty_firstP = document.querySelector(".firstP")
     warranty_firstP.innerHTML = `
-    <p class="firstP">Tvou spokojeností jsem si už teď jistý,<br>protože mým systémem prošlo<br>430+ lidí, jako jsi ty.</p>
+    <p class="firstP">Tvou spokojeností jsem si už teď jistý,<br>protože mým systémem prošlo<br>430+ lidí, jako jsi ty.
     `
 
     const warranty_h2 = document.querySelector("#warranty h2")
     warranty_h2.innerHTML = `
-    <h2>Pokud se v každé lekci nenaučíš<br>něco nového,napiš mi do 7 dní,<br>vrátím ti <span>100% peněz.</span></h2>
+    Pokud se v každé lekci nenaučíš<br>něco nového,napiš mi do 7 dní,<br>vrátím ti <span>100% peněz.</span>
     `
 }
