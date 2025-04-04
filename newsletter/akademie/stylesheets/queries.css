@@ -886,7 +886,7 @@
         gap: 10px;
     }
     .title h1 {
-        font-size: 38px;
+        font-size: 36px;
     }
     .title h2 {
         font-size: 26px;
@@ -902,6 +902,75 @@
     }
     .landingpageSubtext .link {
         font-size: 1rem;
+    }
+    .PerksImg {
+        display: none;
+    }
+    .perks{
+        display: none;
+    }
+    .PerksTitle {
+        font-size: 38px;
+    }
+    #CommunityPerks p {
+        padding: 0px 20px;
+        font-size: 21px;
+    }
+    .PerksTitle img {
+        display: none;
+    }
+    .CommunityTitle {
+        padding: 50px 0px;
+        position: relative !important;
+        top: 0px !important;
+    }
+    #HeroHeroVideos, #HeroHeroUsers .feedbacks, #HeroHeroUsers .stars{
+        display: none;
+    }
+    .herohero {
+        display: none;
+    }
+    .titleIMG{
+        position: relative;
+        top: 5px;
+    }
+    #HeroHeroUsers {
+        padding: 25px 0px;
+    }
+    #savemoney img {
+        display: none;
+    }
+    #arrow-text, .buttonSaveMoney, .buttonWarranty {
+       display: none;
+    }
+    #savemoney h1 {
+        font-size: 38px;
+    }
+    #savemoney h2 {
+        font-size: 21px;
+    }
+    #savemoney h2 span::after{
+        bottom: -20px;
+    }
+    #warranty img {
+        display: none;
+    }
+    #warranty h1 {
+        font-size: 38px;
+    }
+    #warranty p {
+        font-size: 21px;
+    }
+    #warranty h2 {
+        font-size: 21px;
+    }
+    #warranty h2 span::after {
+        width: 100%;
+        right: 0px;
+        bottom: -15px;
+    }
+    #warranty {
+        gap: 20px;
     }
 }
 
@@ -953,6 +1022,16 @@
     }
     .Isthisyou p img {
         height:21px;
+    }
+    #CommunityPerks p {
+        padding: 0px 20px;
+        font-size: 18px;
+    }
+    .title h1, #warranty h1, .PerksTitle, #savemoney h1 {
+        font-size: 33px;
+    }
+    #savemoney h2, #warranty h2, #warranty p  {
+        font-size: 18px;
     }
 }
 
