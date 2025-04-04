@@ -1038,7 +1038,13 @@
         font-size: 18px;
     }
     #savemoney h1{
-        font-size: 31px !important;
+        font-size: 33px !important;
+    }
+    .Isthisyou h1 {
+        font-size: 33px;
+    }
+    #HeroHeroUsers .title {
+        font-size: 33px;
     }
 }
 
