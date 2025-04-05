@@ -107,4 +107,14 @@ if (window.innerWidth <= 800){
     warranty_h2.innerHTML = `
     Pokud se v každé lekci nenaučíš<br>něco nového,napiš mi do 7 dní,<br>vrátím ti <span>100% peněz.</span>
     `
+
+    const blue2 = document.querySelector(".blue2")
+    blue2.innerHTML = `
+    i ve školách po celé České republice.
+    `
+
+    const warrenh1 = document.querySelector(".warrenh1")
+    warrenh1.innerHTML = `
+    Nejlepší investice, kterou můžete udělat, je investice do vás.
+    `
 }
