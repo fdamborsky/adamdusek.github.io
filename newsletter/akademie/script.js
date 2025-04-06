@@ -132,5 +132,48 @@ if (window.innerWidth <= 800){
     const feedback = document.querySelector(".feedbacks")
     feedback.src = "resources/imgs/FeedbacksMobile.png"
     
+    const PerksImg = document.querySelector(".PerksImg")
+    PerksImg.src = "resources/imgs/InfoGraphicsMobile.png"
+
+    const perks = document.querySelector(".perks")
+    perks.innerHTML = `
+    <div class="perk">
+          <img src="resources/imgs/ytb.webp" alt="">
+          <p>150+ Praktických video-lekcí</p>
+      </div>
+      <div class="perk">
+          <img src="resources/imgs/note.webp" alt="">
+          <p>Stručné výpisky každé lekce</p>
+      </div>
+      <div class="perk">
+          <img src="resources/imgs/lightbulb.webp" alt="">
+          <p>Jedinečné myšlenkové mapy</p>
+      </div>
+      <div class="perk">
+          <img src="resources/imgs/notescheck.webp" alt="">
+          <p>Speciální kurzy</p>
+      </div>
+      <div class="perk">
+          <img src="resources/imgs/windows.webp" alt="">
+          <p>Notion návody a šablony</p>
+      </div>
+      <div class="perk">
+          <img src="resources/imgs/mic.webp" alt="">
+          <p>Exkluzivní podcast</p>
+      </div>
+      <div class="perk">
+          <img src="resources/imgs/phone.webp" alt="">
+          <p>Mobilní aplikace na cesty</p>
+      </div>
+      <div class="perk">
+          <img src="resources/imgs/discord.webp" alt="">
+          <p>Přístup do speciálních místností</p>
+      </div>
+      
+      <div class="button">
+        <a href="https://herohero.co/adamdusek" target="_blank" class="bluebutton">CHCI SE PŘIDAT!</a>
+        <p class="bluebuttonP"><img src="resources/imgs/lock.webp"  alt="">7-denní garance vrácení peněz</p>
+      </div>
+    `
     
 }

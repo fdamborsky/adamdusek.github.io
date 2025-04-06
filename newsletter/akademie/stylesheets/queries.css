@@ -929,13 +929,13 @@
         font-size: 1rem;
     }
     .PerksImg {
-        width: 120%;
-        padding: 0px 0px 75px 0px;
+        width: 100%;
+        padding: 0px;
     }
     .perks .perk{
-        width: 90%;
+        width: 100%;
         height: auto;
-        padding: 5px 0px;
+        padding: 5px;
         gap:10px;
     }
     .perks .perk img {
