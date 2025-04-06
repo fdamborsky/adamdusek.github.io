@@ -850,6 +850,9 @@
     .PS{
         top: 0px !important;
     }
+    #HeroHeroVideos {
+        padding: 0px;
+    }
 
     #savemoney .blue {
         padding: 0px;
@@ -863,7 +866,7 @@
     }
     #savemoney p {
         width: 90%;
-        font-size: 18px;
+        font-size: 18px !important;
     }
     .warren h1 {
         font-size: 21px !important;
@@ -944,8 +947,8 @@
         font-size: 38px;
     }
     #CommunityPerks p {
-        padding: 0px 0px;
-        font-size: 18px;
+        padding: 0px 10px;
+        font-size: 22px;
     }
     .perk p{
         font-size: 18px !important;
@@ -1160,7 +1163,8 @@
         line-height: 0.9;
     }
     #savemoney h2, #warranty h2, #warranty p  {
-        font-size: 18px;
+        font-size: 20px;
+        padding: 0px 10px;
     }
     .Isthisyou h1 {
         font-size: 33px;

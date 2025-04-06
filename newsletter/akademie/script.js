@@ -78,8 +78,8 @@ if (window.innerWidth <= 800){
     <h1 class="PerksTitle"><span>Nauč se každý den<br>něco nového</span><br>
     díky mému systému<br>praktických lekcí<br>z chytrých knih <img src="resources/imgs/books.webp" alt=""></h1>
 
-    <p>Získej ihned přístup k veškerému obsahu<br>a objev prověřené lekce,<br>
-    které zlepší tvoji komunikaci,<br>produktivitu, návyky či fungování mozku,<br>a změní tvůj život <span>jednou provždy.</span></p>
+    <p>Získej ihned přístup k veškerému obsahu a objev prověřené lekce,
+    které zlepší tvoji komunikaci, produktivitu, návyky či fungování mozku a změní tvůj život <span>jednou&nbsp;provždy.</span></p>
     `
 
 
@@ -94,7 +94,8 @@ if (window.innerWidth <= 800){
     Začni se učit <span>10x rychleji</span><br>s mým systémem <img src="resources/imgs/Gear.png" alt="">
     `
     savemoney_h2.innerHTML = `
-    Převeď lekce jednoduše do tvého života<br>díky prověřeným postupům a dosáhni<br>svých <span>vytoužených výsledků!</span>
+    Převeď lekce jednoduše do tvého života díky prověřeným postupům a dosáhni svých 
+    <span>vytoužených&nbsp;výsledků!</span>
     `
 
 
@@ -127,5 +128,9 @@ if (window.innerWidth <= 800){
             <p>Tady to celé začalo.</p>
         </div>
     `
+
+    const feedback = document.querySelector(".feedbacks")
+    feedback.src = "resources/imgs/FeedbacksMobile.png"
+    
     
 }
