@@ -783,8 +783,8 @@
         font-size: 0.85rem !important;
     }
     .warren h1::after, .warren h1::before {
-        width: 25.5px;
-        height: 25.5px;
+        width: 20px;
+        height: 20px;
     }
     .warren img {
         width: 61.2px !important;
@@ -872,7 +872,11 @@
         font-size: 18px !important;
     }
     .warren h1 {
-        font-size: 21px !important;
+        font-size: 18px !important;
+        padding: 0px 30px 40px 30px;
+    }
+    .warren h3{
+        font-size: 12px !important;
     }
     .button {
         gap: 5px;
@@ -943,6 +947,9 @@
     }
     .perks .perk img {
         padding-left: 10px;
+    }
+    #savemoney .growth {
+        width: 340px !important;
     }
 
 
@@ -1036,16 +1043,16 @@
         padding: 10px 0px 25px 0px;
     }
     .warrenh1 {
-        font-size: 21px !important;
+        font-size: 18px !important;
         padding: 0px 25px;
     }
     .warren h1::before {
         top: -20px;
-        left: 15px;
+        left: 10px;
     }
     .warren h1::after {
-        bottom: -20px;
-        right: 15px;
+        top: 30px !important;
+        right: 10px;
     }
     #savemoney p .pDots {
         position: relative;
@@ -1063,6 +1070,7 @@
     }
     .yellowBG {
         left: 0px !important;
+        padding: 0px !important;
     }
     #savemoney img {
         width: 300px;

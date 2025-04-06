@@ -111,7 +111,12 @@ if (window.innerWidth <= 800){
 
     const blue2 = document.querySelector(".blue2")
     blue2.innerHTML = `
-    i ve školách po celé České republice.
+    i ve školách po celé České&nbsp;republice.
+    `
+
+    const blue3 = document.querySelector(".blue3")
+    blue3.innerHTML = `
+    Roste&nbsp;celá&nbsp;naše&nbsp;komunita.
     `
 
     const warrenh1 = document.querySelector(".warrenh1")
@@ -173,5 +178,48 @@ if (window.innerWidth <= 800){
         <p class="bluebuttonP"><img src="resources/imgs/lock.webp"  alt="">7-denní garance vrácení peněz</p>
       </div>
     `
+
+    const pEdit1 = document.querySelector(".pEdit1")
+    pEdit1.innerHTML = `
+        My nejsme jenom nějaká další komunita...<br><br>
+      Jsme komunita, která píše příběhy a skutečně pomáhá lidem.<br><br><span class="blue">Nemáme jen velké sliby - Máme<br>reálné výsledky:</span>
+    `
+    const pDots3 = document.querySelector(".pDots2")
+    pDots3.innerHTML = `
+    Zkoušení u tabule z četby? Za&nbsp;pět.&nbsp;Zase.
+    `
     
+    const p3 = document.querySelector(".p5")
+    p3.innerHTML = `
+    A já znám přesně ten pocit:<br><br>
+      <span class="redBG">Čtení jsem tehdá kvůli škole NESNÁŠEL.</span>Doslova.<br><br>
+      <span class="pDots">Čtenářský deník? Dušek - Neodevzdal. Za pět.</span><br>
+      <span class="pDots pDots2">Zkoušení u tabule z četby?<br>Za pět. Zase.</span><br>
+      <span class="pDots">Zkoušející u maturity: “Vy jste to Adame nečetl, že?“</span><br><br>
+      Ale potom se během covidu <span class="yellowBG">všechno změnilo.</span><br><br>
+      Došlo mi, že škola nás do života nenaučí hromadu věcí, které ale SKUTEČNĚ potřebujeme.<br><br>
+      Finanční gramotnost. Fungování mozku. Komunikace. Produktivita...<br><br>
+      Na to ve škole “zapomněli“. A to je škoda.<br><br>
+      Takže jsem začal pátrat...<br><br>
+      A v roce 2020 jsem si objednal svoji první knihu “Bohatý táta, chudý táta“.
+    `
+
+    const p6 = document.querySelector(".p6")
+    p6.innerHTML = `
+    Fascinovala mě myšlenka, že můžu doslova za pár korun nahlédnout<br>
+      do hlavy expertům v jakémkoliv oboru.<br><br>
+      A tak začala moje <span class="yellowBG" style="left: 0;">další životní kapitola.</span><span class="lighter"> (The Next Chapter)</span> <br><br>
+      Od té doby jsem za knížky utratil už víc než 50.000+ Kč...<br><br>
+      A přečetl jich víc než 100.<br><br>
+      Trošku se to zvrtlo, já vím...<br><br>
+      A kdyby jsi tohle řekl 16 letému<br>Adamovi - Vysmál by se ti.<br><br>
+      Ale Adam dnes (21 let) ti řekne, <span class="blueUnderline">že mu to definitivně změnilo život.</span><br><br>
+      <span class="pDotsBlue">Znalosti z knih jsem použil a vybudoval díky nim 3 úspěšné YouTube kanály</span>
+      <span class="pDotsBlue">Pracoval jsem s obrovskými firmami a&nbsp;známými influencery</span>
+      <span class="pDotsBlue">A hlavně - Naučil jsem se věci, které mi budou sloužit už celý život</span>
+      PROTO nebudu nikdy litovat toho, že jsem se tehdá dokopal začít.<br><br>
+      A proto se teď ptám i tebe:<br><br>
+      Kdy začne TVOJE další kapitola?<br>Bude to právě teď?<br><br>
+      <span class="center">Přidej se k nám - Držím ti místo!</span>
+    `
 }
