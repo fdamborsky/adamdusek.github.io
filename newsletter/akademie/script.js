@@ -117,4 +117,15 @@ if (window.innerWidth <= 800){
     warrenh1.innerHTML = `
     Nejlepší investice, kterou můžete udělat, je investice do vás.
     `
+
+    const screenshot = document.querySelector(".firstbook")
+    screenshot.innerHTML = `
+        <img src="resources/imgs/order_mobile.jpg" alt="">
+        <div class="arrow">
+            <img class="circle" src="resources/imgs/circle.webp" alt="">
+            <img class="arrow2" src="resources/imgs/arrow2.webp" alt="">
+            <p>Tady to celé začalo.</p>
+        </div>
+    `
+    
 }
