@@ -1,5 +1,51 @@
 const loader = document.querySelector(".loader");
 
+const faqitems = document.querySelector(".FAQQuestions")
+    faqitems.innerHTML = `
+    <div class="faq-item">
+        <div class="faq-question">Knížky nečtu. Je to i pro mě? <span>+</span></div>
+        <div class="faq-answer">Jasně! Pokud nečteš - Je to přesně pro tebe. Můj stystém je založený na tom, aby pomohl komukoliv pochopit ty nejdůležitější lekce z chytrých knih a aplikovat je v životě.<br><br>
+        Členy naší komunity nespojuje věk, pohlaví a dokonce ani to, jestli jsou studenti, zaměstnanci či podnikatelé. Spojuje náschuť se každý den vzdělávat a růst.</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-question">Jaké lekce v této komunitě sdílíš? <span>+</span></div>
+      <div class="faq-answer">Sdílím pouze ty nejlepší lekce o komunikaci, produktivitě psychologii, penězích, lidském chování, mindsetu, marketingu a dalších podobně zajímavých tématech<br><br>
+      Každou lekci vždy doplňuji o své příběhy a zkušenosti, takže se vždy naučíš něco nového a budeš to moct okamžitě přenést do tvého života.</div>
+  </div>
+    
+    <div class="faq-item">
+        <div class="faq-question">Za jak dlouho získám přístup do&nbsp;komunity? <span>+</span></div>
+        <div class="faq-answer">Okamžitě. Jakmile své předplatné aktivuješ, budeš mít kompletní přístup k veškerému obsahu.</div>
+    </div>
+    
+    <div class="faq-item">
+        <div class="faq-question">Jak funguje 7-denní garance vrácení peněz? <span>+</span></div>
+        <div class="faq-answer">Ode dne zakoupení je možné si po dobu následujících 7 kalendářních dnů zažádat o 100% vrácení peněz. A to napsáním na e-mail adam@adamdusek.cz, kde s tebou vše rychle vyřeším.</div>
+    </div>
+    
+    <div class="faq-item">
+        <div class="faq-question">Můžu předplatné kdykoliv zrušit&nbsp;sám? <span>+</span></div>
+        <div class="faq-answer">Ano, samozřejmě. Předplatné můžeš kdykoliv sám jednoduše zrušit na svém HeroHero profilu skrze 2 kliknutí.</div>
+    </div>
+    
+    
+    <div class="faq-item">
+        <div class="faq-question">Proč nabízíš tohle všechno za&nbsp;tak&nbsp;nízkou&nbsp;cenu? <span>+</span></div>
+        <div class="faq-answer">Buďme naprosto upřímní - Moderní doba má problém. Sociální sítě, rozbitá pozornost a nedostatek času. To všechno dnes lidem brání ve čtení knih. Ale právě knihy v sobě skrývají ty nejcennější znalosti, které na internetu nenajdeš.<br><br>Chci proto tímto systémem zpřístupnit co nejvíce lidem ty nejlepší lekce, které jim v životě pomůžou růst a dosahovat jejich cílů, stejně jako pomohly mně.<br><br>Ty knihy bych stejně četl, takže mi dává smysl tento unikátní systém lekcí nabídnout za cenu, kterou si může dovolit každý. A společně s tím vytvořit komunitu stejně smýšlejících lidí, která si bude pomáhat a inspirovat.</div>
+    </div>
+    
+    <div class="faq-item">
+        <div class="faq-question">Můžu se opravdu vzdělávat kdekoliv a kdykoliv? <span>+</span></div>
+        <div class="faq-answer">Ano! Díky mobilní aplikaci si můžeš všechny video-lekce stáhnout a sledovat i bez internetu.<br><br>Lekce jsou navíc dostupné i jako podcast, takže se můžeš vzdělávat při řízení, cvičení nebo na cestě do práce či školy. Prostě kdykoliv se ti to zrovna hodí.</div>
+    </div>
+    
+    <div class="faq-item">
+        <div class="faq-question">Nenašel jsem odpověď na mé otázky - Co mám dělat? <span>+</span></div>
+        <div class="faq-answer">V tomto případě mi jednoduše napiš na e-mail<br>adam@adamdusek.cz nebo na Instagram @adamdus3k,<br>kde ti tvé otázky rád zodpovím :)</div>
+    </div>
+    `
+
 window.addEventListener("load", () => {
     const loader = document.querySelector(".loader");
 
@@ -222,4 +268,6 @@ if (window.innerWidth <= 800){
       Kdy začne TVOJE další kapitola?<br>Bude to právě teď?<br><br>
       <span class="center">Přidej se k nám - Držím ti místo!</span>
     `
+
+    
 }
