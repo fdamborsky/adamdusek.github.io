@@ -993,7 +993,9 @@
         gap: 0px;
     }
     #savemoney .image img {
-        width: 100%;
+        position: relative;
+        width: 110%;
+        left: -5%;
     }
     #arrow-text{
        display: none;
