@@ -936,6 +936,9 @@
     .video {
         width: 95%;
     }
+    .pDotsBlue::before{
+        top: calc(50% - 10px) !important;
+    }
     .landingpageSubtext h1 {
         font-size: 1.6rem;
     }
