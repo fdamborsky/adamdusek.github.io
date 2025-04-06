@@ -956,7 +956,8 @@
         padding: 0px 5Px !important;
     }
     .PerksTitle img {
-        display: none;
+        height: 30px;
+        top: 5px;
     }
     .CommunityTitle {
         padding: 50px 0px 0px 0px;
