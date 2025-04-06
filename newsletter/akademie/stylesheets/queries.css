@@ -1004,7 +1004,7 @@
         font-size: 36px;
     }
     #savemoney h2 {
-        font-size: 21px;
+        font-size: 22px;
     }
     #savemoney h2 span::after{
         bottom: -20px;
@@ -1012,8 +1012,9 @@
     #warranty h1 {
         font-size: 38px;
     }
-    #warranty p {
-        font-size: 21px;
+    #warranty p, #warranty h2 {
+        font-size: 21px !important;
+        padding: 0px 0px !important;
     }
     #warranty h2 {
         font-size: 21px;
