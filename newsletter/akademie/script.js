@@ -42,7 +42,7 @@ const faqitems = document.querySelector(".FAQQuestions")
     
     <div class="faq-item">
         <div class="faq-question">Nenašel jsem odpověď na mé otázky - Co mám dělat? <span>+</span></div>
-        <div class="faq-answer">V tomto případě mi jednoduše napiš na e-mail<br>adam@adamdusek.cz nebo na Instagram @adamdus3k,<br>kde ti tvé otázky rád zodpovím :)</div>
+        <div class="faq-answer">V tomto případě mi jednoduše napiš na e-mail adam@adamdusek.cz nebo na Instagram @adamdus3k, kde ti tvé otázky rád zodpovím :)</div>
     </div>
     `
 
