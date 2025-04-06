@@ -847,16 +847,26 @@
         height: 30px;
         width: 52px;
     }
+    .FAQtitle h5 {
+        font-size:33px;
+        color: #fff;
+        font-family: Medium;
+    }
     #HeroHeroUsers .stars {
         width: 140px;
     }
     .PS{
         top: 0px !important;
     }
+    .FAQtitle h6 {
+        font-size: 21px;
+    }
     #HeroHeroVideos {
         padding: 0px;
     }
-
+    #FAQ {
+        gap: 25px;
+    }
     #savemoney .blue {
         padding: 0px;
         left: 0px;
@@ -1051,8 +1061,8 @@
         left: 10px;
     }
     .warren h1::after {
-        top: 30px !important;
-        right: 10px;
+        top: 20px !important;
+        right: 15px;
     }
     #savemoney p .pDots {
         position: relative;
