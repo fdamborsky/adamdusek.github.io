@@ -847,6 +847,9 @@
         height: 30px;
         width: 52px;
     }
+    #HeroHeroUsers .stars {
+        width: 140px;
+    }
     .PS{
         top: 0px !important;
     }
@@ -929,8 +932,8 @@
         font-size: 1rem;
     }
     .PerksImg {
-        width: 100%;
-        padding: 0px;
+        width: 120%;
+        padding: 0px 0px 75px 0px;
     }
     .perks .perk{
         width: 100%;
@@ -970,23 +973,24 @@
     }
     #HeroHeroUsers .feedbacks {
         width: 95%;
+        position: relative;
+        left: 5px;
     }
     #HeroHeroVideos {
         gap: 21.25px;
         flex-wrap: wrap;
+        padding: 10px 0px;
     }
 
     
     
-    .herohero {
-        display: none;
-    }
     .titleIMG{
         position: relative;
         top: 5px;
     }
     #HeroHeroUsers {
         padding: 25px 0px;
+        gap: 0px;
     }
     #savemoney .image img {
         width: 100%;
@@ -1026,6 +1030,7 @@
     #HeroHeroUsers .title{
         display: block;
         text-align: center;
+        padding: 10px 0px 25px 0px;
     }
     .warrenh1 {
         font-size: 21px !important;
@@ -1172,6 +1177,7 @@
     }
     #HeroHeroUsers .title {
         font-size: 33px;
+        padding: 10px 0px 25px 0px;
     }
     .warrenh1 {
         font-size: 21px !important;

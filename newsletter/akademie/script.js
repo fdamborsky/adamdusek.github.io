@@ -131,9 +131,7 @@ if (window.innerWidth <= 800){
 
     const feedback = document.querySelector(".feedbacks")
     feedback.src = "resources/imgs/FeedbacksMobile.png"
-    
-    const PerksImg = document.querySelector(".PerksImg")
-    PerksImg.src = "resources/imgs/InfoGraphicsMobile.png"
+
 
     const perks = document.querySelector(".perks")
     perks.innerHTML = `
