@@ -96,6 +96,7 @@ body {
     height: auto;
     overflow-x: hidden;
     padding: 60px 0 0 0;
+    overflow-x: hidden;
 }
 
 /* LOGO */
@@ -323,6 +324,7 @@ body {
     gap: 20px;
     padding: 80px;
     background-color: #242a42;
+    overflow-x: hidden;
 }
 
 .Isthisyou h1 {
@@ -375,6 +377,7 @@ body {
     align-items: center;
     padding: 25px 0px 50px 0px;
     gap: 25px;
+    overflow-x: hidden;
 }
 
 #HeroHeroUsers .stars{
@@ -428,6 +431,7 @@ body {
     align-items: center;
     gap: 25px;
     position: relative;
+    overflow-x: hidden;
 }
 
 .PerksImg{
@@ -595,6 +599,7 @@ body {
     gap: 40px;
     text-align: center;
     padding: 50px 0px;
+    overflow-x: hidden;
 }
 
 #warranty h1{
@@ -654,6 +659,7 @@ body {
     gap: 25px;
     text-align: center;
     padding: 50px 0px 50px 0px;
+    overflow-x: hidden;
 }
 
 .image {

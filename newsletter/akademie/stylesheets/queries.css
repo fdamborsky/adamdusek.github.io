@@ -260,9 +260,6 @@
         font-size: 1rem !important;
     }
 
-    .arrow {
-        display: none;
-    }
     #arrow-text img {
         width: 40px !important;
     }
@@ -866,7 +863,7 @@
     }
     #savemoney p {
         width: 90%;
-        font-size: 18px !important;
+        font-size: 18px;
     }
     .warren h1 {
         font-size: 21px !important;
@@ -929,30 +926,54 @@
         font-size: 1rem;
     }
     .PerksImg {
-        display: none;
+        width: 120%;
+        padding: 0px 0px 75px 0px;
     }
-    .perks{
-        display: none;
+    .perks .perk{
+        width: 90%;
+        height: auto;
+        padding: 5px 0px;
+        gap:10px;
     }
+    .perks .perk img {
+        padding-left: 10px;
+    }
+
+
     .PerksTitle {
         font-size: 38px;
     }
     #CommunityPerks p {
-        padding: 0px 20px;
-        font-size: 21px;
+        padding: 0px 0px;
+        font-size: 18px;
+    }
+    .perk p{
+        font-size: 18px !important;
+        text-align: left !important;
+        padding: 0px 5Px !important;
     }
     .PerksTitle img {
         display: none;
     }
     .CommunityTitle {
-        padding: 50px 0px;
+        padding: 50px 0px 0px 0px;
         position: relative !important;
         top: 0px !important;
         width: 100vw;
     }
-    #HeroHeroVideos, #HeroHeroUsers .feedbacks, #HeroHeroUsers .stars{
-        display: none;
+    #CommunityPerks {
+        gap: 0px;
     }
+    #HeroHeroUsers .feedbacks {
+        width: 95%;
+    }
+    #HeroHeroVideos {
+        gap: 21.25px;
+        flex-wrap: wrap;
+    }
+
+    
+    
     .herohero {
         display: none;
     }
@@ -963,10 +984,10 @@
     #HeroHeroUsers {
         padding: 25px 0px;
     }
-    #savemoney .image {
-        display: none;
+    #savemoney .image img {
+        width: 100%;
     }
-    #arrow-text, .buttonSaveMoney, .buttonWarranty {
+    #arrow-text{
        display: none;
     }
     #savemoney .title {
@@ -977,9 +998,6 @@
     }
     #savemoney h2 span::after{
         bottom: -20px;
-    }
-    #warranty img {
-        display: none;
     }
     #warranty h1 {
         font-size: 38px;
@@ -1075,6 +1093,16 @@
         padding: 0px 25px 50px 25px;
         text-align: center;
     }
+    .arrow2, .arrow p {
+        display: none;
+    }
+    .firstbook .arrow .circle {
+        width: 90px !important;
+        height: 35px;
+        position: absolute;
+        right: 0px;
+        top: -5px;
+    }
 }
 
 
@@ -1123,10 +1151,7 @@
     .Isthisyou p img {
         height:21px;
     }
-    #CommunityPerks p {
-        padding: 0px 20px;
-        font-size: 18px;
-    }
+
     .title h1, #warranty h1, .PerksTitle{
         font-size: 33px;
     }
@@ -1145,6 +1170,9 @@
     }
     .warrenh1 {
         font-size: 21px !important;
+    }
+    .Isthisyou p {
+        font-size: 18px;
     }
 }
 
