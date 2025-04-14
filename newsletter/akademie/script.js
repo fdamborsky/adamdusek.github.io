@@ -103,7 +103,7 @@ if (window.innerWidth <= 800){
 
     const matous_quote = document.querySelector(".quoteBoxMatous .quote")
     matous_quote.innerHTML= `
-    <p class="quote">“Adamův systém lekcí je naprosto úžasný.<br>Dává si neuvěřitelně záležet.
+    <p class="quote">“Adamův systém lekcí je úžasný.<br>Dává si neuvěřitelně záležet.
     Díky němu jsem jednou provždy<br>změnil svůj přístup ke komunikaci a ostatním lidem.<br>
     Definitivně se jedná o mé nejlépe investované peníze.”</p>
     `
