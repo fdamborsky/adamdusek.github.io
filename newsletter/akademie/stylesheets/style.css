@@ -883,16 +883,44 @@ body {
     margin: 0 20px;
 }
 
+#savemoney .reference2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    width: 900px;
+}
+
 #savemoney .reference {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 25px;
 }
 
-#savemoney .reference img{
-    width: 400px;
+.item1{
+    position: relative;
+    top: -40.5px;
+    width: 400px !important;
+}
+.item2 {
+    width: 300px !important;
+}
+
+.item3 {
+    position: relative;
+    width: 300px !important;
+    top: -40.5px;
+}
+
+.item4 {
+    width: 400px !important;
+    position: relative;
+    top: -13px;
 }
 
 #savemoney .stats {

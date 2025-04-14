@@ -367,7 +367,27 @@
         width: 65px;
     }
 
+    #savemoney .reference2 {
+        width: 650px;
+    }
 
+    .item1{
+        width: 350px !important;
+    }
+    .item2 {
+        position: relative;
+        width: 250px !important;
+        top: -12px;
+    }
+    
+    .item3 {
+        width: 250px !important;
+    }
+    
+    .item4 {
+        width: 350px !important;
+        top: -26px;
+    }
 
     .button {
         gap: 10px;
@@ -606,6 +626,15 @@
     }
 
 
+    .item1, .item4{
+        top: 0px;
+        width: 275px !important;
+    }
+
+    .item2, .item3{
+        top: 0px;
+        width: 175px !important;
+    }
 
     .button {
         gap: 10px;
@@ -852,8 +881,21 @@
         color: #fff;
         font-family: Medium;
     }
+    #savemoney .reference2 {
+        flex-direction: column;
+    }
     #HeroHeroUsers .stars {
         width: 140px;
+    }
+
+    .item1, .item4{
+        top: 0px;
+        width: 300px !important;
+    }
+
+    .item2, .item3{
+        top: 0px;
+        width: 250px !important;
     }
     .PS{
         top: 0px !important;
