@@ -1,0 +1,1255 @@
+@media only screen  and (max-width: 1800px){
+
+    .arrow-text h3{
+        font-size: 1.75rem;
+    }
+
+    .arrow-text2 h3{
+        font-size: 2rem;
+    }
+    
+}
+@media only screen  and (max-width: 1700px){
+    .arrow-text h3{
+        font-size: 1.75rem;
+    }
+
+    .arrow-text2 h3{
+        font-size: 2rem;
+    }
+    
+    
+}
+@media only screen  and (max-width: 1600px){
+
+    .arrow-text h3{
+        font-size: 1.75rem;
+    }
+
+    .arrow-text2 h3{
+        font-size: 2rem;
+    }
+    
+}
+
+@media only screen and (max-width: 1500px){
+    .video {
+        width: 50rem;
+    }
+
+    .title h1 {
+        font-size: 3rem;
+    }
+
+    .title h2 {
+        font-size: 1.1rem;
+        padding: 8px 16px;
+    }
+
+    .bluebutton {
+        font-size: 1.5rem;
+        padding: 18px 28px;
+    }
+
+    .arrow-text {
+        right: -30px;
+        transform: translateX(100%) translateY(-10%);
+    }
+
+    .arrow-text h3 {
+        font-size: 1.3rem;
+    }
+
+    .arrow-text img {
+        width: 100px;
+    }
+
+    .landingpageSubtext h1 {
+        font-size: 1.5rem;
+    }
+
+    .landingpageSubtext .link {
+        font-size: 1.3rem;
+    }
+
+    .landingpageSubtext .link img,
+    .landingpageSubtext h1 img {
+        height: 1.8rem;
+    }
+    #HeroHeroUsers .title {
+        font-size: 2.5rem;
+    }
+
+    #HeroHeroUsers .stars {
+        width: 180px;
+    }
+
+    #HeroHeroVideos {
+        gap: 50px;
+    }
+
+    .HeroHeroVideo {
+        width: 200px;
+    }
+
+    #HeroHeroUsers .feedbacks {
+        width: 900px;
+    }
+
+    .PerksImg {
+        width: 1300px;
+    }
+
+    .PerksTitle {
+        font-size: 2.5rem;
+        top: 50px;
+    }
+
+    .perks .perk {
+        width: 550px;
+        height: 50px;
+        gap: 20px;
+        padding: 0 20px;
+    }
+
+    .perks .perk img {
+        width: 35px;
+    }
+
+    .perks .perk p {
+        font-size: 1.1rem;
+    }
+
+    .PerksButton {
+        font-size: 1.5rem;
+        width: 220px;
+        padding: 18px;
+    }
+
+    .PerksP {
+        font-size: 0.8rem;
+    }
+
+    .PerksP img {
+        height: 1rem;
+    }
+    #warranty h1 {
+        font-size: 2.5rem;
+    }
+
+    #warranty p {
+        font-size: 1.3rem;
+    }
+
+    #warranty h2 {
+        font-size: 1.5rem;
+    }
+
+    #warranty h2 span::after {
+        height: 15px;
+        bottom: -10px;
+    }
+
+    #warranty img {
+        width: 450px;
+    }
+    
+}
+
+@media only screen and (max-width: 1300px){
+    .title h1 {
+        font-size: 2.4rem;
+    }
+    .title h2 {
+        font-size: 1rem;
+    }
+    .video {
+        width: 40rem;
+    }
+    .landingpageSubtext h1 {
+        font-size: 1.25rem;
+    }
+    .landingpageSubtext .link {
+        font-size: 1rem;
+    }
+    .landingpageSubtext .link img, .landingpageSubtext h1 img {
+        height: 1.4rem;
+    }
+    .quoteBoxMatous .MatousStars {
+        width: 110px;
+    }
+    .quoteBoxMatous p {
+        font-size: 1rem;
+    }
+    .quoteBoxMatous .Matous {
+        width: 50px;
+    }
+
+
+
+    .Isthisyou h1 {
+        font-size: 2.5rem;
+    }
+    .Isthisyou p {
+        font-size: 1rem;
+    }
+    .Isthisyou p img {
+        height: 1.25rem;
+    }
+
+
+    .PerksTitle {
+        font-size: 2.4rem;
+    }
+    .PerksTitle img {
+        position: relative;
+        height: 2.5rem;
+    }
+    #CommunityPerks p{
+        font-size: 1rem;
+    }
+    .PerksImg {
+        width: 1000px;
+    }
+    .perks .perk {
+        width: 440px;
+        height: 40px;
+    }
+
+
+    #HeroHeroUsers .stars {
+        width: 144px;
+    }
+    #HeroHeroUsers .title {
+        font-size: 2.4rem;
+    }
+    #HeroHeroUsers .title img {
+        height: 2.5rem;
+    }
+    .HeroHeroVideo {
+        width: 160px;
+    }
+    #HeroHeroVideos {
+        gap: 25px;
+    }
+    #HeroHeroUsers .feedbacks {
+        width: 720px;
+    }
+
+
+    #savemoney h1 {
+        font-size: 2.4rem;
+    }
+    #savemoney h1 img {
+        top: 10px;
+        height: 2.5rem;
+        width: 2.5rem;
+    }
+    #savemoney h2 {
+        font-size: 1rem;
+    }
+    #savemoney img {
+        width: 540px;
+    }
+    #arrow-text {
+        top: 10px;
+        right: -90px;
+        transform: rotate(15deg);
+    }
+    #savemoney p {
+        font-size: 1rem !important;
+    }
+
+    #arrow-text img {
+        width: 40px !important;
+    }
+    .PS {
+            font-size: 3rem;
+    }
+    .number-container {
+        font-size: 3rem;
+    }
+
+
+    #warranty h1 {
+        font-size: 2.4rem;
+    }
+    #warranty p {
+        font-size: 1rem;
+    }
+    #warranty h2 {
+        font-size: 1.25rem;
+    }
+    #warranty img {
+        width: 360px;
+    }
+
+
+    #savemoney .reference img {
+        width: 380px;
+    }
+    #savemoney .stats {
+        width: 380px;
+    }
+    #savemoney .EmailSchool {
+        width: 200px !important;
+    }
+    #savemoney .AntoninReference {
+        width: 440px !important;
+    }
+    #savemoney .growth {
+        width: 440px !important;
+    }
+
+    .warren h1 {
+        font-size: 1rem !important;
+    }
+    .warren h1::after, .warren h1::before {
+        width: 30px;
+        height: 30px;
+    }
+    .warren img {
+        width: 72px !important;
+    }
+    .firstbook .arrow .circle {
+        width: 80px !important;
+        position: absolute;
+        right: -15px;
+        top: -30%;
+    }
+    .firstbook .arrow .arrow2 {
+        right: -80px;
+        top: -25%;
+        width: 50px !important;
+    }
+    .firstbook .arrow p {
+        right: -150px;
+        top: -45px;
+    }
+
+
+    .FAQtitle h5 {
+        font-size: 2.8rem;
+        color: #fff;
+        font-family: Medium;
+    }
+    .FAQtitle h6 {
+        font-size: 1rem;
+    }
+    .faq-question {
+        height: 32px;
+    }
+    .faq-item{
+        font-family: 1rem;
+    }
+    .faq-question span {
+        font-size: 1.5rem;
+    }
+
+
+    footer img {
+        width: 100px;
+        transition: all .5s linear;
+    }
+    footer p {
+        font-size: .75rem;
+    }
+    .GPDR {
+        font-size: .5rem;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    #logo {
+        top: 30px;
+        left: 30px;
+        height: 36px;
+        width: 65px;
+    }
+
+    #savemoney .reference2 {
+        width: 650px;
+    }
+
+    .item1{
+        width: 350px !important;
+    }
+    .item2 {
+        position: relative;
+        width: 250px !important;
+        top: -12px;
+    }
+    
+    .item3 {
+        width: 250px !important;
+    }
+    
+    .item4 {
+        width: 350px !important;
+        top: -26px;
+    }
+
+    .button {
+        gap: 10px;
+    }
+    .bluebutton{
+        font-size: 1.25rem;
+        width: fit-content;
+        padding: 15px 25px;
+        margin-top: 20px;
+        border-radius: 40px
+    }
+    .bluebutton:hover{
+        scale: 1.01;
+    }
+    
+    .bluebuttonP{
+        font-size: .5rem !important;
+    }
+    .bluebuttonP img{
+        position: relative;
+        top: -1px;
+        height: .75rem !important;
+        margin-right: 2.5px;
+    }
+
+
+
+
+    .title h1 {
+        font-size: 2.04rem;
+    }
+    .title h2 {
+        font-size: 0.85rem;
+    }
+    .video {
+        width: 34rem;
+    }
+    .landingpageSubtext h1 {
+        font-size: 1.06rem;
+    }
+    .landingpageSubtext .link {
+        font-size: 0.85rem;
+    }
+    .landingpageSubtext .link img, .landingpageSubtext h1 img {
+        height: 1.19rem;
+    }
+    .quoteBoxMatous .MatousStars {
+        width: 93.5px;
+    }
+    .quoteBoxMatous p {
+        font-size: 0.85rem;
+    }
+    .quoteBoxMatous .Matous {
+        width: 42.5px;
+    }
+
+    .Isthisyou h1 {
+        font-size: 2.13rem;
+    }
+    .Isthisyou p {
+        font-size: 0.85rem;
+    }
+    .Isthisyou p img {
+        height: 1.06rem;
+    }
+
+    .PerksTitle {
+        font-size: 2.04rem;
+    }
+    .PerksTitle img {
+        position: relative;
+        height: 2.13rem;
+    }
+    #CommunityPerks p{
+        font-size: 0.85rem;
+    }
+    .PerksImg {
+        width: 800px;
+    }
+    .perks .perk {
+        width: 374px;
+        height: 34px;
+    }
+
+    #HeroHeroUsers .stars {
+        width: 122.4px;
+    }
+    #HeroHeroUsers .title {
+        font-size: 2.04rem;
+    }
+    #HeroHeroUsers .title img {
+        height: 2.13rem;
+    }
+    .HeroHeroVideo {
+        width: 136px;
+    }
+    #HeroHeroVideos {
+        gap: 21.25px;
+    }
+    #HeroHeroUsers .feedbacks {
+        width: 612px;
+    }
+
+    #savemoney h1 {
+        font-size: 2.04rem;
+    }
+    #savemoney h1 img {
+        top: 8.5px;
+        height: 2.13rem;
+        width: 2.13rem;
+    }
+    #savemoney h2 {
+        font-size: 0.85rem;
+    }
+    #savemoney img {
+        width: 459px;
+    }
+    #arrow-text {
+        top: 8.5px;
+        right: -76.5px;
+        transform: rotate(15deg);
+    }
+    #savemoney p {
+        font-size: 0.85rem !important;
+        width: 500px;
+    }
+    .number-container::before, .number-container::after {
+        width: 250px;
+
+    }
+    #arrow-text img {
+        width: 34px !important;
+    }
+    .PS {
+        font-size: 2.55rem;
+    }
+    .number-container {
+        font-size: 2.55rem;
+    }
+
+    #warranty h1 {
+        font-size: 2.04rem;
+    }
+    #warranty p {
+        font-size: 0.85rem;
+    }
+    #warranty h2 {
+        font-size: 1.06rem;
+    }
+    #warranty img {
+        width: 306px;
+    }
+
+    #savemoney .reference img {
+        width: 323px;
+    }
+    #savemoney .stats {
+        width: 323px;
+    }
+    #savemoney .EmailSchool {
+        width: 170px !important;
+    }
+    #savemoney .AntoninReference {
+        width: 374px !important;
+    }
+    #savemoney .growth {
+        width: 374px !important;
+    }
+
+    .warren h1 {
+        font-size: 0.85rem !important;
+    }
+    .warren h1::after, .warren h1::before {
+        width: 25.5px;
+        height: 25.5px;
+    }
+    .warren img {
+        width: 61.2px !important;
+    }
+    .firstbook .arrow .circle {
+        width: 68px !important;
+        position: absolute;
+        right: -12.75px;
+        top: -25.5%;
+    }
+    .firstbook .arrow .arrow2 {
+        right: -68px;
+        top: -21.25%;
+        width: 42.5px !important;
+    }
+    .firstbook .arrow p {
+        right: -127.5px;
+        top: -38.25px;
+    }
+
+    .FAQtitle h5 {
+        font-size: 2.38rem;
+        color: #fff;
+        font-family: Medium;
+    }
+    .FAQtitle h6 {
+        font-size: 0.85rem;
+    }
+    .faq-question {
+        height: 27.2px;
+    }
+    .faq-item{
+        font-family: 0.85rem;
+    }
+    .faq-question span {
+        font-size: 1.28rem;
+    }
+
+    footer img {
+        width: 85px;
+        transition: all .5s linear;
+    }
+    footer p {
+        font-size: 0.6375rem;
+    }
+    .GPDR {
+        font-size: 0.425rem;
+    }
+
+    #FAQ::after {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #logo {
+        top: 30px;
+        left: 30px;
+        height: 36px;
+        width: 65px;
+    }
+
+
+
+    .button {
+        gap: 10px;
+    }
+    .bluebutton{
+        font-size: 1.25rem;
+        width: fit-content;
+        padding: 15px 25px;
+        margin-top: 20px;
+        border-radius: 40px
+    }
+    .bluebutton:hover{
+        scale: 1.01;
+    }
+    
+    .bluebuttonP{
+        font-size: .5rem !important;
+    }
+    .bluebuttonP img{
+        position: relative;
+        top: -1px;
+        height: .75rem !important;
+        margin-right: 2.5px;
+    }
+
+
+
+
+    .title h1 {
+        font-size: 2.04rem;
+    }
+    .title h2 {
+        font-size: 0.85rem;
+    }
+    .video {
+        width: 80%;
+    }
+    .landingpageSubtext {
+        margin: 25px 0px;
+    }
+    .landingpageSubtext h1 {
+        font-size: 1.06rem;
+    }
+    .landingpageSubtext .link {
+        font-size: 0.85rem;
+    }
+    .landingpageSubtext .link img, .landingpageSubtext h1 img {
+        height: 1.19rem;
+    }
+    .quoteBoxMatous .MatousStars {
+        width: 93.5px;
+    }
+    .quoteBoxMatous p {
+        font-size: 0.85rem;
+    }
+    .quoteBoxMatous .Matous {
+        width: 42.5px;
+    }
+
+    .Isthisyou h1 {
+        font-size: 2.13rem;
+    }
+    .Isthisyou p {
+        font-size: 0.85rem;
+    }
+    .Isthisyou p img {
+        height: 1.06rem;
+    }
+
+    .PerksTitle {
+        font-size: 2.04rem;
+    }
+    .PerksTitle img {
+        position: relative;
+        height: 2.13rem;
+    }
+    #CommunityPerks p{
+        font-size: 0.85rem;
+    }
+    .PerksImg {
+        width: 80%;
+        padding: 200px 0px 50px 0px;
+    }
+    .perks .perk {
+        width: 374px;
+        height: 34px;
+    }
+
+    #HeroHeroUsers .stars {
+        width: 122.4px;
+    }
+    #HeroHeroUsers .title {
+        font-size: 2.04rem;
+    }
+    #HeroHeroUsers .title img {
+        height: 2.13rem;
+    }
+    .HeroHeroVideo {
+        width: 136px;
+    }
+    #HeroHeroVideos {
+        gap: 21.25px;
+    }
+    #HeroHeroUsers .feedbacks {
+        width: 612px;
+    }
+
+    #savemoney h1 {
+        font-size: 2.04rem;
+    }
+    #savemoney h1 img {
+        top: 8.5px;
+        height: 2.13rem;
+        width: 2.13rem;
+    }
+    #savemoney h2 {
+        font-size: 0.85rem;
+    }
+    #savemoney img {
+        width: 459px;
+    }
+    #arrow-text {
+        top: 8.5px;
+        right: -76.5px;
+        transform: rotate(15deg);
+    }
+    #savemoney p {
+        font-size: 0.85rem !important;
+        width: 500px;
+    }
+    .number-container::before, .number-container::after {
+        width: 250px;
+
+    }
+    #arrow-text img {
+        width: 34px !important;
+    }
+    .PS {
+        font-size: 2.55rem;
+    }
+    .number-container {
+        font-size: 2.55rem;
+    }
+
+    #warranty h1 {
+        font-size: 2.04rem;
+    }
+    #warranty p {
+        font-size: 0.85rem;
+    }
+    #warranty h2 {
+        font-size: 1.06rem;
+    }
+    #warranty img {
+        width: 306px;
+    }
+
+    #savemoney .reference img {
+        width: 323px;
+    }
+    #savemoney .stats {
+        width: 323px;
+    }
+    #savemoney .EmailSchool {
+        width: 170px !important;
+    }
+    #savemoney .AntoninReference {
+        width: 374px !important;
+    }
+    #savemoney .growth {
+        width: 374px !important;
+    }
+
+    .warren h1 {
+        font-size: 0.85rem !important;
+    }
+    .warren h1::after, .warren h1::before {
+        width: 20px;
+        height: 20px;
+    }
+    .warren img {
+        width: 61.2px !important;
+    }
+    .firstbook .arrow .circle {
+        width: 68px !important;
+        position: absolute;
+        right: -12.75px;
+        top: -25.5%;
+    }
+    .firstbook .arrow .arrow2 {
+        right: -68px;
+        top: -21.25%;
+        width: 42.5px !important;
+    }
+    .firstbook .arrow p {
+        right: -127.5px;
+        top: -38.25px;
+    }
+
+    .FAQtitle h5 {
+        font-size: 2.38rem;
+        color: #fff;
+        font-family: Medium;
+    }
+    .FAQtitle h6 {
+        font-size: 0.85rem;
+    }
+    .faq-question {
+        height: 27.2px;
+    }
+    .faq-item{
+        font-family: 0.85rem;
+    }
+    .faq-question span {
+        font-size: 1.28rem;
+    }
+
+    footer img {
+        width: 85px;
+        transition: all .5s linear;
+    }
+    footer p {
+        font-size: 0.6375rem;
+    }
+    .GPDR {
+        font-size: 0.425rem;
+    }
+
+    #FAQ::after {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    #logo {
+        top: 20px;
+        left:50%;
+        transform: translateX(-50%);
+        height: 30px;
+        width: 52px;
+    }
+    .FAQtitle h5 {
+        font-size:33px;
+        color: #fff;
+        font-family: Medium;
+    }
+    #HeroHeroUsers .stars {
+        width: 140px;
+    }
+    #savemoney .reference2 {
+        flex-direction: column;
+    }
+
+    .item1, .item4{
+        top: 0px;
+        width: 300px !important;
+    }
+
+    .item2, .item3{
+        top: 0px;
+        width: 250px !important;
+    }
+    .PS{
+        top: 0px !important;
+    }
+    .FAQtitle h6 {
+        font-size: 21px;
+    }
+    #HeroHeroVideos {
+        padding: 0px;
+    }
+    #FAQ {
+        gap: 25px;
+    }
+    #savemoney .blue {
+        padding: 0px;
+        left: 0px;
+    }
+    #savemoney .AntoninReference {
+        width: 90% !important;
+    }
+    .number-container::before, .number-container::after {
+        width: 125px;
+    }
+    #savemoney p {
+        width: 90%;
+        font-size: 18px !important;
+    }
+    .warren h1 {
+        font-size: 18px !important;
+        padding: 0px 30px 40px 30px;
+    }
+    .warren h3{
+        font-size: 12px !important;
+    }
+    .button {
+        gap: 5px;
+    }
+    .bluebutton{
+        font-size: 1.25rem;
+        width: fit-content;
+        padding: 15px 25px;
+        margin-top: 20px;
+        border-radius: 40px
+    }
+    .bluebutton:hover{
+        scale: 1.01;
+    }
+
+    .landingpageSubtext p{
+        font-size: 1rem;
+    }
+    
+    .bluebuttonP{
+        font-size: .75rem !important;
+    }
+    .bluebuttonP img{
+        position: relative;
+        top: -1px;
+        height: .75rem !important;
+        margin-right: 2.5px;
+    }
+    .quoteBoxMatous p {
+        font-size: 21px;
+        padding: 0px 20px;
+        line-height: 1.1;
+    }
+
+    .MatousName {
+        top: -5px;
+        font-size: .75rem !important;
+    }
+    .MatousName img {
+        height: .9rem !important;
+        margin-right: 5px;
+    }
+    .quoteBoxMatous {
+        gap: 10px;
+    }
+    .title h1 {
+        font-size: 36px;
+    }
+    .title h2 {
+        font-size: 26px;
+    }
+    .video {
+        width: 95%;
+    }
+    .pDotsBlue::before{
+        top: calc(50% - 10px) !important;
+    }
+    .landingpageSubtext h1 {
+        font-size: 1.6rem;
+    }
+    .landingpageSubtext .link img, .landingpageSubtext h1 img {
+        height: 1.75rem;
+    }
+    .landingpageSubtext .link {
+        font-size: 1rem;
+    }
+    .PerksImg {
+        width: 120%;
+        padding: 0px 0px 75px 0px;
+    }
+    .perks .perk{
+        width: 100%;
+        height: auto;
+        padding: 5px;
+        gap:10px;
+    }
+    .perks .perk img {
+        padding-left: 10px;
+    }
+    #savemoney .growth {
+        width: 340px !important;
+    }
+
+
+    .PerksTitle {
+        font-size: 38px;
+    }
+    #CommunityPerks p {
+        padding: 0px 10px;
+        font-size: 22px;
+    }
+    .perk p{
+        font-size: 18px !important;
+        text-align: left !important;
+        padding: 0px 5Px !important;
+    }
+    .PerksTitle img {
+        height: 30px;
+        top: 5px;
+    }
+    .CommunityTitle {
+        padding: 50px 0px 0px 0px;
+        position: relative !important;
+        top: 0px !important;
+        width: 100vw;
+    }
+    #CommunityPerks {
+        gap: 0px;
+    }
+    #HeroHeroUsers .feedbacks {
+        width: 95%;
+        position: relative;
+        left: 5px;
+    }
+    #HeroHeroVideos {
+        gap: 21.25px;
+        flex-wrap: wrap;
+        padding: 10px 0px;
+    }
+
+    
+    
+    .titleIMG{
+        position: relative;
+        top: 5px;
+    }
+    #HeroHeroUsers {
+        padding: 25px 0px;
+        gap: 0px;
+    }
+    #savemoney .image img {
+        position: relative;
+        width: 110%;
+        left: -5%;
+    }
+    #arrow-text{
+       display: none;
+    }
+    #savemoney .title {
+        font-size: 36px;
+    }
+    #savemoney h2 {
+        font-size: 22px;
+    }
+    #savemoney h2 span::after{
+        bottom: -20px;
+    }
+    #warranty h1 {
+        font-size: 38px;
+    }
+    #warranty p, #warranty h2 {
+        font-size: 21px !important;
+        padding: 0px 0px !important;
+    }
+    #warranty h2 {
+        font-size: 21px;
+    }
+    #warranty h2 span::after {
+        width: 100%;
+        right: 0px;
+        bottom: -15px;
+    }
+    #warranty {
+        gap: 20px;
+    }
+    .Isthisyou .lastP {
+        margin-top: 0px;
+    }
+    #HeroHeroUsers .title{
+        display: block;
+        text-align: center;
+        padding: 10px 0px 25px 0px;
+    }
+    .warrenh1 {
+        font-size: 18px !important;
+        padding: 0px 25px;
+    }
+    .warren h1::before {
+        top: -20px;
+        left: 10px;
+    }
+    .warren h1::after {
+        top: 20px !important;
+        right: 15px;
+    }
+    #savemoney p .pDots {
+        position: relative;
+        left: 25px;
+        line-height: 1.25;
+        white-space: wrap;
+        padding-right: 20px;
+        display: block;
+    }
+    #savemoney .redBG {
+        background-color: #9f2222;
+        left: 0px;
+        margin: 0px 5px 0px 0px;
+        display: inline-block;
+    }
+    .yellowBG {
+        left: 0px !important;
+        padding: 0px !important;
+    }
+    #savemoney img {
+        width: 300px;
+    }
+
+    #savemoney p .pDotsBlue{
+        display: block;
+        white-space: wrap;
+        padding: 0px 20px 20px 0px;
+        line-height: 1.25;
+    }
+    .center {
+        width: 260px;
+        display: flex;
+        text-align: center;
+        padding: 0px;
+    }
+    .faq-question span {
+        font-size: 28px;
+    }
+    .faq-question {
+        height: 30px;
+    }
+    .faq-item {
+        width: 90%;
+        border-radius: 10px;
+        text-align: left;
+    }
+    .FAQQuestions {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .lastbutton {
+        scale: .95;
+    }
+    footer {
+        padding: 0px 25px 50px 25px;
+        text-align: center;
+    }
+    .arrow2, .arrow p {
+        display: none;
+    }
+    .firstbook .arrow .circle {
+        width: 90px !important;
+        height: 35px;
+        position: absolute;
+        right: 0px;
+        top: -5px;
+    }
+}
+
+
+
+@media only screen and (max-width: 420px){
+    #logo {
+        top: 20px;
+        height: 28px;
+        width: 52px;
+    }
+    .quoteBoxMatous p {
+        font-size: 18px;
+    }
+    .MatousName {
+        top: -5px;
+        font-size: .75rem !important;
+    }
+    .MatousName img {
+        height: .9rem !important;
+        margin-right: 5px;
+    }
+    .quoteBoxMatous {
+        gap: 10px;
+    }
+    .title h2 {
+        font-size: 22px;
+    }
+    .video {
+        width: 95%;
+    }
+    .landingpageSubtext h1 {
+        font-size: 1.4rem;
+    }
+    .landingpageSubtext .link img, .landingpageSubtext h1 img {
+        height: 1.4rem;
+    }
+    .Isthisyou{
+        padding: 60px 30px;
+    }
+    .Isthisyou h1 {
+        font-size: 32px;
+    }
+    .Isthisyou p{
+        font-size: 18px;
+    }
+    .Isthisyou p img {
+        height:21px;
+    }
+
+    .title h1, #warranty h1, .PerksTitle{
+        font-size: 33px;
+    }
+    #savemoney h1 {
+        font-size: 31px;
+        line-height: 0.9;
+    }
+    #savemoney h2, #warranty h2, #warranty p  {
+        font-size: 20px;
+        padding: 0px 10px;
+    }
+    .Isthisyou h1 {
+        font-size: 33px;
+    }
+    #HeroHeroUsers .title {
+        font-size: 33px;
+        padding: 10px 0px 25px 0px;
+    }
+    .warrenh1 {
+        font-size: 21px !important;
+    }
+    .Isthisyou p {
+        font-size: 18px;
+    }
+}
+
+
+
+
+

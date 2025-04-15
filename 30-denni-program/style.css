@@ -1,0 +1,393 @@
+@font-face {
+    font-family: Light;
+    src: url("resources/fonts/light.otf");
+}
+@font-face {
+    font-family: Regular;
+    src: url("resources/fonts/regular.otf");
+}
+@font-face {
+    font-family: Medium;
+    src: url("resources/fonts/medium.otf");
+}
+
+body {
+    position: relative;
+    width: 100vw;
+    overflow-x: hidden;
+    background-color: #eae2d7;
+}
+
+.crown {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    height: 30px;
+    z-index: 999;
+}
+
+.GPDR {
+    position: absolute;
+    right: 50px;
+    bottom: 25px;
+    font-family: "Light";
+    color: #777777;
+    text-decoration: none;
+    font-size: .75rem;
+    z-index: 999;
+}
+
+.break {
+    display: none;
+}
+
+body::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 90vh;
+    width: 26%;
+    content: "";
+    background-color: #101010;
+    border-radius: 0px 0px 75px;
+    z-index: 1;
+}
+
+.topTitle {
+    display: none;
+    font-size: 2rem;
+}
+
+.topTitle span{
+    font-family: Light;
+}
+
+.topTitle img {
+    height: 2rem;
+}
+
+.container {
+    position: relative;
+    z-index: 5;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 100vh;
+}
+
+.phoneImg {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 750px;
+    width: 35%;
+}
+
+.arrow {
+    position: absolute;
+    top: 10%;
+    right: 0%;
+    width: 175px;
+}
+
+.iphone {
+    width: 90%;
+}
+
+.formBox{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 50%;
+    height: 750px;
+    font-family: medium;
+    padding-left: 1%;
+}
+
+.formBox h1 {
+    font-size: 3rem;
+    padding-bottom: 20px;
+}
+
+.formBox h1 span{
+    font-family: Light;
+}
+.formBox h2 {
+    font-size: 1.5rem;
+    font-family: light;
+    padding-bottom: 20px;
+    line-height: normal;
+}
+
+.formBox .subtitle {
+    position: relative;
+    font-size: 1rem;
+    font-family: light;
+    text-align: center;
+    width: 100%;
+    line-height: normal;
+}
+
+.formBox .underline{
+    position: relative;
+}
+
+.formBox .underline::before {
+    content: "";
+    position: absolute;
+    bottom: -20%;
+    right: -5px;
+    width: 210px;
+    height: 3px;
+    border-radius: 50px;
+    background-color: red;
+}
+.formBox .subtitle span {
+    font-family: regular;
+}
+
+.formBox h2 span{
+    font-family: regular;
+}
+
+.formBox img {
+    position: relative;
+    top: .25rem;
+    height: 3rem;
+}
+
+.formBox form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: medium;
+}
+
+form p {
+    font-size: 1.25rem;
+    padding-bottom: .5rem;
+}
+
+form input {
+    margin-bottom: 30px;
+    padding: 5px 20px;
+    height: 50px;
+    width: 600px;
+    border-radius: 50px;
+    border: 3px #000000 solid;
+    outline: 0;
+    font-family: light;
+    font-size: 1.5rem;
+    
+    background-color:  #f4f1ec;
+}
+
+form input[type="submit"]{
+    width: 230px;
+    height: 60px;
+    margin: auto;
+    border: 0;
+    background-color: #0096ff;
+    color: #ffffff;
+    font-family: medium;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all .25s linear;
+    margin-bottom: 20px;
+}
+
+
+
+form input[type="submit"]:hover{
+    background-color: #171717;
+}
+
+
+
+
+
+
+
+
+
+
+
+.ThreePoints {
+    height: 45vh;
+    width: 100%;
+    gap: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.point {
+    text-align: center;
+    width: 400px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.point img{
+    width: 85px;
+}
+
+.point h1 {
+    font-family: Medium;
+    font-size: 40px;
+}
+
+.point h2{
+    font-family: Regular;
+    font-size: 20px;
+    line-height: 1.25;
+}
+
+
+
+.feedbacks {
+    width: 100%;
+}
+
+.OneFeedback {
+    width: 500px;
+    height: 215px;
+    background-color: #101010;
+    padding: 15px;
+    color: #ffffff;
+    border-radius: 25px;
+
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 6px;
+    box-sizing: border-box;
+}
+
+.feedbacks-group{
+    display: flex;
+    gap: 25px;
+}
+
+.OneFeedback .name {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.OneFeedback .name section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+}
+
+.OneFeedback .name section h1 {
+    font-size: 20px;
+    font-family: Regular;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.OneFeedback .name p {
+    font-size: 15px;
+    font-family: Light;
+    color: #a1a1a1;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.OneFeedback .name section .yes {
+    height: 16px;
+    width: 16px;
+}
+
+.OneFeedback .stars {
+    display: block;
+    width: 120px;
+}
+
+.OneFeedback h1 {
+    font-size: 20px;
+    font-family: Regular;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.OneFeedback p {
+    font-size: 20px;
+    font-family: Light;
+    color: #a1a1a1;
+    line-height: 1.2;
+    font-weight: 600;
+}
+
+
+
+
+
+.carousel-container {
+    width: 100vw;
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 100px;
+}
+
+.carousel {
+    display: flex;
+    gap: 25px;
+    width: max-content;
+    /* Použijeme společnou animaci včetně duplikovaného obsahu */
+    animation: scroll-left 120s linear infinite;
+    margin: 20px 0;
+    will-change: transform;
+    animation-fill-mode: forwards;
+}
+
+
+
+.row-1, .row-3 {
+    animation-name: scroll-left;
+}
+
+.row-3{
+    position: relative;
+    left: -100px;
+}
+
+.row-2 {
+    animation-name: scroll-right;
+    position: relative;
+    left: -1050px; 
+}
+
+/* Animace posunu o 50 % (předpokládáme, že obsah je duplikován) */
+@keyframes scroll-left {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+@keyframes scroll-right {
+    0% {
+        transform: translateX(-50%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}

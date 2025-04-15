@@ -1,0 +1,712 @@
+@media only screen and (max-width: 1500px) {
+    
+
+    .feedbacks {
+        width: 100%;
+    }
+
+    .OneFeedback {
+        width: 400px;         /* Zmenšená šířka */
+        height: 160px;        /* Zmenšená výška */
+        background-color: #101010;
+        padding: 12px;        /* Méně paddingu */
+        color: #ffffff;
+        border-radius: 20px;  /* Menší zaoblení */
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 6px;
+        box-sizing: border-box;
+    }
+    
+    .OneFeedback .name {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .OneFeedback .name section {
+        display: flex;
+        flex-direction: row;
+        gap: 3px;
+    }
+    
+    .OneFeedback .name section h1 {
+        font-size: 18px;  /* Menší velikost písma */
+        font-family: Medium;
+        color: #ffffff;
+    }
+    
+    .OneFeedback .name p {
+        font-size: 13px;  /* Menší velikost písma */
+        font-family: Regular;
+        color: #a1a1a1;
+    }
+    
+    .OneFeedback .name section .yes {
+        height: 14px;     /* Zmenšená ikona */
+        width: 14px;
+    }
+    
+    .OneFeedback .stars {
+        display: block;
+        width: 100px;     /* Zmenšené hvězdy */
+    }
+    
+    .OneFeedback h1 {
+        font-size: 18px;  /* Menší velikost písma pro hlavní nadpis */
+        font-family: Medium;
+        color: #ffffff;
+    }
+    
+    .OneFeedback p {
+        font-size: 14px;  /* Menší velikost písma pro text */
+        font-family: Regular;
+        color: #a1a1a1;
+        line-height: 1.2;
+    }
+    
+    .ThreePoints {
+        width: 100%;
+        height: 45vh;
+        gap: 30px;              /* Menší mezery mezi body */
+    }
+    
+    .point {
+        text-align: center;
+        width: 350px;           /* Zmenšení šířky */
+    }
+    
+    .point img {
+        height: 70px;           /* Zmenšení velikosti obrázků */
+        width: 70px;
+    }
+    
+    .point h1 {
+        font-family: Medium;
+        font-size: 32px;        /* Snížení velikosti nadpisu */
+        padding: 8px 0px;
+    }
+    
+    .point h2 {
+        font-family: Regular;
+        font-size: 18px;        /* Snížení velikosti popisku */
+        line-height: 1.25;
+    }
+    
+}
+
+
+@media only screen and (max-width: 1600px) {
+    .formBox h1 {
+        font-size: 2.75rem;
+        padding-bottom: 20px;
+
+    }
+    .formBox img {
+        height: 2.75rem;
+    }
+    .formBox h2 {
+        font-size: 1.25rem;
+        padding-bottom: 20px;
+
+    }
+
+    form p {
+        font-size: 1.25rem;
+        padding-bottom: .5rem;
+    }
+
+    form input {
+        margin-bottom: 20px;
+        padding: 5px 20px;
+        height: 40px;
+        width: 600px;
+        font-size: 1.25rem;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    .formBox h1 {
+        font-size: 2.5rem;
+        padding-bottom: 20px;
+    }
+    .formBox img {
+        height: 2.5rem;
+    }
+    .formBox h2 {
+        font-size: 1.25rem;
+        padding-bottom: 20px;
+    }
+
+    form p {
+        font-size: 1.25rem;
+        padding-bottom: .5rem;
+    }
+
+    form input {
+        margin-bottom: 20px;
+        padding: 5px 20px;
+        height: 40px;
+        width: 600px;
+        font-size: 1.15rem;
+    }
+    .formBox .subtitle {
+        font-size: 1rem;
+    }
+    .formBox .underline::before {
+        bottom: -20%;
+        right: -5px;
+        width: 210px;
+        height: 3px;
+    }
+    .arrow {
+        position: absolute;
+        top: 15%;
+        width: 175px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .formBox h1 {
+        font-size: 2rem;
+        padding-bottom: 20px;
+    }
+    .formBox img {
+        height: 2rem;
+    }
+    .formBox h2 {
+        font-size: 1.25rem;
+        padding-bottom: 20px;
+    }
+
+    form p {
+        font-size: 1.25rem;
+        padding-bottom: .5rem;
+    }
+
+    form input {
+        margin-bottom: 20px;
+        padding: 5px 20px;
+        height: 40px;
+        width: 500px;
+        font-size: 1.15rem;
+    }
+    .formBox .subtitle {
+        font-size: 1rem;
+    }
+    .formBox .underline::before {
+        bottom: -20%;
+        right: -5px;
+        width: 210px;
+        height: 3px;
+    }
+    .arrow {
+        position: absolute;
+        top: 20%;
+        width: 150px;
+    }
+
+    form input[type="submit"]{
+        width: 200px;
+        font-size: 1.25rem;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    body::before{
+        height: 100vh;
+        border-radius: 0px;
+    }
+    .crown {
+        display: none;
+    }
+    .ThreePoints{
+        display: none;
+    }
+    .feedbacks{
+        display: none;
+    }
+    .GPDR{
+        display: block;
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        padding: 0;
+    }
+    .formBox h1 {
+        font-size: 1.75rem;
+        padding-bottom: 10px;
+    }
+    .formBox img {
+        height: 1.75rem;
+    }
+    .formBox h2 {
+        font-size: 1rem;
+        padding-bottom: 20px;
+    }
+
+    form p {
+        font-size: 1.25rem;
+        padding-bottom: .5rem;
+    }
+
+    form input {
+        margin-bottom: 20px;
+        padding: 5px 20px;
+        height: 30px;
+        width: 400px;
+        font-size: 1.05rem;
+    }
+    .formBox .subtitle {
+        font-size: .9rem;
+    }
+    .formBox .underline::before {
+        bottom: -10%;
+        right: -5px;
+        width: 190px;
+        height: 2px;
+    }
+    .arrow {
+        position: absolute;
+        top: 25%;
+        width: 125px;
+    }
+
+    form input[type="submit"]{
+        width: 200px;
+        height: 50px;
+        font-size: 1.25rem;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .arrow {
+    top: 25%;
+    width: 100px;
+}
+}
+
+@media only screen and (max-width: 800px) {
+    .GPDR {
+        font-size: .75rem;
+        display: block;
+        position:relative;
+        width: 100%;
+        text-align: center;
+        left: 0;
+        bottom: 0;
+        padding-top: 30px;
+        padding-bottom: 25px;
+    }
+    body {
+        height: auto;
+    }
+    .phoneImg{
+        justify-content: center;
+    }
+    .container {
+        height: auto;
+    }
+    .formBox {
+        height: auto;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .formBox {
+        width: 70%;
+        align-items: center;
+        justify-content: center;
+        padding-left: 0;
+    }
+
+    body::before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 25vh;
+        width: 100vw;
+        content: "";
+        background-color: #171717;
+        z-index: 1;
+    }
+
+    .formBox{
+        width: 90%;
+    }
+
+    .topTitle {
+        margin: auto;
+        font-size: 2.5rem;
+        display: block;
+        font-family: medium;
+        color: #ffffff;
+        margin: 20px;
+    }
+
+    .bottomTitle {
+        display: none;
+    }
+
+    
+    .formBox h1 {
+        font-size: 1.75rem;
+        padding-bottom: 10px;
+    }
+    .formBox img {
+        height: 2rem;
+    }
+    .formBox h2 {
+        font-size: 1rem;
+        padding-bottom: 20px;
+    }
+    .phoneImg{
+        height: 300px;
+        margin-bottom: 10vh;
+    }
+    .iphone {
+        width: auto;
+        height: 100%;
+    }
+
+    .formBox form{
+        margin-bottom: 10px;
+    }
+
+    form p {
+        font-size: 1rem;
+        padding-bottom: .5rem;
+    }
+
+    form input {
+        margin-bottom: 20px;
+        padding: 5px 20px;
+        height: 30px;
+        width: 500px;
+        font-size: 1.25rem;
+    }
+    .formBox .subtitle {
+        font-size: 1rem;
+        width: 100%;
+    }
+    .formBox .underline::before {
+        bottom: -10%;
+        right: -5px;
+        width: 210px;
+        height: 2px;
+    }
+    .arrow {
+        transform: rotate(120deg);
+        right: -30%;
+        top: 90% !important;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .topTitle {
+        font-size: 2rem;
+    }
+
+    .formBox {
+        width: 90%;
+        justify-content: center;
+        padding-left: 0;
+    }   
+    .formBox h1 {
+        font-size: 1.5rem;
+        padding-bottom: 10px;
+    }
+    .formBox img {
+        height: 2rem;
+    }
+    .formBox h2 {
+        font-size: 1rem;
+        padding-bottom: 20px;
+    }
+    .phoneImg{
+        height: 250px;
+    }
+    .iphone {
+        width: auto;
+        height: 100%;
+    }
+
+    .formBox form{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    form p {
+        font-size: 1rem;
+        padding-bottom: .5rem;
+    }
+
+    form input {
+        margin-bottom: 20px;
+        padding: 5px 20px;
+        height: 30px;
+        width: 90%;
+        font-size: 1.25rem;
+    }
+    .formBox .subtitle {
+        font-size: 1rem;
+        width: 100%;
+    }
+    .formBox .underline::before {
+        bottom: -20%;
+        right: -5px;
+        width: 210px;
+        height: 2px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .formBox {
+        width: 90%;
+        justify-content: center;
+        padding-left: 0;
+    }
+ 
+    .formBox h1 {
+        font-size: 1.25rem;
+        padding-bottom: 10px;
+    }
+    .formBox img {
+        height: 1.5rem;
+    }
+    .formBox h2 {
+        font-size: 1.05rem;
+        padding-bottom: 20px;
+        position: relative;
+    }
+    .phoneImg{
+        height: 250px;
+    }
+    .iphone {
+        width: auto;
+        height: 100%;
+    }
+
+    .topTitle{
+        font-size: 2rem;
+    }
+
+    .topTitle img {
+        height: 1.5rem;
+    }
+
+    .formBox form{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    form p {
+        font-size: 1rem;
+        padding-bottom: .5rem;
+    }
+
+    form input {
+        margin-bottom: 20px;
+        padding: 5px 20px;
+        height: 25px;
+        width: 90%;
+        font-size: 1.25rem;
+        border: 2px solid #000000;
+    }
+    .formBox .subtitle {
+        font-size: .75rem;
+        width: 100%;
+    }
+    .formBox .underline::before {
+        bottom: -20%;
+        right: -5px;
+        width: 160px;
+        height: 2px;
+    }
+    form input[type="submit"]{
+        width: 200px;
+        border: 0;
+        background-color: #0096ff;
+        color: #ffffff;
+        font-family: medium;
+        font-size: 1.25rem;
+    }
+
+    .arrow {
+        transform: rotate(100deg);
+        right: -50%;
+    }
+    
+}
+
+@media only screen and (max-width: 400px) {
+    .container {
+        flex-direction: column;
+    }
+    .break {
+        display: block;
+    }
+    .break2 {
+        display: none;
+    }
+
+    .arrow {
+        transform: rotate(120deg);
+        right: -70%;
+    }
+
+    .formBox {
+        width: 90%;
+        align-items: center;
+        justify-content: center;
+        padding-left: 0;
+    }
+
+    body::before {
+        height: 26vh;
+    }
+  
+    .formBox h1 {
+        font-size: 1.5rem;
+        padding-bottom: 10px;
+    }
+    .formBox img {
+        height: 1.5rem;
+    }
+    .formBox h2 {
+        text-align: center;
+        font-size: .9rem;
+        padding: 20px 0px;
+    }
+    .phoneImg{
+        height: 300px;
+        margin-bottom: 5vh;
+    }
+    .iphone {
+        width: auto;
+        height: 100%;
+    }
+
+    .topTitle {
+        font-size: 2.25rem;
+    }
+
+    .topTitle img {
+        height: 2rem;
+        vertical-align: top;
+    }
+
+    .formBox form{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    form p {
+        font-size: 1rem;
+        padding-bottom: 5vh;
+    }
+
+    form input {
+        margin-bottom: 20px;
+        padding: 5px 20px;
+        height: 25px;
+        width: 90%;
+        font-size: 1.25rem;
+        border: 2px solid #000000;
+    }
+    .formBox .subtitle {
+        font-size: .75rem;
+        width: 100%;
+    }
+    .formBox .underline::before {
+        bottom: -20%;
+        right: -5px;
+        width: 160px;
+        height: 2px;
+    }
+
+}
+
+@media only screen and (max-width: 350px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .formBox {
+        width: 90%;
+        align-items: flex-start;
+        justify-content: center;
+        padding-left: 0;
+    }
+
+    body::before {
+        height: 25vh;
+    }
+  
+    .formBox h1 {
+        font-size: 1.25rem;
+        padding-bottom: 10px;
+    }
+    .formBox img {
+        height: 1.5rem;
+    }
+    .formBox h2 {
+        font-size: .85rem;
+        padding-bottom: 20px;
+    }
+    
+    .iphone {
+        width: auto;
+        height: 100%;
+    }
+
+    .topTitle {
+        font-size: 1.5rem;
+    }
+    .topTitle img {
+        position: relative;
+        top:5px;
+        height: 1.25rem;
+    }
+
+    .formBox form{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    form p {
+        font-size: 1rem;
+        padding-bottom: .5rem;
+    }
+
+    form input {
+        margin-bottom: 20px;
+        padding: 5px 20px;
+        height: 25px;
+        width: 90%;
+        font-size: 1.25rem;
+        border: 2px solid #000000;
+    }
+    .formBox .subtitle {
+        font-size: .75rem;
+        width: 100%;
+    }
+    .formBox .underline::before {
+        bottom: -20%;
+        right: -5px;
+        width: 160px;
+        height: 2px;
+    }
+
+}
