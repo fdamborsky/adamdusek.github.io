@@ -19,19 +19,19 @@ const dataList = [
     },
     {
       name: "Veronika S.",
-      title: "Nejlepší newsletter v ČR",
+      title: "Nejlepší program v ČR",
       date: getFormattedDate(7),
       text: "Adame, tvoje maily jsou naprosto super!<br>Prosím, pokračuj v nich."
     },
     {
       name: "Petra W.",
-      title: "Můj první newsletter – A jsem nadšená!",
+      title: "Můj první program – A jsem nadšená!",
       date: getFormattedDate(1),
       text: "Nikdy jsem žádný podobný program nezkoušela, ale<br>jsem maximálně spokojená. Každá lekce je<br>zajímavá, stručná a hodnotná. Díky!"
     },
     {
       name: "Lucka V.",
-      title: "Tento newsletter je naprosto skvělý!",
+      title: "Tento program je naprosto skvělý!",
       date: getFormattedDate(4),
       text: "Adame, jsi skvělý. Je mi 40, ale i tak jsi pro mě<br>velká inspirace. Vždy se od tebe něco nového<br>naučím. Děkuju."
     },
@@ -91,7 +91,7 @@ const dataList = [
     },
     {
       name: "Pavel Š.",
-      title: "Newsletter 10/10 – TOP",
+      title: "Program 10/10 – TOP",
       date: getFormattedDate(7),
       text: "Při cestě do školy se ve vlaku vždycky<br>naučím něco nového – Perfektní!"
     },

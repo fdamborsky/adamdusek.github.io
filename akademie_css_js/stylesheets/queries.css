@@ -967,6 +967,7 @@
     }
     .title h1 {
         font-size: 36px;
+        padding: 0px 10px;
     }
     .title h2 {
         font-size: 26px;
