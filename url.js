@@ -6,7 +6,7 @@ if (url == "/lekce-zdarma/" || url == "/adamdusek.github.io/lekce-zdarma/" ){
         landing_page_title.innerHTML = `
         <h1>Přestaň zabíjet<br><span class="TitleRed">každou konverzaci</span>!<br>
         Udělej tyto drobné<br>změny a proměň<br>
-        nudné rozhovory<br>v <span class="TitleUnderline">silné vztahy</span></h1>
+        nudné rozhovory<br>v <span class="TitleUnderline">silné&nbsp;vztahy</span></h1>
         <h2>Sleduj 2 speciální lekce ZDARMA<br>a ihned zlepši tvoji komunikaci<br>a vztahy jednou provždy</h2>`
     
         const matous_quote = document.querySelector(".quoteBoxMatous .quote")
@@ -21,7 +21,7 @@ if (url == "/lekce-zdarma/" || url == "/adamdusek.github.io/lekce-zdarma/" ){
         <h1>Nenech se každý den <span class="TitleRed">ovlivňovat</span>!<br>
             Odhal psychologické triky, které jsou<br>
             všude kolem tebe a otoč je<br>
-            ve <span class="TitleUnderline" style="width: 90%;">tvůj prospěch</span></h1>
+            ve <span class="TitleUnderline" style="width: 90%;">tvůj&nbsp;prospěch</span></h1>
         <h2>Sleduj 2 speciální lekce ZDARMA a zjisti,<br>jak být okamžitě sympatičtější a vybudovat autoritu</h2>
     `
     if (window.innerWidth <= 800){
@@ -29,7 +29,7 @@ if (url == "/lekce-zdarma/" || url == "/adamdusek.github.io/lekce-zdarma/" ){
         <h1>Nenech se každý den <span class="TitleRed">ovlivňovat</span>!
             Odhal psychologické triky, které jsou
             všude kolem tebe a otoč je
-            ve <span class="TitleUnderline" style="width: 90%;">tvůj prospěch</span></h1>
+            ve <span class="TitleUnderline" style="width: 90%;">tvůj&nbsp;prospěch</span></h1>
         <h2>Sleduj 2 speciální lekce ZDARMA a zjisti, jak být okamžitě sympatičtější a vybudovat autoritu</h2>
     `
     }
@@ -41,7 +41,7 @@ if (url == "/lekce-zdarma/" || url == "/adamdusek.github.io/lekce-zdarma/" ){
     title.innerHTML = `
         <h1>Dnes ses ostatním <span class="TitleRed">podřizoval naposledy</span>!<br>
             Objev 6 účinných triků, jak jednoduše<br>
-            přesvědčit ostatní a <span class="TitleUnderline" style="width: 90%;">dosáhni svého</span></h1>
+            přesvědčit ostatní a <span class="TitleUnderline" style="width: 90%;">dosáhni&nbsp;svého</span></h1>
         <h2>Sleduj ztracenou lekci ZDARMA a nauč se,<br>jak si kdykoliv vyjednat víc peněz a lepší podmínky</h2>
     `
     subtext.innerHTML = `
@@ -120,7 +120,7 @@ if (url == "/lekce-zdarma/" || url == "/adamdusek.github.io/lekce-zdarma/" ){
         title.innerHTML = `
         <h1>Dnes ses ostatním <span class="TitleRed">podřizoval naposledy</span>!
             Objev 6 účinných triků, jak jednoduše
-            přesvědčit ostatní a <span class="TitleUnderline" style="width: 90%;">dosáhni svého</span></h1>
+            přesvědčit ostatní a <span class="TitleUnderline" style="width: 90%;">dosáhni&nbsp;svého</span></h1>
         <h2>Sleduj ztracenou lekci ZDARMA a nauč se, jak si kdykoliv vyjednat víc peněz a lepší podmínky</h2>
     `
     MatousQuote.innerHTML = `
@@ -184,7 +184,7 @@ if (url == "/lekce-zdarma/" || url == "/adamdusek.github.io/lekce-zdarma/" ){
 
     if (window.innerWidth <= 800){
         title.innerHTML = `
-        <h1>Nepropadni zlozvykům jako <span class="TitleRed">92% Čechů</span>!<br>
+        <h1>Nepropadni zlozvykům jako <span class="TitleRed">92&nbsp;Čechů</span>!
             Nauč se vybudovat prospěšné návyky
             a překonej prokrastinaci
             jednou <span class="TitleUnderline" style="width: 90%;">provždy</span></h1>
@@ -210,7 +210,7 @@ if (url == "/lekce-zdarma/" || url == "/adamdusek.github.io/lekce-zdarma/" ){
     title.innerHTML = `
         <h1>Přestaň <span class="TitleRed">pohřbívat</span> svoje cíle!<br>
             Přeprogramuj tvůj mozek a donuť ho,<br>
-            aby chtěl dělat <span class="TitleUnderline" style="width: 90%;">těžké věci</span></h1>
+            aby chtěl dělat <span class="TitleUnderline" style="width: 90%;">těžké&nbsp;věci</span></h1>
         <h2>Sleduj speciální lekci ZDARMA a objev 7 kroků,<br>jak najdeš svou vnitřní motivaci a jednoduše hackni tvůj mozek</h2>
     `
     MatousQuote.innerHTML = `
@@ -251,7 +251,7 @@ if (url == "/lekce-zdarma/" || url == "/adamdusek.github.io/lekce-zdarma/" ){
         title.innerHTML = `
         <h1>Přestaň <span class="TitleRed">pohřbívat</span> svoje cíle!
             Přeprogramuj tvůj mozek a donuť ho,
-            aby chtěl dělat <span class="TitleUnderline" style="width: 90%;">těžké věci</span></h1>
+            aby chtěl dělat <span class="TitleUnderline" style="width: 90%;">těžké&nbsp;věci</span></h1>
         <h2>Sleduj speciální lekci ZDARMA a objev 7 kroků, jak najdeš svou vnitřní motivaci a jednoduše hackni tvůj mozek</h2>
     `
     MatousQuote.innerHTML = `
@@ -270,7 +270,13 @@ if (url == "/lekce-zdarma/" || url == "/adamdusek.github.io/lekce-zdarma/" ){
     let title = document.querySelector(".title")
     let MatousQuote = document.querySelector(".quoteBoxMatous")
     let landingpageSubtext = document.querySelector(".landingpageSubtext")
-
+    title.innerHTML = `
+    <h1>Začni mít víc <span class="TitleRed">u pr**le</span>!<br>
+        Překonej tvá limitující přesvědčení<br>
+        a soustřeď se na věci, na kterých<br>
+        ti <span class="TitleUnderline" style="width: 90%;">skutečně&nbsp;záleží</span></h1>
+    <h2>Sleduj speciální lekci ZDARMA a změň tvou perspektivu a přístup k životu jednou provždy</h2>
+`
     
     landingpageSubtext.innerHTML = `
         <h1>
@@ -300,7 +306,7 @@ if (url == "/lekce-zdarma/" || url == "/adamdusek.github.io/lekce-zdarma/" ){
         <h1>Začni mít víc <span class="TitleRed">u pr**le</span>!
             Překonej tvá limitující přesvědčení
             a soustřeď se na věci, na kterých
-            ti <span class="TitleUnderline" style="width: 90%;">skutečně záleží</span></h1>
+            ti <span class="TitleUnderline" style="width: 90%;">skutečně&nbsp;záleží</span></h1>
         <h2>Sleduj speciální lekci ZDARMA a změň tvou perspektivu a přístup k životu jednou provždy</h2>
     `
     MatousQuote.innerHTML = `
