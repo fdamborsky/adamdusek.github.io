@@ -98,12 +98,12 @@ if (window.innerWidth <= 800){
 
     const is_this_you = document.querySelector(".lastP")
     is_this_you.innerHTML = `
-    <img src="resources/imgs/Finger.png" alt="">Pokud ano - Tohle je přesně<br>pro tebe...
+    <img src="../akademie_css_js/resources/imgs/Finger.webp" alt="">Pokud ano - Tohle je přesně<br>pro tebe...
     `
     const perks_title = document.querySelector(".CommunityTitle")
     perks_title.innerHTML = `
     <h1 class="PerksTitle"><span>Nauč se každý den<br>něco nového</span><br>
-    díky mému systému<br>praktických lekcí<br>z chytrých knih <img src="resources/imgs/books.webp" alt=""></h1>
+    díky mému systému<br>praktických lekcí<br>z chytrých knih <img src="../akademie_css_js/resources/imgs/books.webp" alt=""></h1>
 
     <p>Získej ihned přístup k veškerému obsahu a objev prověřené lekce,
     které zlepší tvoji komunikaci, produktivitu, návyky či fungování mozku a změní tvůj život <span>jednou&nbsp;provždy.</span></p>
@@ -112,13 +112,13 @@ if (window.innerWidth <= 800){
 
     const herohero_title = document.querySelector("#HeroHeroUsers .title")
     herohero_title.innerHTML = `
-    Přidej se ke studentům<br>kteří už rostou! <img class="titleIMG" src="resources/imgs/Brain.png" alt="">
+    Přidej se ke studentům<br>kteří už rostou! <img class="titleIMG" src="../akademie_css_js/resources/imgs/Brain.webp" alt="">
     `
 
     const savemoney_h1 = document.querySelector("#savemoney h1")
     const savemoney_h2 = document.querySelector("#savemoney h2")
     savemoney_h1.innerHTML = `
-    Začni se učit <span>10x rychleji</span><br>s mým systémem <img src="resources/imgs/Gear.png" alt="">
+    Začni se učit <span>10x rychleji</span><br>s mým systémem <img src="../akademie_css_js/resources/imgs/Gear.webp" alt="">
     `
     savemoney_h2.innerHTML = `
     Převeď lekce jednoduše do tvého života díky prověřeným postupům a dosáhni svých 
@@ -153,56 +153,56 @@ if (window.innerWidth <= 800){
 
     const screenshot = document.querySelector(".firstbook")
     screenshot.innerHTML = `
-        <img src="resources/imgs/order_mobile.jpg" alt="">
+        <img src="../akademie_css_js/resources/imgs/order_mobile.webp" alt="">
         <div class="arrow">
-            <img class="circle" src="resources/imgs/circle.webp" alt="">
-            <img class="arrow2" src="resources/imgs/arrow2.webp" alt="">
+            <img class="circle" src="../akademie_css_js/resources/imgs/circle.webp" alt="">
+            <img class="arrow2" src="../akademie_css_js/resources/imgs/arrow2.webp" alt="">
             <p>Tady to celé začalo.</p>
         </div>
     `
 
     const feedback = document.querySelector(".feedbacks")
-    feedback.src = "resources/imgs/FeedbacksMobile.png"
+    feedback.src = "../akademie_css_js/resources/imgs/FeedbacksMobile.webp"
 
 
     const perks = document.querySelector(".perks")
     perks.innerHTML = `
     <div class="perk">
-          <img src="resources/imgs/ytb.webp" alt="">
+          <img src="../akademie_css_js/resources/imgs/ytb.webp" alt="">
           <p>150+ Praktických video-lekcí</p>
       </div>
       <div class="perk">
-          <img src="resources/imgs/note.webp" alt="">
+          <img src="../akademie_css_js/resources/imgs/note.webp" alt="">
           <p>Stručné výpisky každé lekce</p>
       </div>
       <div class="perk">
-          <img src="resources/imgs/lightbulb.webp" alt="">
+          <img src="../akademie_css_js/resources/imgs/lightbulb.webp" alt="">
           <p>Jedinečné myšlenkové mapy</p>
       </div>
       <div class="perk">
-          <img src="resources/imgs/notescheck.webp" alt="">
+          <img src="../akademie_css_js/resources/imgs/notescheck.webp" alt="">
           <p>Speciální kurzy</p>
       </div>
       <div class="perk">
-          <img src="resources/imgs/windows.webp" alt="">
+          <img src="../akademie_css_js/resources/imgs/windows.webp" alt="">
           <p>Notion návody a šablony</p>
       </div>
       <div class="perk">
-          <img src="resources/imgs/mic.webp" alt="">
+          <img src="../akademie_css_js/resources/imgs/mic.webp" alt="">
           <p>Exkluzivní podcast</p>
       </div>
       <div class="perk">
-          <img src="resources/imgs/phone.webp" alt="">
+          <img src="../akademie_css_js/resources/imgs/phone.webp" alt="">
           <p>Mobilní aplikace na cesty</p>
       </div>
       <div class="perk">
-          <img src="resources/imgs/discord.webp" alt="">
+          <img src="../akademie_css_js/resources/imgs/discord.webp" alt="">
           <p>Přístup do speciálních místností</p>
       </div>
       
       <div class="button">
         <a href="https://herohero.co/adamdusek" target="_blank" class="bluebutton">CHCI SE PŘIDAT!</a>
-        <p class="bluebuttonP"><img src="resources/imgs/lock.webp"  alt="">7-denní garance vrácení peněz</p>
+        <p class="bluebuttonP"><img src="../akademie_css_js/resources/imgs/lock.webp"  alt="">7-denní garance vrácení peněz</p>
       </div>
     `
 

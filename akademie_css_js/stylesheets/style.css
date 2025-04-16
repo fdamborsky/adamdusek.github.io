@@ -161,7 +161,7 @@ body {
 }
 
 .title h1 .TitleUnderline::after{
-    background-image: url("../resources/imgs/TitleUnderline.png");
+    background-image: url("../resources/imgs/TitleUnderline.webp");
     width: 90%;
     height: 20px;
     right: 10px;
@@ -496,7 +496,7 @@ body {
 }
 
 #CommunityPerks p span::after {
-    background-image: url("../resources/imgs/TitleUnderline.png");
+    background-image: url("../resources/imgs/TitleUnderline.webp");
     width: 95%;
     height: 20px;
     right: 10px;
@@ -647,7 +647,7 @@ body {
 }
 
 #warranty h2 span::after{
-    background-image: url("../resources/imgs/underlineGreen.png");
+    background-image: url("../resources/imgs/underlineGreen.webp");
     width: 95%;
     height: 20px;
     right: 10px;
@@ -743,7 +743,7 @@ body {
     position: relative;
 }
 #savemoney h2 span::after{
-    background-image: url("../resources/imgs/TitleUnderline.png");
+    background-image: url("../resources/imgs/TitleUnderline.webp");
     width: 95%;
     height: 20px;
     right: 10px;
@@ -802,7 +802,7 @@ body {
     left: -40px;
     width: 35px;
     height: 35px; 
-    background-image: url("../resources/imgs/Uvozovky.png");
+    background-image: url("../resources/imgs/Uvozovky.webp");
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -815,7 +815,7 @@ body {
     width: 35px;
     height: 35px; 
     transform: scaleX(-1) scaleY(-1);
-    background-image: url("../resources/imgs/Uvozovky.png");
+    background-image: url("../resources/imgs/Uvozovky.webp");
     background-size: contain;
     background-repeat: no-repeat;
 }

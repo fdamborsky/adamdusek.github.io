@@ -55,7 +55,7 @@ if (url == "/lekce-zdarma/" || url == "/adamdusek.github.io/lekce-zdarma/" ){
         </p>
 
         <div class="button">
-            <a href="https://herohero.co/adamdusek/subscribe" target="_blank" class="bluebutton">ZÍSKAT LEKCE SE SLEVOU 25%</a>
+            <a href="https://herohero.co/adamdusek/invites/ZSADNVJVXM" target="_blank" class="bluebutton">ZÍSKAT LEKCE SE SLEVOU 25%</a>
             <p class="bluebuttonP"><img src="../akademie_css_js/resources/imgs/Shield.webp"  alt="">Garance spokojenosti</p>
             <div id="arrow-text" style="top: -10px; right:-150px">
                 <p><span style="color: #ffffff">Limitovaná nabídka</span><br>končí už dnes.</p>
@@ -63,6 +63,46 @@ if (url == "/lekce-zdarma/" || url == "/adamdusek.github.io/lekce-zdarma/" ){
             </div>
         </div>
 
+    `
+    const perks = document.querySelector(".perks")
+    perks.innerHTML = `
+    <div class="perk">
+          <img src="../akademie_css_js/resources/imgs/ytb.webp" alt="">
+          <p>150+ Praktických video-lekcí</p>
+      </div>
+      <div class="perk">
+          <img src="../akademie_css_js/resources/imgs/note.webp" alt="">
+          <p>Stručné výpisky každé lekce</p>
+      </div>
+      <div class="perk">
+          <img src="../akademie_css_js/resources/imgs/lightbulb.webp" alt="">
+          <p>Jedinečné myšlenkové mapy</p>
+      </div>
+      <div class="perk">
+          <img src="../akademie_css_js/resources/imgs/notescheck.webp" alt="">
+          <p>Speciální kurzy</p>
+      </div>
+      <div class="perk">
+          <img src="../akademie_css_js/resources/imgs/windows.webp" alt="">
+          <p>Notion návody a šablony</p>
+      </div>
+      <div class="perk">
+          <img src="../akademie_css_js/resources/imgs/mic.webp" alt="">
+          <p>Exkluzivní podcast</p>
+      </div>
+      <div class="perk">
+          <img src="../akademie_css_js/resources/imgs/phone.webp" alt="">
+          <p>Mobilní aplikace na cesty</p>
+      </div>
+      <div class="perk">
+          <img src="../akademie_css_js/resources/imgs/discord.webp" alt="">
+          <p>Přístup do speciálních místností</p>
+      </div>
+      
+      <div class="button">
+        <a href="https://herohero.co/adamdusek/invites/ZSADNVJVXM" target="_blank" class="bluebutton">CHCI SE PŘIDAT!</a>
+        <p class="bluebuttonP"><img src="../akademie_css_js/resources/imgs/lock.webp"  alt="">7-denní garance vrácení peněz</p>
+      </div>
     `
 
     MatousQuote.innerHTML = `
