@@ -94,26 +94,7 @@ document.querySelectorAll('.faq-question').forEach(item => {
 
 
 if (window.innerWidth <= 800){
-    const landing_page_title = document.querySelector(".title")
-    landing_page_title.innerHTML = `
-    <h1>Přestaň zabíjet<br><span class="TitleRed">každou konverzaci</span>!<br>
-    Udělej tyto drobné<br>změny a proměň<br>
-    nudné rozhovory<br>v <span class="TitleUnderline">silné vztahy</span></h1>
-    <h2>Sleduj 2 speciální lekce ZDARMA<br>a ihned zlepši tvoji komunikaci<br>a vztahy jednou provždy</h2>`
 
-    const matous_quote = document.querySelector(".quoteBoxMatous .quote")
-    matous_quote.innerHTML= `
-    <p class="quote">“Adamův systém lekcí je úžasný.<br>Dává si neuvěřitelně záležet.
-    Díky němu jsem jednou provždy<br>změnil svůj přístup ke komunikaci a ostatním lidem.<br>
-    Definitivně se jedná o mé nejlépe investované peníze.”</p>
-    `
-
-    const matous_quote_p = document.querySelector(".quote")
-    matous_quote_p.innerHTML = `
-    “Adamův&nbsp;systém lekcí je naprosto&nbsp;úžasný. Dává si neuvěřitelně&nbsp;záležet.
-    Díky němu jsem jednou&nbsp;provždy změnil svůj přístup ke komunikaci a ostatním lidem.
-    Definitivně&nbsp;se jedná o mé nejlépe&nbsp;investované peníze.”
-    `
 
     const is_this_you = document.querySelector(".lastP")
     is_this_you.innerHTML = `
